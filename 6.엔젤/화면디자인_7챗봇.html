@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>엔젤 스마트 챗봇</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --main-green: #2D5A27;
+            --light-green: #4CAF50;
+            --bg-green: #F1F8E9;
+            --white: #ffffff;
+            --chat-bg: #f9f9f9;
+        }
+
+        body {
+            font-family: 'Pretendard', sans-serif;
+            background-color: var(--bg-green);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* 📱 챗봇 컨테이너 (모바일 화면 사이즈) */
+        .chat-container {
+            width: 100%;
+            max-width: 450px;
+            height: 90vh;
+            background: var(--white);
+            display: flex;
+            flex-direction: column;
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        /* 헤더 */
+        .chat-header {
+            padding: 20px;
+            background: var(--main-green);
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* 💬 채팅 대화 영역 */
+        .chat-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background-color: var(--chat-bg);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        /* 말풍선 공통 스타일 */
+        .message {
+            max-width: 80%;
+            padding: 12px 16px;
+            border-radius: 18px;
+            font-size: 14px;
+            line-height: 1.5;
+            word-break: break-all;
+        }
+
+        /* 🤖 챗봇 답변 (왼쪽) */
+        .bot-message {
+            align-self: flex-start;
+            background-color: #e0e0e0;
+            color: #333;
+            border-bottom-left-radius: 2px;
+        }
+
+        /* 👤 사용자 질문 (오른쪽) */
+        .user-message {
+            align-self: flex-end;
+            background-color: var(--main-green);
+            color: white;
+            border-bottom-right-radius: 2px;
+        }
+
+        /* ⌨️ 하단 입력란 */
+        .chat-input-area {
+            padding: 15px;
+            background: var(--white);
+            display: flex;
+            gap: 10px;
+            border-top: 1px solid #eee;
+        }
+
+        .chat-input-area input {
+            flex: 1;
+            padding: 12px 18px;
+            border: 1px solid #ddd;
+            border-radius: 30px;
+            outline: none;
+            font-size: 14px;
+        }
+
+        .chat-input-area input:focus { border-color: var(--light-green); }
+
+        .send-btn {
+            width: 45px;
+            height: 45px;
+            background-color: var(--main-green);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.2s;
+        }
+
+        .send-btn:active { transform: scale(0.9); }
+
+        /* 스크롤바 디자인 */
+        .chat-messages::-webkit-scrollbar { width: 4px; }
+        .chat-messages::-webkit-scrollbar-thumb { background: #ccc; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="chat-container">
+    <div class="chat-header">Angel 스마트 지원</div>
+    
+    <div class="chat-messages" id="chatMessages">
+        <div class="message bot-message">안녕하세요! 엔젤 녹즙기 챗봇입니다. 무엇을 도와드릴까요?</div>
+    </div>
+
+    <div class="chat-input-area">
+        <input type="text" id="userInput" placeholder="메시지를 입력하세요..." onkeypress="handleKeyPress(event)">
+        <button class="send-btn" onclick="sendMessage()">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+        </button>
+    </div>
+</div>
+
+<script>
+    const chatMessages = document.getElementById('chatMessages');
+    const userInput = document.getElementById('userInput');
+
+    function sendMessage() {
+        const text = userInput.value.trim();
+        if (text === "") return;
+
+        // 1. 사용자 메시지 추가
+        appendMessage(text, 'user');
+        userInput.value = "";
+
+        // 2. 챗봇 가짜 답변 (딜레이 후)
+        setTimeout(() => {
+            const botReply = `"${text}"에 대한 정보를 찾고 있습니다. 잠시만 기다려 주세요.`;
+            appendMessage(botReply, 'bot');
+        }, 600);
+    }
+
+    function appendMessage(text, sender) {
+        const msgDiv = document.createElement('div');
+        msgDiv.className = `message ${sender}-message`;
+        msgDiv.innerText = text;
+        chatMessages.appendChild(msgDiv);
+
+        // 자동 스크롤 하단 이동
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    function handleKeyPress(event) {
+        if (event.key === 'Enter') {
+            sendMessage();
+        }
+    }
+</script>
+
+</body>
+</html>

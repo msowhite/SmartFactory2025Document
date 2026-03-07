@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <title>5 Page PDF Print</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    /* 인쇄 시 배경색/이미지 포함되도록 권장 */
+    html, body {
+      margin: 0;
+      padding: 0;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+      background: white;
+    }
+
+    /* A4 사이즈로 고정 (필요시 size 변경) */
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    /* 페이지 박스 설정 */
+    .page {
+      width: 210mm;
+      height: 297mm;
+      box-sizing: border-box;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      page-break-after: always; /* 각 페이지 뒤에 페이지 구분 */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* 인쇄 여백이 없는 환경을 고려해 가장자리 잘림을 방지하려면
+         브라우저 인쇄 설정에서 '여백 없음' 선택 권장 */
+    }
+
+    /* 페이지 번호 중앙에 표시 */
+    .pagenumber {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: "Helvetica", "Arial", sans-serif;
+      font-size: 48px;
+      line-height: 1;
+      text-align: center;
+      /* 대비 확보: 그림에 따라 보이도록 그림자 사용 */
+      color: white;
+      text-shadow:
+        -2px -2px 0 #000,
+         2px -2px 0 #000,
+        -2px  2px 0 #000,
+         2px  2px 0 #000;
+      /* 필요하면 bold 제거/추가 가능 */
+      font-weight: 700;
+      padding: 8px 14px;
+      border-radius: 8px;
+      /* 배경 반투명 박스가 필요하면 아래 주석 해제 */
+      /* background: rgba(0,0,0,0.25); */
+    }
+
+    /* 화면에서 미리보기용으로 페이지를 축소 표출(옵션) */
+    .preview {
+      max-width: 80%;
+      margin: 18px auto;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+      border: 1px solid #ddd;
+    }
+
+    /* 숨김: 인쇄 버튼은 인쇄할 때 숨김 */
+    @media print {
+      .no-print { display: none !important; }
+      /* 페이지에 기본 여백을 없애려면 body margin 조정 (브라우저 따라 다름) */
+      body { margin: 0; }
+    }
+
+    /* 반응형: 화면에서 스케일을 줄여서 보여주기 */
+    .page-wrapper { display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 12px; }
+  </style>
+</head>
+<body>
+  <div style="text-align:center; padding:12px;">
+    <button class="no-print" onclick="window.print();" style="font-size:16px; padding:10px 18px;">
+      PDF로 인쇄 (Print to PDF)
+    </button>
+    <p style="margin:8px 0 0 0; font-size:13px; color:#444;">
+      참고: 브라우저 인쇄 대화상자에서 '배경 그래픽' 또는 '배경 이미지 인쇄' 옵션을 켜세요.
+    </p>
+  </div>
+
+  <!-- 실제 인쇄용 페이지들 -->
+  <div class="page-wrapper">
+    <div class="page" style="background-image: url('1.jpg');">
+      <div class="pagenumber">1</div>
+    </div>
+
+    <div class="page" style="background-image: url('2.jpg');">
+      <div class="pagenumber">2</div>
+    </div>
+
+    <div class="page" style="background-image: url('3.jpg');">
+      <div class="pagenumber">3</div>
+    </div>
+
+    <div class="page" style="background-image: url('4.jpg');">
+      <div class="pagenumber">4</div>
+    </div>
+
+    <div class="page" style="background-image: url('5.jpg');">
+      <div class="pagenumber">5</div>
+    </div>
+  </div>
+
+  <!-- (선택) 화면에서 작게 미리보기용: 실제 인쇄물에는 영향 없음 -->
+  <script>
+    // 브라우저 창 크기에 따라 화면 표시용으로 축소 조절 (화면미리보기 전용)
+    (function adjustPreviewScale(){
+      const pages = document.querySelectorAll('.page');
+      const scale = Math.min((window.innerWidth - 40) / 210 / (96/25.4), 1);
+      // 위 수식은 대략 화면 픽셀 대비 mm 변환을 고려한 간단한 축소. 대부분 환경에서 적당히 작동.
+      if (scale < 1) {
+        pages.forEach(p => {
+          p.style.transform = `scale(${scale})`;
+          p.style.transformOrigin = 'top center';
+          p.style.marginBottom = (20/scale) + 'px';
+        });
+      }
+    })();
+  </script>
+</body>
+</html>

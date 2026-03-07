@@ -1,0 +1,518 @@
+가락고등학교 클릭
+
+https://www.kdclub.com/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057
+
+
+<!-- 영양사도우미 달력 -->
+<html>
+<head>
+<title>가락고등학교</title>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.5, minimum-scale=0, user-scalable=yes">
+
+<link href="/kdajs/kdabasestyle_w.css" rel="stylesheet" type="text/css">
+<style>
+.topcell {
+border:solid 1px #999999;
+}
+.topcell_sun {
+border:solid 1px #FFA0A0;
+}
+.topcell_sat {
+border:solid 1px #4998CE;
+}
+.daycell {
+border:solid 1px #999999;
+}
+.daycell_0{
+border:solid 1px #FFA0A0;
+}
+.daycell_2 {
+border:solid 1px #4998CE;
+}
+border:solid 1px #399B39;
+}
+.cell_diveline { background-color:#FF9AC5; }
+.cell_memobox { background-color:#FFC6DE; }
+.cell_title { background-color:#FFE6F2; }
+.cell_memocann { background-color:#FFFFFF; }
+.daycell_sk5 { border:solid 1px #999999; }
+.daycell_0_sk5 { border:solid 1px #999999; }
+.daycell_2_sk5 { border:solid 1px #999999; }
+.daycell_now_sk5 { border:solid 1px #999999; }
+
+.mnknd1 {
+	line-height:1.5;	color: #222; display: inline-block; background-color: #ffddf4; margin: 5px 4px; padding: 3px 8px; border-bottom: 1px solid #aaa;
+	white-space: nowrap;    text-overflow: ellipsis;
+}
+.mnknd2 {	
+	color: #222; display: inline-block; background-color: #efefef; margin: 5px 4px; padding: 3px 8px; border-bottom: 1px solid #aaa;
+	white-space: nowrap;    text-overflow: ellipsis;
+}  
+.mnknd3 {  
+	color: #222; display: inline-block; background-color: #D3E17D; margin: 5px 4px; padding: 3px 8px; border-bottom: 1px solid #aaa;
+	white-space: nowrap;    text-overflow: ellipsis;
+}
+.mnknd4 {  
+	color: #222; border:1px solid #ddd; display: inline-block; background-color: #ffefd5; margin: 5px 4px; padding: 3px 8px; border-bottom: 1px solid #aaa;
+	white-space: nowrap;    text-overflow: ellipsis;
+}
+.mnknd0 {
+	color: #222; border:1px solid #ffffff; display: inline-block; background-color: #ffefd5; margin: 5px 4px; padding: 3px 8px; border-bottom: 1px solid #aaa;
+}
+.alergy {  font-size: 12px; font-weight: normal; color: #aaa; }
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+
+<div style="height: 8px;"></div>
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0"><tr><td height=5></td></tr></table>
+
+<center>
+<b><font style="font-size:15px; color: red;">[서울]</font> <font style="font-size:15px; color: blue;">가락고등학교</font></b> <span style="font-size: 12px; font-weight: normal;">(남녀공학, 공립)</span> &nbsp; <img src="./imgs/edu_addfv.gif" align="absmiddle" title="즐겨찾기추가" onclick="edubookmark('가락고등학교', 7010057);" style="cursor: pointer;">
+<style type="text/css">
+.mnlst_link1 { padding: 3px 8px; height: 195px;   }
+.mnlst_link1 .li_a {	line-height: 1; overflow: hidden; display: block; height: 25px; padding: 0 5px; color: #222; font-weight: normal; text-align: left;	white-space: nowrap;text-overflow: ellipsis; background-color: #ffffff; }
+</style>
+
+<style type="text/css">
+ul, ol, li, dl { list-style:none; border: 0px; margin: 0px; padding: 0px; }
+
+/*날짜표시 안씀 */
+.calnal { border: 1px solid #FF9E31; padding: 0px 2px; border-radius: 5px; font-size: 0.85rem; color: #555; margin-left: 20px; font-weight: bold; background-color: #eeeeee; }
+
+.sclst_section {
+	font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','Apple SD Gothic Neo','Malgun Gothic','맑은 고딕','NanumGothic','나눔고딕',Gulim,'굴림',arial,sans-serif; 
+	font-size: 0.85rem;
+	border:1px solid #ddd; display: inline-block; background-color: #eeeeee; margin: 5px 4px; padding: 3px 8px; border-radius: 5px;
+}
+
+.sclst_link .ul_item { width: 100%; float: left; position: relative; }
+
+
+/* 날짜와 기념일등 */
+.showday0 { overflow: hidden; white-space: nowrap;    text-overflow: ellipsis; }
+
+.page_wrap_pc { clear:both; margin: 20px 0px; font-family:Tahoma,sans-serif; font-size: 13px; text-align: center; width: 100%; }
+.page_wrap_pc .page_number { border:1px solid #ddd; color: #666; font-size: 14px; height:25px; padding: 3px 7px; border-radius:5px; }/*  글목록 페이지 번호  */
+.page_wrap_pc .page_numberx { border:1px solid #ddd; color: #777; font-size: 14px; height:25px; padding: 3px 7px; border-radius:2px; }/*  글목록 페이지 번호  */
+.page_wrap_pc .pg_current { border:1px solid #ddd; color: #00c; background: #fafafa; font-size: 14px; height:25px; padding: 3px 7px; border-radius:5px;  }/*  글목록 페이지 번호  */
+.page_wrap_pc .page_btnimg { margin-bottom: 2px; }
+.page_wrap_pc select { padding: 2px; }
+</style>
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0"><tr><td height=5></td></tr></table>
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+	 <td height="30" width=130>
+<b><font style="font-size:14px;">《2025년 12월》</font></b>   </td>
+    <td height="30" align=center>
+<div class="page_wrap_pc">
+&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=1">1월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=2">2월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=3">3월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=4">4월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=5">5월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=6">6월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=7">7월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=8">8월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=9">9월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=10">10월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=11">11월</a>&nbsp; <a class="pg_current" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=12">12월</a></div>
+    </td>
+    <td width=130 height="30" align="right"><a href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057">[Today 2025-12-08]</a></td>
+  </tr>
+</table>
+
+<!-- 식단표 테이블
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+  <tr><td bgcolor="#FFFFFF">
+ -->	
+
+<!-- 식단표 테이블 -->
+	<table width="100%" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor=#cccccc style="table-layout:fixed; max-width: 1200px;">
+        <tr bgcolor="#EEEEEE">
+          <td height=25 align="center" width=40><font color="#CC0000" style="font-size:10pt;"><b>일</font></td>
+          <td align="center"><font style="font-size:10pt;"><b>월</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>화</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>수</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>목</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>금</b></font></td>
+          <td align="center" width=40><font style="font-size:10pt;"><b>토</font></td>
+        </tr>
+<tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF nowrap>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>1</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 520명 (994.4 Kcal) </div><ul class="mnlst_link1"><li class="li_a">칼슘강화찹쌀밥 </li><li class="li_a">된장찌개</li><li class="li_a">탕평채</li><li class="li_a">콘치즈닭갈비</li><li class="li_a">배추김치</li><li class="li_a">사과 </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>2</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 555명 (816.8 Kcal) </div><ul class="mnlst_link1"><li class="li_a">발아현미밥 </li><li class="li_a">오징어뭇국</li><li class="li_a">갈비만두</li><li class="li_a">시금치무침 </li><li class="li_a">콩나물돈불고기</li><li class="li_a">배추김치</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>3</font></b>&nbsp;<font style="font-size:12px;">소비자의날</font>
+</div><div style="clear: both;"><div class="mnknd2">중식 : 555명 (866.1 Kcal) </div><ul class="mnlst_link1"><li class="li_a">[대체식]흰쌀밥 </li><li class="li_a">땡초주먹밥</li><li class="li_a">제주고기국수</li><li class="li_a">도라지오이생채</li><li class="li_a">배추겉절이</li><li class="li_a">치즈소시지찰도그(feat.시즈닝)</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>4</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 520명 (839.6 Kcal) </div><ul class="mnlst_link1"><li class="li_a">압맥밥 </li><li class="li_a">맑은콩나물국</li><li class="li_a">혜화동치즈돈까스(125610)&소스(2,5,6,12,16,18)</li><li class="li_a">깍두기</li><li class="li_a">쥬시애플음료</li><li class="li_a">새우꼬치샐러드&케이준드레싱</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>5</font></b>&nbsp;<font style="font-size:12px;">국민교육헌장선포일</font>
+</div><div style="clear: both;"><div class="mnknd2">중식 : 520명 (678.9 Kcal) </div><ul class="mnlst_link1"><li class="li_a">기장밥 </li><li class="li_a">얼큰쑥갓어묵국</li><li class="li_a">부추겨자무침</li><li class="li_a">오리간장불고기</li><li class="li_a">배추김치</li><li class="li_a">슈크림붕어빵</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>6</font></b></div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>7</font></b>&nbsp;<font color="#2B7CDE" style="font-size:9pt;">〔대설〕</font></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#FF7E15"><b><font color=blue><b><u>8</u></b></font></font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 520명 (845.1 Kcal) </div><ul class="mnlst_link1"><li class="li_a">칼슘강화찹쌀밥 </li><li class="li_a">실곤약야채무침</li><li class="li_a">건새우시금치된장국</li><li class="li_a">수제사태족발</li><li class="li_a">보쌈무생채</li><li class="li_a">보쌈김치</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>9</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 530명 (750.2 Kcal) </div><ul class="mnlst_link1"><li class="li_a">보리밥 </li><li class="li_a">감자옹심이국</li><li class="li_a">연두부계란찜</li><li class="li_a">하얀콩나물무침</li><li class="li_a">쭈꾸미볶음</li><li class="li_a">배추김치</li><li class="li_a">귤 </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>10</font></b>&nbsp;<font style="font-size:12px;">세계인권선언기념일</font>
+&nbsp;<font color="#2B7CDE" style="font-size:12px;">위생사합격자발표</font>
+</div><div style="clear: both;"><div class="mnknd2">중식 : 555명 (904.8 Kcal) </div><ul class="mnlst_link1"><li class="li_a">[대체식]흰쌀밥 </li><li class="li_a">미니상하이(해물)파스타</li><li class="li_a">[대체식]콩나물김치국</li><li class="li_a">직화콤비피자</li><li class="li_a">수제코코팜딸기에이드</li><li class="li_a">수제오이무피클</li><li class="li_a">그린샐러드&자두드레싱</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>11</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 555명 (760.9 Kcal) </div><ul class="mnlst_link1"><li class="li_a">보리밥 </li><li class="li_a">닭곰탕&소면</li><li class="li_a">오징어초무침</li><li class="li_a">얼갈이된장나물</li><li class="li_a">검은콩감자전</li><li class="li_a">석박지</li><li class="li_a">과일요거아이스크림컵</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>12</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>13</font></b></div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>14</font></b>&nbsp;<font style="font-size:12px;">HUG데이</font>
+</div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>15</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>16</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>17</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>18</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>19</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 523명 (581.6 Kcal) </div><ul class="mnlst_link1"><li class="li_a">칼슘강화찹쌀밥 </li><li class="li_a">굴미역국</li><li class="li_a">떡잡채</li><li class="li_a">돈LA갈비구이</li><li class="li_a">깍두기</li><li class="li_a">황금향 [가람이벤트]복권을긁어라! </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>20</font></b>&nbsp;<font color="#2B7CDE" style="font-size:12px;">영양사국가고시</font>
+</div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>21</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>22</font></b>&nbsp;<font color="#2B7CDE" style="font-size:9pt;">〔동지〕</font></div><div style="clear: both;"><div class="mnknd2">중식 : 523명 (858.2 Kcal) </div><ul class="mnlst_link1"><li class="li_a">압맥밥 </li><li class="li_a">육개장</li><li class="li_a">연두부샐러드</li><li class="li_a">가자미까스(5,6)&스위트어니언소스(1,2,5,16)&카사바칩</li><li class="li_a">배추김치</li><li class="li_a">[동지]인절미모나카</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>23</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 520명 (743.3 Kcal) </div><ul class="mnlst_link1"><li class="li_a">기장밥 </li><li class="li_a">몬테크리스토샌드위치</li><li class="li_a">해물된장찌개</li><li class="li_a">돈육단호박장조림</li><li class="li_a">유채나물무침</li><li class="li_a">배추김치</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>24</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 520명 (961.1 Kcal) </div><ul class="mnlst_link1"><li class="li_a">귀리밥 </li><li class="li_a">[대체식]콩나물김치국</li><li class="li_a">크림스프&크루통</li><li class="li_a">크리스마스콥샐러드</li><li class="li_a">돈목살스테이크&메쉬드포테이토&스위트콘</li><li class="li_a">깍두기</li><li class="li_a">크리스마스도넛</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>25</font></b>&nbsp;<font style="font-size:12px;">성탄절</font>
+</div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>26</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 520명 (720.1 Kcal) </div><ul class="mnlst_link1"><li class="li_a">칼슘강화찹쌀밥 </li><li class="li_a">맑은북어국</li><li class="li_a">봄동겉절이</li><li class="li_a">매콤닭갈비</li><li class="li_a">단호박감자채볶음 </li><li class="li_a">깍두기</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>27</font></b></div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>28</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>29</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 520명 (704.7 Kcal) </div><ul class="mnlst_link1"><li class="li_a">흑미밥 </li><li class="li_a">[26년꽃길만걷자]사골꽃떡국</li><li class="li_a">삼색나물무침</li><li class="li_a">동태전</li><li class="li_a">미니동그랑땡전</li><li class="li_a">허니버터연근칩 </li><li class="li_a">깍두기</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>30</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 520명 (931.4 Kcal) </div><ul class="mnlst_link1"><li class="li_a">달걀볶음밥</li><li class="li_a">마라탕</li><li class="li_a">마라황과(중국식오이무침)</li><li class="li_a">닭안심꿔바로우&유린기소스</li><li class="li_a">배추김치</li><li class="li_a">딸기 </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>31</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF>&nbsp;</td></tr>      </table></td>
+  </tr>
+</table>
+<div style="height: 30px;"></div>
+<style type="text/css">
+.mnlst_link2 { padding: 3px 8px; height: 220px;   }
+.mnlst_link2 .li_a {	font-size: 13px; line-height: 25px; overflow: hidden; display: block; height: 25px; padding: 0 5px; color: #222; font-weight: normal; text-align: left;	white-space: nowrap;text-overflow: ellipsis; background-color: #ffffff; }
+</style>
+
+<style type="text/css">
+ul, ol, li, dl { list-style:none; border: 0px; margin: 0px; padding: 0px; }
+
+/*날짜표시 안씀 */
+.calnal { border: 1px solid #FF9E31; padding: 0px 2px; border-radius: 5px; font-size: 0.85rem; color: #555; margin-left: 20px; font-weight: bold; background-color: #eeeeee; }
+
+.sclst_section {
+	font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','Apple SD Gothic Neo','Malgun Gothic','맑은 고딕','NanumGothic','나눔고딕',Gulim,'굴림',arial,sans-serif; 
+	font-size: 0.85rem;
+	border:1px solid #ddd; display: inline-block; background-color: #eeeeee; margin: 5px 4px; padding: 3px 8px; border-radius: 5px;
+}
+
+.sclst_link .ul_item { width: 100%; float: left; position: relative; }
+
+
+/* 날짜와 기념일등 */
+.showday0 { overflow: hidden; white-space: nowrap;    text-overflow: ellipsis; }
+
+.page_wrap_pc { clear:both; margin: 20px 0px; font-family:Tahoma,sans-serif; font-size: 13px; text-align: center; width: 100%; }
+.page_wrap_pc .page_number { border:1px solid #ddd; color: #666; font-size: 14px; height:25px; padding: 3px 7px; border-radius:5px; }/*  글목록 페이지 번호  */
+.page_wrap_pc .page_numberx { border:1px solid #ddd; color: #777; font-size: 14px; height:25px; padding: 3px 7px; border-radius:2px; }/*  글목록 페이지 번호  */
+.page_wrap_pc .pg_current { border:1px solid #ddd; color: #00c; background: #fafafa; font-size: 14px; height:25px; padding: 3px 7px; border-radius:5px;  }/*  글목록 페이지 번호  */
+.page_wrap_pc .page_btnimg { margin-bottom: 2px; }
+.page_wrap_pc select { padding: 2px; }
+</style>
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0"><tr><td height=5></td></tr></table>
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+	 <td height="30" width=130>
+<b><font style="font-size:14px; color: blue;">《2024년 12월》</font></b>   </td>
+    <td height="30" align=center>
+<div class="page_wrap_pc">
+&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=1">1월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=2">2월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=3">3월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=4">4월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=5">5월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=6">6월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=7">7월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=8">8월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=9">9월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=10">10월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=11">11월</a>&nbsp; <a class="pg_current" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=12">12월</a></div>
+    </td>
+    <td width=130 height="30" align="right"></td>
+  </tr>
+</table>
+
+<!-- 식단표 테이블
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+  <tr><td bgcolor="#FFFFFF">
+ -->	
+
+<!-- 식단표 테이블 -->
+	<table width="100%" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor=#cccccc style="table-layout:fixed; max-width: 1200px;">
+        <tr bgcolor="#EEEEEE">
+          <td height=25 align="center" width=40><font color="#CC0000" style="font-size:10pt;"><b>일</font></td>
+          <td align="center"><font style="font-size:10pt;"><b>월</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>화</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>수</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>목</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>금</b></font></td>
+          <td align="center" width=40><font style="font-size:10pt;"><b>토</font></td>
+        </tr>
+<tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>1</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>2</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 570명 (940.3 Kcal) </div><ul class="mnlst_link2"><li class="li_a">칼슘강화찹쌀밥 </li><li class="li_a">맑은콩나물국</li><li class="li_a">봄동겉절이</li><li class="li_a">매콤닭갈비</li><li class="li_a">단호박감자채볶음 </li><li class="li_a">깍두기</li><li class="li_a">단감 </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>3</font></b>&nbsp;<font style="font-size:12px;">소비자의날</font>
+</div><div style="clear: both;"><div class="mnknd2">중식 : 570명 (996.5 Kcal) </div><ul class="mnlst_link2"><li class="li_a">발아현미밥 </li><li class="li_a">몬테크리스토샌드위치</li><li class="li_a">된장찌개</li><li class="li_a">시금치무침 </li><li class="li_a">콩나물돈불고기</li><li class="li_a">배추김치</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>4</font></b>&nbsp;<font color="#2B7CDE" style="font-size:12px;">위생사합격자발표</font>
+</div><div style="clear: both;"><div class="mnknd2">중식 : 570명 (830.9 Kcal) </div><ul class="mnlst_link2"><li class="li_a">야채비빔밥&계란프라이</li><li class="li_a">크림품은우리찹쌀꽈배기</li><li class="li_a">팽이버섯된장국</li><li class="li_a">미나리무생채</li><li class="li_a">배추김치</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>5</font></b>&nbsp;<font style="font-size:12px;">국민교육헌장선포일</font>
+</div><div style="clear: both;"><div class="mnknd2">중식 : 570명 (676.3 Kcal) </div><ul class="mnlst_link2"><li class="li_a">보리밥 </li><li class="li_a">닭곰탕&소면사리</li><li class="li_a">오징어초무침</li><li class="li_a">얼갈이된장나물</li><li class="li_a">검은콩감자전</li><li class="li_a">석박지</li><li class="li_a">콘크림스프팝콘</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>6</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 570명 (412.9 Kcal) </div><ul class="mnlst_link2"><li class="li_a">[대체식]흰쌀밥 </li><li class="li_a">미트소스스파게티</li><li class="li_a">[대체식]콩나물김치국</li><li class="li_a">오리엔탈야채드레싱</li><li class="li_a">직화고구마피자</li><li class="li_a">망고음료</li><li class="li_a">수제오이무피클</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>7</font></b>&nbsp;<font color="#2B7CDE" style="font-size:9pt;">〔대설〕</font></div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>8</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>9</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 570명 (694.8 Kcal) </div><ul class="mnlst_link2"><li class="li_a">차조밥 </li><li class="li_a">얼큰쑥갓어묵국</li><li class="li_a">부추겨자무침</li><li class="li_a">오리간장불고기</li><li class="li_a">배추김치</li><li class="li_a">레몬쌈무 </li><li class="li_a">골드키위 </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>10</font></b>&nbsp;<font style="font-size:12px;">세계인권선언기념일</font>
+</div><div style="clear: both;"><div class="mnknd2">중식 : 570명 (653.3 Kcal) </div><ul class="mnlst_link2"><li class="li_a">보리밥 </li><li class="li_a">육개장</li><li class="li_a">삼치무조림</li><li class="li_a">취나물무침</li><li class="li_a">깡총갈비맛카츠</li><li class="li_a">깍두기</li><li class="li_a">&소스</li><li class="li_a">캐플주스</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>11</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 570명 (1082.6 Kcal) </div><ul class="mnlst_link2"><li class="li_a">치킨마요덮밥</li><li class="li_a">미소된장국</li><li class="li_a">로제비엔나떡볶이</li><li class="li_a">카스테라한입핫도그</li><li class="li_a">배추김치</li><li class="li_a">급식핑요구르트(딸기)</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>12</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>13</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>14</font></b>&nbsp;<font style="font-size:12px;">HUG데이</font>
+&nbsp;<font color="#2B7CDE" style="font-size:12px;">영양사국가고시</font>
+</div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>15</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>16</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>17</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>18</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>19</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 570명 (681.1 Kcal) </div><ul class="mnlst_link2"><li class="li_a">칼슘강화찹쌀밥 </li><li class="li_a">굴미역국</li><li class="li_a">매콤돼지갈비찜</li><li class="li_a">떡잡채</li><li class="li_a">배추김치</li><li class="li_a">별핑꽈당산타</li><li class="li_a">레몬상추샐러드</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>20</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 570명 (529.1 Kcal) </div><ul class="mnlst_link2"><li class="li_a">후리가케양념밥</li><li class="li_a">잔치국수(탕그릇)</li><li class="li_a">도라지오이생채</li><li class="li_a">옛날통탉한조각</li><li class="li_a">깍두기</li><li class="li_a">귤 </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>21</font></b>&nbsp;<font color="#2B7CDE" style="font-size:9pt;">〔동지〕</font></div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>22</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>23</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 570명 (549.0 Kcal) </div><ul class="mnlst_link2"><li class="li_a">흑미밥 </li><li class="li_a">건새우근대된장국</li><li class="li_a">돈사태김치찜</li><li class="li_a">두부쑥갓무침</li><li class="li_a">총각김치</li><li class="li_a">우리밀슈크림붕어빵</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>24</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 570명 (768.4 Kcal) </div><ul class="mnlst_link2"><li class="li_a">[대체식]흰쌀밥 </li><li class="li_a">미니상하이(해물)파스타</li><li class="li_a">[대체식]콩나물김치국</li><li class="li_a">크리스마스콥샐러드</li><li class="li_a">골든번치킨버거</li><li class="li_a">오렌지음료</li><li class="li_a">수제오이무피클</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>25</font></b>&nbsp;<font style="font-size:12px;">성탄절</font>
+</div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>26</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 570명 (806.2 Kcal) </div><ul class="mnlst_link2"><li class="li_a">칼슘기장밥 </li><li class="li_a">들깨무채국</li><li class="li_a">유채나물무침</li><li class="li_a">돈육짜장불고기</li><li class="li_a">가자미구이&와사비장</li><li class="li_a">배추김치</li><li class="li_a">황금향 </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>27</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 570명 (741.1 Kcal) </div><ul class="mnlst_link2"><li class="li_a">유부장국</li><li class="li_a">탕평채</li><li class="li_a">닭갈비덮밥</li><li class="li_a">허니버터회오리감자</li><li class="li_a">동치미</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>28</font></b></div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>29</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>30</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 570명 (668.0 Kcal) </div><ul class="mnlst_link2"><li class="li_a">흑미밥 </li><li class="li_a">떡만두국</li><li class="li_a">삼색나물무침</li><li class="li_a">동태전</li><li class="li_a">미니동그랑땡전</li><li class="li_a">김부각</li><li class="li_a">깍두기</li><li class="li_a">딸기 </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>31</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF>&nbsp;</td></tr>      </table></td>
+  </tr>
+</table>
+<div style="height: 30px;"></div>
+<style type="text/css">
+.mnlst_link3 { padding: 3px 8px; height: 220px;   }
+.mnlst_link3 .li_a {	font-size: 13px; line-height: 25px; overflow: hidden; display: block; height: 25px; padding: 0 5px; color: #222; font-weight: normal; text-align: left;	white-space: nowrap;text-overflow: ellipsis; background-color: #ffffff; }
+</style>
+
+<style type="text/css">
+ul, ol, li, dl { list-style:none; border: 0px; margin: 0px; padding: 0px; }
+
+/*날짜표시 안씀 */
+.calnal { border: 1px solid #FF9E31; padding: 0px 2px; border-radius: 5px; font-size: 0.85rem; color: #555; margin-left: 20px; font-weight: bold; background-color: #eeeeee; }
+
+.sclst_section {
+	font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','Apple SD Gothic Neo','Malgun Gothic','맑은 고딕','NanumGothic','나눔고딕',Gulim,'굴림',arial,sans-serif; 
+	font-size: 0.85rem;
+	border:1px solid #ddd; display: inline-block; background-color: #eeeeee; margin: 5px 4px; padding: 3px 8px; border-radius: 5px;
+}
+
+.sclst_link .ul_item { width: 100%; float: left; position: relative; }
+
+
+/* 날짜와 기념일등 */
+.showday0 { overflow: hidden; white-space: nowrap;    text-overflow: ellipsis; }
+
+.page_wrap_pc { clear:both; margin: 20px 0px; font-family:Tahoma,sans-serif; font-size: 13px; text-align: center; width: 100%; }
+.page_wrap_pc .page_number { border:1px solid #ddd; color: #666; font-size: 14px; height:25px; padding: 3px 7px; border-radius:5px; }/*  글목록 페이지 번호  */
+.page_wrap_pc .page_numberx { border:1px solid #ddd; color: #777; font-size: 14px; height:25px; padding: 3px 7px; border-radius:2px; }/*  글목록 페이지 번호  */
+.page_wrap_pc .pg_current { border:1px solid #ddd; color: #00c; background: #fafafa; font-size: 14px; height:25px; padding: 3px 7px; border-radius:5px;  }/*  글목록 페이지 번호  */
+.page_wrap_pc .page_btnimg { margin-bottom: 2px; }
+.page_wrap_pc select { padding: 2px; }
+</style>
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0"><tr><td height=5></td></tr></table>
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+	 <td height="30" width=130>
+<b><font style="font-size:14px; color: red;">《2023년 12월》</font></b>   </td>
+    <td height="30" align=center>
+<div class="page_wrap_pc">
+&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=1">1월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=2">2월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=3">3월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=4">4월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=5">5월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=6">6월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=7">7월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=8">8월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=9">9월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=10">10월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=11">11월</a>&nbsp; <a class="pg_current" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=12">12월</a></div>
+    </td>
+    <td width=130 height="30" align="right"></td>
+  </tr>
+</table>
+
+<!-- 식단표 테이블
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+  <tr><td bgcolor="#FFFFFF">
+ -->	
+
+<!-- 식단표 테이블 -->
+	<table width="100%" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor=#cccccc style="table-layout:fixed; max-width: 1200px;">
+        <tr bgcolor="#EEEEEE">
+          <td height=25 align="center" width=40><font color="#CC0000" style="font-size:10pt;"><b>일</font></td>
+          <td align="center"><font style="font-size:10pt;"><b>월</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>화</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>수</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>목</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>금</b></font></td>
+          <td align="center" width=40><font style="font-size:10pt;"><b>토</font></td>
+        </tr>
+<tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF nowrap>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF nowrap>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF nowrap>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF nowrap>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF nowrap>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>1</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 587명 (765.1 Kcal) </div><ul class="mnlst_link3"><li class="li_a">[대체식]흰쌀밥 </li><li class="li_a">양지쌀국수</li><li class="li_a">게살볶음밥</li><li class="li_a">멘보샤</li><li class="li_a">배추김치</li><li class="li_a">황도야채샐러드*허니유자드레싱</li><li class="li_a">애플망고푸딩 </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>2</font></b></div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>3</font></b>&nbsp;<font style="font-size:12px;">소비자의날</font>
+</div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>4</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 587명 (901.3 Kcal) </div><ul class="mnlst_link3"><li class="li_a">칼슘강화찹쌀밥 </li><li class="li_a">굴미역국</li><li class="li_a">매콤돼지갈비찜</li><li class="li_a">우엉잡채</li><li class="li_a">배추김치</li><li class="li_a">초콜릿에그타르트</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>5</font></b>&nbsp;<font style="font-size:12px;">국민교육헌장선포일</font>
+</div><div style="clear: both;"><div class="mnknd2">중식 : 587명 (629.2 Kcal) </div><ul class="mnlst_link3"><li class="li_a">칼슘발아현미밥 </li><li class="li_a">육개장</li><li class="li_a">참나물무침</li><li class="li_a">어묵볶음</li><li class="li_a">총각김치</li><li class="li_a">귤 </li><li class="li_a">삼치구이&잠발라소스</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>6</font></b>&nbsp;<font color="#2B7CDE" style="font-size:12px;">위생사합격자발표</font>
+</div><div style="clear: both;"><div class="mnknd2">중식 : 587명 (1058.9 Kcal) </div><ul class="mnlst_link3"><li class="li_a">쇠고기야채죽</li><li class="li_a">콘샐러드</li><li class="li_a">브리오슈수제버거</li><li class="li_a">감자튀김&케첩</li><li class="li_a">나박김치</li><li class="li_a">수제매실에이드</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>7</font></b>&nbsp;<font color="#2B7CDE" style="font-size:9pt;">〔대설〕</font></div><div style="clear: both;"><div class="mnknd2">중식 : 587명 (941.7 Kcal) </div><ul class="mnlst_link3"><li class="li_a">칼슘기장밥 </li><li class="li_a">바지락얼갈이된장국</li><li class="li_a">안동찜닭</li><li class="li_a">배추겉절이</li><li class="li_a">검은콩감자전</li><li class="li_a">샤인머스켓 </li><li class="li_a">깻잎순나물</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>8</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 587명 (899.9 Kcal) </div><ul class="mnlst_link3"><li class="li_a">흰쌀밥 </li><li class="li_a">헤물짬뽕국</li><li class="li_a">양상치흑임자샐러드</li><li class="li_a">유린기</li><li class="li_a">배추김치</li><li class="li_a">반달단무지 </li><li class="li_a">요구르트</li><li class="li_a">자장면</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>9</font></b></div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>10</font></b>&nbsp;<font style="font-size:12px;">세계인권선언기념일</font>
+</div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>11</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 587명 (1041.9 Kcal) </div><ul class="mnlst_link3"><li class="li_a">칼슘홍국밥 </li><li class="li_a">수제크림스프</li><li class="li_a">추억의경양식돈까스</li><li class="li_a">소스</li><li class="li_a">수제오이무피클&할라피뇨</li><li class="li_a">초코프리첼</li><li class="li_a">나쵸그린샐러드&요거트드레싱</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>12</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>13</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>14</font></b>&nbsp;<font style="font-size:12px;">HUG데이</font>
+</div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>15</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>16</font></b>&nbsp;<font color="#2B7CDE" style="font-size:12px;">영양사국가고시</font>
+</div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>17</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>18</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>19</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 587명 (685.1 Kcal) </div><ul class="mnlst_link3"><li class="li_a">칼슘보리밥 </li><li class="li_a">적양파부추무침</li><li class="li_a">미니김치메밀전병</li><li class="li_a">석박지</li><li class="li_a">사과 </li><li class="li_a">돼지국밥</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>20</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 587명 (1088.1 Kcal) </div><ul class="mnlst_link3"><li class="li_a">유부된장국</li><li class="li_a">닭갈비덮밥</li><li class="li_a">회오리감자</li><li class="li_a">동치미</li><li class="li_a">야채과일씨리얼샐러드</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>21</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 587명 (888.8 Kcal) </div><ul class="mnlst_link3"><li class="li_a">칼슘발아현미밥 </li><li class="li_a">마라탕</li><li class="li_a">하얀콩나물무침</li><li class="li_a">돈육버섯불고기</li><li class="li_a">매생이전</li><li class="li_a">배추김치</li><li class="li_a">미니초코우유</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>22</font></b>&nbsp;<font color="#2B7CDE" style="font-size:9pt;">〔동지〕</font></div><div style="clear: both;"><div class="mnknd2">중식 : 587명 (890.4 Kcal) </div><ul class="mnlst_link3"><li class="li_a">[대체식]흰쌀밥 </li><li class="li_a">로제스파게티</li><li class="li_a">[대체식]콩나물김치국</li><li class="li_a">블랙타이거새우버터구이</li><li class="li_a">수제무피클</li><li class="li_a">블루베리요거트샐러드</li><li class="li_a">우리밀헥센하우스케이크</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>23</font></b></div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>24</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>25</font></b>&nbsp;<font style="font-size:12px;">성탄절</font>
+</div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>26</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 587명 (885.8 Kcal) </div><ul class="mnlst_link3"><li class="li_a">칼슘귀리밥 </li><li class="li_a">황태콩나물국</li><li class="li_a">우엉땅콩조림</li><li class="li_a">주꾸미돈육불고기</li><li class="li_a">배추김치</li><li class="li_a">레몬상추샐러드</li><li class="li_a">발효팥찐빵</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>27</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 587명 (1015.6 Kcal) </div><ul class="mnlst_link3"><li class="li_a">[대체식]흰쌀밥 </li><li class="li_a">잔치국수</li><li class="li_a">도라지오이생채</li><li class="li_a">배추겉절이</li><li class="li_a">수제오꼬노미야끼</li><li class="li_a">치~즈치킨주먹밥</li><li class="li_a">황금향 </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>28</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 587명 (1036.4 Kcal) </div><ul class="mnlst_link3"><li class="li_a">현미찹쌀밥 </li><li class="li_a">마크니커리</li><li class="li_a">배추김치</li><li class="li_a">샐러드&그릭요거트</li><li class="li_a">수제따뜻자몽블랙티</li><li class="li_a">탄두리난</li><li class="li_a">크크크치킨</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>29</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>30</font></b></div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>31</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF>&nbsp;</td></tr>      </table></td>
+  </tr>
+</table>
+<div style="height: 30px;"></div>
+<style type="text/css">
+.mnlst_link4 { padding: 3px 8px; height: 220px;   }
+.mnlst_link4 .li_a {	font-size: 13px; line-height: 25px; overflow: hidden; display: block; height: 25px; padding: 0 5px; color: #222; font-weight: normal; text-align: left;	white-space: nowrap;text-overflow: ellipsis; background-color: #ffffff; }
+</style>
+
+<style type="text/css">
+ul, ol, li, dl { list-style:none; border: 0px; margin: 0px; padding: 0px; }
+
+/*날짜표시 안씀 */
+.calnal { border: 1px solid #FF9E31; padding: 0px 2px; border-radius: 5px; font-size: 0.85rem; color: #555; margin-left: 20px; font-weight: bold; background-color: #eeeeee; }
+
+.sclst_section {
+	font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','Apple SD Gothic Neo','Malgun Gothic','맑은 고딕','NanumGothic','나눔고딕',Gulim,'굴림',arial,sans-serif; 
+	font-size: 0.85rem;
+	border:1px solid #ddd; display: inline-block; background-color: #eeeeee; margin: 5px 4px; padding: 3px 8px; border-radius: 5px;
+}
+
+.sclst_link .ul_item { width: 100%; float: left; position: relative; }
+
+
+/* 날짜와 기념일등 */
+.showday0 { overflow: hidden; white-space: nowrap;    text-overflow: ellipsis; }
+
+.page_wrap_pc { clear:both; margin: 20px 0px; font-family:Tahoma,sans-serif; font-size: 13px; text-align: center; width: 100%; }
+.page_wrap_pc .page_number { border:1px solid #ddd; color: #666; font-size: 14px; height:25px; padding: 3px 7px; border-radius:5px; }/*  글목록 페이지 번호  */
+.page_wrap_pc .page_numberx { border:1px solid #ddd; color: #777; font-size: 14px; height:25px; padding: 3px 7px; border-radius:2px; }/*  글목록 페이지 번호  */
+.page_wrap_pc .pg_current { border:1px solid #ddd; color: #00c; background: #fafafa; font-size: 14px; height:25px; padding: 3px 7px; border-radius:5px;  }/*  글목록 페이지 번호  */
+.page_wrap_pc .page_btnimg { margin-bottom: 2px; }
+.page_wrap_pc select { padding: 2px; }
+</style>
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0"><tr><td height=5></td></tr></table>
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+	 <td height="30" width=130>
+<b><font style="font-size:14px; color: green;">《2022년 12월》</font></b>   </td>
+    <td height="30" align=center>
+<div class="page_wrap_pc">
+&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=1">1월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=2">2월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=3">3월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=4">4월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=5">5월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=6">6월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=7">7월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=8">8월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=9">9월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=10">10월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=11">11월</a>&nbsp; <a class="pg_current" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=12">12월</a></div>
+    </td>
+    <td width=130 height="30" align="right"></td>
+  </tr>
+</table>
+
+<!-- 식단표 테이블
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+  <tr><td bgcolor="#FFFFFF">
+ -->	
+
+<!-- 식단표 테이블 -->
+	<table width="100%" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor=#cccccc style="table-layout:fixed; max-width: 1200px;">
+        <tr bgcolor="#EEEEEE">
+          <td height=25 align="center" width=40><font color="#CC0000" style="font-size:10pt;"><b>일</font></td>
+          <td align="center"><font style="font-size:10pt;"><b>월</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>화</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>수</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>목</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>금</b></font></td>
+          <td align="center" width=40><font style="font-size:10pt;"><b>토</font></td>
+        </tr>
+<tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF nowrap>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF nowrap>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF nowrap>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF nowrap>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>1</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 533명 (778.3 Kcal) </div><ul class="mnlst_link4"><li class="li_a">칼슘기장밥k  </li><li class="li_a">씨앗호떡* </li><li class="li_a">쇠고기미역국k </li><li class="li_a">미트볼볶음* </li><li class="li_a">오이지무침s </li><li class="li_a">진미채고추장무침* </li><li class="li_a">배추겉절이* </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>2</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 533명 (897.6 Kcal) </div><ul class="mnlst_link4"><li class="li_a">짜장밥s </li><li class="li_a">달걀국s </li><li class="li_a">파인후르츠깐쇼새우* </li><li class="li_a">배추김치k </li><li class="li_a">슬림슬라이스반달단무지s  </li><li class="li_a">감귤한모금*  </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>3</font></b>&nbsp;<font style="font-size:12px;">소비자의날</font>
+</div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>4</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>5</font></b>&nbsp;<font style="font-size:12px;">국민교육헌장선포일</font>
+</div><div style="clear: both;"><div class="mnknd2">중식 : 533명 (907.0 Kcal) </div><ul class="mnlst_link4"><li class="li_a">칼슘15곡혼합잡곡밥k </li><li class="li_a">호박고추장찌개* </li><li class="li_a">매콤꼬치어묵조림(콩나물)* </li><li class="li_a">시금치무침k </li><li class="li_a">한돈카츠* </li><li class="li_a">깍두기k </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>6</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 533명 (802.9 Kcal) </div><ul class="mnlst_link4"><li class="li_a">차조밥k  </li><li class="li_a">아욱된장국k </li><li class="li_a">상추겉절이k </li><li class="li_a">고추장불고기k </li><li class="li_a">타코야끼k </li><li class="li_a">배추김치k </li><li class="li_a">파인애플k  </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>7</font></b>&nbsp;<font color="#2B7CDE" style="font-size:9pt;">〔대설〕</font>&nbsp;<font color="#2B7CDE" style="font-size:12px;">위생사합격자발표</font>
+</div><div style="clear: both;"><div class="mnknd2">중식 : 533명 (1136.1 Kcal) </div><ul class="mnlst_link4"><li class="li_a">칼슘찹쌀밥k  </li><li class="li_a">마크니커리&난* </li><li class="li_a">오이생채* </li><li class="li_a">탄두리장각구이* </li><li class="li_a">배추김치k </li><li class="li_a">석류주스(컵)* </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>8</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 533명 (696.1 Kcal) </div><ul class="mnlst_link4"><li class="li_a">칼슘현미밥k  </li><li class="li_a">김치짜글이찌개k </li><li class="li_a">스크램블에그* </li><li class="li_a">삼치순살구이&잠발라소스* </li><li class="li_a">백김치k </li><li class="li_a">스틱김자반* </li><li class="li_a">요거타임* </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>9</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 533명 (728.7 Kcal) </div><ul class="mnlst_link4"><li class="li_a">칼슘기장밥k  </li><li class="li_a">북어콩나물국s </li><li class="li_a">닭살데리야끼조림* </li><li class="li_a">골뱅이야채무침(실곤약)k </li><li class="li_a">가지나물s </li><li class="li_a">배추겉절이* </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>10</font></b>&nbsp;<font style="font-size:12px;">세계인권선언기념일</font>
+</div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>11</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>12</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 533명 (877.8 Kcal) </div><ul class="mnlst_link4"><li class="li_a">나물볶음밥&고추장* </li><li class="li_a">팽이유부된장국k </li><li class="li_a">계란후라이s </li><li class="li_a">세서미두부카츠 </li><li class="li_a">배추김치k </li><li class="li_a">오트밀라떼* </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>13</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>14</font></b>&nbsp;<font style="font-size:12px;">HUG데이</font>
+</div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>15</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>16</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>17</font></b>&nbsp;<font color="#2B7CDE" style="font-size:12px;">영양사국가고시</font>
+</div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>18</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>19</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>20</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 533명 (774.0 Kcal) </div><ul class="mnlst_link4"><li class="li_a">칼슘보리밥k  </li><li class="li_a">순대국* </li><li class="li_a">도토리묵무침s </li><li class="li_a">김치메밀전병s </li><li class="li_a">섞박지k </li><li class="li_a">부추적채무침k </li><li class="li_a">귤*  </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>21</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 533명 (883.7 Kcal) </div><ul class="mnlst_link4"><li class="li_a">칼슘찹쌀밥k  </li><li class="li_a">양송이스프* </li><li class="li_a">콩나물무침k </li><li class="li_a">돈까스소스s </li><li class="li_a">왕등심돈까스s </li><li class="li_a">배추김치k </li><li class="li_a">레몬뱅쇼*  </li><li class="li_a">시저샐러드s </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>22</font></b>&nbsp;<font color="#2B7CDE" style="font-size:9pt;">〔동지〕</font></div><div style="clear: both;"><div class="mnknd2">중식 : 533명 (798.2 Kcal) </div><ul class="mnlst_link4"><li class="li_a">칼슘수수밥k  </li><li class="li_a">붕어빵* </li><li class="li_a">경상도식무국k </li><li class="li_a">돈사태김치찜k </li><li class="li_a">깻잎순나물k </li><li class="li_a">부쳐먹는우리팜s </li><li class="li_a">총각김치k </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>23</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 533명 (938.8 Kcal) </div><ul class="mnlst_link4"><li class="li_a">추가밥s  </li><li class="li_a">로제소스스파게티s </li><li class="li_a">트리플치즈크러스트피자* </li><li class="li_a">우리쌀베이비산타도넛* </li><li class="li_a">배추김치k </li><li class="li_a">후레쉬업(라임레몬)s </li><li class="li_a">오이피클*  </li><li class="li_a">그린샐러드&키위드레싱*  </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>24</font></b></div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>25</font></b>&nbsp;<font style="font-size:12px;">성탄절</font>
+</div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>26</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 533명 (805.5 Kcal) </div><ul class="mnlst_link4"><li class="li_a">칼슘현미밥k  </li><li class="li_a">짬뽕순두부국s </li><li class="li_a">메추리알곤약조림k </li><li class="li_a">숙주미나리무침* </li><li class="li_a">언양식불고기* </li><li class="li_a">총각김치k </li><li class="li_a">파채및파닭소스k </li><li class="li_a">파인애플k  </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>27</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 533명 (895.2 Kcal) </div><ul class="mnlst_link4"><li class="li_a">깍두기볶음밥k </li><li class="li_a">사각어묵국s </li><li class="li_a">단무지무침s </li><li class="li_a">블랙알리오치킨* </li><li class="li_a">배추김치k </li><li class="li_a">비타초코우유s </li><li class="li_a">만다린샐러드* </li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>28</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>29</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>30</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>31</font></b></div><div style="clear: both;"></div></td></tr>      </table></td>
+  </tr>
+</table>
+<div style="height: 30px;"></div>
+<style type="text/css">
+.mnlst_link5 { padding: 3px 8px; height: 220px;   }
+.mnlst_link5 .li_a {	font-size: 13px; line-height: 25px; overflow: hidden; display: block; height: 25px; padding: 0 5px; color: #222; font-weight: normal; text-align: left;	white-space: nowrap;text-overflow: ellipsis; background-color: #ffffff; }
+</style>
+
+<style type="text/css">
+ul, ol, li, dl { list-style:none; border: 0px; margin: 0px; padding: 0px; }
+
+/*날짜표시 안씀 */
+.calnal { border: 1px solid #FF9E31; padding: 0px 2px; border-radius: 5px; font-size: 0.85rem; color: #555; margin-left: 20px; font-weight: bold; background-color: #eeeeee; }
+
+.sclst_section {
+	font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','Apple SD Gothic Neo','Malgun Gothic','맑은 고딕','NanumGothic','나눔고딕',Gulim,'굴림',arial,sans-serif; 
+	font-size: 0.85rem;
+	border:1px solid #ddd; display: inline-block; background-color: #eeeeee; margin: 5px 4px; padding: 3px 8px; border-radius: 5px;
+}
+
+.sclst_link .ul_item { width: 100%; float: left; position: relative; }
+
+
+/* 날짜와 기념일등 */
+.showday0 { overflow: hidden; white-space: nowrap;    text-overflow: ellipsis; }
+
+.page_wrap_pc { clear:both; margin: 20px 0px; font-family:Tahoma,sans-serif; font-size: 13px; text-align: center; width: 100%; }
+.page_wrap_pc .page_number { border:1px solid #ddd; color: #666; font-size: 14px; height:25px; padding: 3px 7px; border-radius:5px; }/*  글목록 페이지 번호  */
+.page_wrap_pc .page_numberx { border:1px solid #ddd; color: #777; font-size: 14px; height:25px; padding: 3px 7px; border-radius:2px; }/*  글목록 페이지 번호  */
+.page_wrap_pc .pg_current { border:1px solid #ddd; color: #00c; background: #fafafa; font-size: 14px; height:25px; padding: 3px 7px; border-radius:5px;  }/*  글목록 페이지 번호  */
+.page_wrap_pc .page_btnimg { margin-bottom: 2px; }
+.page_wrap_pc select { padding: 2px; }
+</style>
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0"><tr><td height=5></td></tr></table>
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+	 <td height="30" width=130>
+<b><font style="font-size:14px; color: orange;">《2021년 12월》</font></b>   </td>
+    <td height="30" align=center>
+<div class="page_wrap_pc">
+&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=1">1월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=2">2월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=3">3월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=4">4월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=5">5월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=6">6월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=7">7월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=8">8월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=9">9월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=10">10월</a>&nbsp; <a class="page_number" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=11">11월</a>&nbsp; <a class="pg_current" href="/food_menu/edu_mnvw.php?atptsc=B10&xno=7010057&year=2025&month=12">12월</a></div>
+    </td>
+    <td width=130 height="30" align="right"></td>
+  </tr>
+</table>
+
+<!-- 식단표 테이블
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+  <tr><td bgcolor="#FFFFFF">
+ -->	
+
+<!-- 식단표 테이블 -->
+	<table width="100%" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor=#cccccc style="table-layout:fixed; max-width: 1200px;">
+        <tr bgcolor="#EEEEEE">
+          <td height=25 align="center" width=40><font color="#CC0000" style="font-size:10pt;"><b>일</font></td>
+          <td align="center"><font style="font-size:10pt;"><b>월</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>화</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>수</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>목</b></font></td>
+          <td align="center"><font style="font-size:10pt;"><b>금</b></font></td>
+          <td align="center" width=40><font style="font-size:10pt;"><b>토</font></td>
+        </tr>
+<tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF nowrap>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF nowrap>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF nowrap>&nbsp;</td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>1</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 592명 (793.1 Kcal) </div><ul class="mnlst_link5"><li class="li_a">칼슘찹쌀밥k</li><li class="li_a">쇠고기미역국k5.6.13.16.</li><li class="li_a">진미채무침k1.4.5.6.13.</li><li class="li_a">콩나물잡채K5.6.10.</li><li class="li_a">바베큐폭립10.</li><li class="li_a">배추김치k9.13.</li><li class="li_a">케이크1.2.5.6.</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>2</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 592명 (675.3 Kcal) </div><ul class="mnlst_link5"><li class="li_a">칼슘현미밥k</li><li class="li_a">설렁탕&소면s5.6.8.13.16.</li><li class="li_a">상추겉절이k5.6.13.</li><li class="li_a">어향가지튀김</li><li class="li_a">너비아니5.6.10.13.16.18.</li><li class="li_a">섞박지k9.13.</li><li class="li_a">딸기</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>3</font></b>&nbsp;<font style="font-size:12px;">소비자의날</font>
+</div><div style="clear: both;"><div class="mnknd2">중식 : 592명 (775.9 Kcal) </div><ul class="mnlst_link5"><li class="li_a">칼슘수수밥k</li><li class="li_a">콩나물국k5.6.13.</li><li class="li_a">미역오이초무침s13.</li><li class="li_a">오삼불고기s5.6.10.13.17.</li><li class="li_a">사각어묵볶음k1.5.6.13.</li><li class="li_a">배추겉절이(입찰)k9.13.</li><li class="li_a">쿠키1.2.5.6.</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>4</font></b></div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>5</font></b>&nbsp;<font style="font-size:12px;">국민교육헌장선포일</font>
+</div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>6</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 592명 (724.0 Kcal) </div><ul class="mnlst_link5"><li class="li_a">칼슘현미밥k</li><li class="li_a">쇠고기무국k5.6.13.16.</li><li class="li_a">온두부5.12.</li><li class="li_a">참나물무침k5.6.</li><li class="li_a">돈육김치볶음k5.6.9.10.13.</li><li class="li_a">물파래옥수수전s1.5.6.13.</li><li class="li_a">배추겉절이(입찰)k9.13.</li><li class="li_a">사과-배식용k</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>7</font></b>&nbsp;<font color="#2B7CDE" style="font-size:9pt;">〔대설〕</font></div><div style="clear: both;"><div class="mnknd2">중식 : 592명 (973.9 Kcal) </div><ul class="mnlst_link5"><li class="li_a">칼슘찹쌀밥k</li><li class="li_a">부대찌개k1.2.5.6.9.10.12.13.</li><li class="li_a">숙주미나리무침k</li><li class="li_a">수제코다리살강정1.5.6.12.13.</li><li class="li_a">닭봉데리야끼구이5.6.13.15.</li><li class="li_a">호떡k1.2.5.6.</li><li class="li_a">총각김치k9.13.</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>8</font></b>&nbsp;<font color="#2B7CDE" style="font-size:12px;">위생사합격자발표</font>
+</div><div style="clear: both;"><div class="mnknd2">중식 : 592명 (936.0 Kcal) </div><ul class="mnlst_link5"><li class="li_a">땡초고기주먹밥k1.5.6.10.13.</li><li class="li_a">잔치국수s1.5.6.13.16.</li><li class="li_a">오징어초무침s5.6.13.17.</li><li class="li_a">만두1.5.6.10.16.</li><li class="li_a">배추김치k9.13.</li><li class="li_a">청포도주스13.</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>9</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 592명 (736.3 Kcal) </div><ul class="mnlst_link5"><li class="li_a">칼슘15곡혼합잡곡밥k5.</li><li class="li_a">홍합무국k5.6.13.18.</li><li class="li_a">도토리묵상추무침s5.6.13.</li><li class="li_a">찜닭k(순살)5.6.8.13.15.18.</li><li class="li_a">브로콜리버섯볶음s5.6.13.</li><li class="li_a">배추겉절이(입찰)k9.13.</li><li class="li_a">양반김s</li><li class="li_a">맛밤</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>10</font></b>&nbsp;<font style="font-size:12px;">세계인권선언기념일</font>
+</div><div style="clear: both;"><div class="mnknd2">중식 : 592명 (999.4 Kcal) </div><ul class="mnlst_link5"><li class="li_a">칼슘보리밥k</li><li class="li_a">도라에몽암기빵1.2.5.6.</li><li class="li_a">아욱된장국k5.6.13.</li><li class="li_a">보쌈&쌈장k5.6.9.10.13.</li><li class="li_a">비빔밀면s1.3.5.6.13.16.18.</li><li class="li_a">보쌈김치9.</li><li class="li_a">무말랭이무침</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>11</font></b></div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>12</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>13</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>14</font></b>&nbsp;<font style="font-size:12px;">HUG데이</font>
+</div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>15</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>16</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>17</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>18</font></b>&nbsp;<font color="#2B7CDE" style="font-size:12px;">영양사국가고시</font>
+</div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>19</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>20</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 592명 (907.8 Kcal) </div><ul class="mnlst_link5"><li class="li_a">칼슘15곡혼합잡곡밥k5.</li><li class="li_a">돈육김치찌개k5.6.9.10.13.</li><li class="li_a">비빔야채만두k1.5.6.10.13.</li><li class="li_a">대패오리간장불고기s5.6.13.</li><li class="li_a">마늘쫑볶음k1.5.6.13.</li><li class="li_a">깍두기k9.13.</li><li class="li_a">파인애플k</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>21</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 592명 (763.7 Kcal) </div><ul class="mnlst_link5"><li class="li_a">칼슘기장밥k</li><li class="li_a">달걀국s1.5.6.13.</li><li class="li_a">숙회&초장s5.6.9.13.17.</li><li class="li_a">애호박나물k5.9.13.</li><li class="li_a">돈육짜장불고기s1.2.5.6.10.13.16.</li><li class="li_a">배추겉절이(입찰)k9.13.</li><li class="li_a">요플레2.11.</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>22</font></b>&nbsp;<font color="#2B7CDE" style="font-size:9pt;">〔동지〕</font></div><div style="clear: both;"><div class="mnknd2">중식 : 342명 (1160.9 Kcal) </div><ul class="mnlst_link5"><li class="li_a">장조림버터비빔밥k1.2.5.6.10.13.</li><li class="li_a">가쓰오장국s1.5.6.9.13.16.</li><li class="li_a">시금치무침k</li><li class="li_a">파닭꼬치5.6.15.</li><li class="li_a">배추김치k9.13.</li><li class="li_a">과일주스13.</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>23</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 342명 (727.6 Kcal) </div><ul class="mnlst_link5"><li class="li_a">칼슘흑미밥k</li><li class="li_a">감자수제비국s5.6.13.</li><li class="li_a">고등어무조림k5.6.7.13.</li><li class="li_a">취나물무침k5.6.</li><li class="li_a">떡갈비5.6.10.15.16.18.</li><li class="li_a">배추겉절이(입찰)k9.13.</li><li class="li_a">귤</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>24</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 342명 (1239.9 Kcal) </div><ul class="mnlst_link5"><li class="li_a">추가밥s</li><li class="li_a">투움바파스타2.5.9.10.13.</li><li class="li_a">플레로티사각피자1.2.5.6.10.12.13.15.16.</li><li class="li_a">배추김치k9.13.</li><li class="li_a">야채피클k5.13.</li><li class="li_a">케이크1.2.5.6.</li><li class="li_a">방학꾸러미1.2.6.13.</li><li class="li_a">양상추황도샐러드k1.2.5.6.11.12.13.</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>25</font></b>&nbsp;<font style="font-size:12px;">성탄절</font>
+</div><div style="clear: both;"></div></td></tr><tr valign='top'><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#CC0000"><b>26</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>27</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 45명 (676.7 Kcal) </div><ul class="mnlst_link5"><li class="li_a">근대된장국k5.6.13.</li><li class="li_a">야채계란찜k1.5.13.</li><li class="li_a">파채돈육불고기k5.6.10.13.</li><li class="li_a">사각어묵볶음k1.5.6.13.</li><li class="li_a">배추겉절이(입찰)k9.13.</li><li class="li_a">딸기</li><li class="li_a">상추&쌈장k5.6.13.</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>28</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 45명 (831.4 Kcal) </div><ul class="mnlst_link5"><li class="li_a">짬뽕순두부국s1.5.6.9.10.13.15.16.17.18.</li><li class="li_a">세발나물k5.6.</li><li class="li_a">마파두부k 5.6.10.12.13.</li><li class="li_a">탕수육&소스1.5.6.10.</li><li class="li_a">배추겉절이(입찰)k9.13.</li><li class="li_a">양반김s</li><li class="li_a">요구르트s2.</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>29</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 45명 (545.1 Kcal) </div><ul class="mnlst_link5"><li class="li_a">참치김치찌개k5.6.9.13.</li><li class="li_a">야채계란찜k1.5.13.</li><li class="li_a">파채돈육불고기k5.6.10.13.</li><li class="li_a">가지나물s5.13.</li><li class="li_a">배추겉절이(입찰)k9.13.</li><li class="li_a">상추&쌈장k5.6.13.</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>30</font></b></div><div style="clear: both;"><div class="mnknd2">중식 : 45명 (838.1 Kcal) </div><ul class="mnlst_link5"><li class="li_a">조랭이떡국k1.5.6.13.16.</li><li class="li_a">콩나물무침k5.</li><li class="li_a">감자채볶음(파프리카)s5.6.10.12.13.16.</li><li class="li_a">구워먹는닭갈비s1.5.6.13.15.</li><li class="li_a">배추김치k9.13.</li></ul></div></td><td width="14%" height="70" bgcolor=#FFFFFF><div class="showday0">&nbsp;<font style="font-size:11pt;" color="#444444"><b>31</font></b></div><div style="clear: both;"></div></td><td width="14%" height="70" bgcolor=#FFFFFF>&nbsp;</td></tr>      </table></td>
+  </tr>
+</table>
+
+
+<script type="text/javascript" src="/kdajs/main_script.js"></script>
+<script type="text/javascript" src= "./jslb_ajax.js" charset="utf-8"></script>
+<script type="text/javascript">
+function work4u(){
+	alert('달력에서 날짜를 클릭하시면 일정을 입력하실 수 있습니다');
+	return false;
+}
+function kda_win_open(bnurl, bnwincode, bnwin_x, bnwin_y){	//주소, 창이름,	창가로크기, 창세로크기
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;
+  max_wx = screen.availWidth;
+  screen_x = bnwin_x;
+	if(max_wy > bnwin_y){ screen_y = bnwin_y; }else{ screen_y = max_wy - 30;	}
+  center_wx = (max_wx - screen_x) / 2;
+  center_wy = (max_wy - screen_y) / 2;
+  kdclubw = window.open(bnurl, bnwincode, 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  kdclubw.focus();
+  return true;
+}
+function MonthChangeEvent(){
+	var objSelect = document.getElementById('selectMonth');
+	window.location.href = "?atptsc=B10&xno=7010057&year=2021&month=" + objSelect.value;
+}
+function YearChangeEvent(){
+	var objSelect = document.getElementById('selectYear');
+	window.location.href = "?atptsc=B10&xno=7010057&year=" + objSelect.value + "&month=12";
+}
+
+function res_bookmark(oj){
+	var res  = decodeURIComponent(oj.responseText);
+	var rstr = res.split("=||="); //결과코드=||=메시지. =||= 결과로 넘어오는 구분자.
+	if(rstr[0]==''){ return false; }
+	if(rstr[0]=='x'){ alert(rstr[1]); return false; }
+    if(rstr[0]=='ok'){ return false; }  //결과안보여줌. 2023.07.20
+}
+function edubookmark(scnm, sccode){	//번호, 탭번호
+	if(!confirm(scnm+'를 즐겨찾기에 등록하시겠습니까?')){ return false; }
+	sendRequest(res_bookmark,'&mode=add&sccd='+sccode,'POST','./edu_bookmark_ajax.php',true,true);
+	//parent.document.getElementById('favorite_list_frame').contentDocument.location.reload(true);
+	location.reload();
+	return false;
+}
+function edubookmark_del(scnm, sccode){	//번호, 탭번호
+	if(!confirm(scnm+'를 즐겨찾기에서 제거하시겠습니까?')){ return false; }
+	sendRequest(res_bookmark,'&mode=del&sccd='+sccode,'POST','./edu_bookmark_ajax.php',true,true);
+	//opener.document.getElementById('favorite_list_frame').contentDocument.location.reload(true);
+	location.reload();
+	return false;
+}
+//function kdawinbox_OPEN(파일URL, iwin_name, 가로크기, 세로크기, 좌측위치(-1), 상단위치(0), 가로이동값(0), 세로이동값(0), titlemsg, '스크롤여부:scroll', '스킨:없거나 vista'){
+//kdawinbox를 가운데로 모으려면 좌측위치와 상단위치를 -1 로 지정한다.
+function edubookmark_iw(scnm, sccode){	//번호, 탭번호
+	if(!confirm(scnm+'를 즐겨찾기에 등록하시겠습니까?')){ return false; }
+	kdawinbox_OPEN('./edu_bookmark.php?mode=add&sccd='+sccode,'bookmark', 450, 150, -1,-1,0,0, '즐겨찾기', '', '');
+	return false;
+}
+function edubookmark_del_iw(scnm, sccode){	//번호, 탭번호
+	if(!confirm(scnm+'를 즐겨찾기에서 제거하시겠습니까?')){ return false; }
+	kdawinbox_OPEN('./edu_bookmark.php?mode=del&sccd='+sccode,'bookmark', 450, 150, -1,-1,0,0, '즐겨찾기', '', '');
+	return false;
+}
+
+
+</script>
+
+
+<form name="goschool" method="get"><input type="hidden" name="atptsc" value="B10"><input type="hidden" name="xno" value="7010057"><input type="hidden" name="year" value="2021"><input type="hidden" name="month" value="12"></form>
+<br /><br>* 전국학교식단은 <a href="http://www.moe.go.kr/" target="_blank" title="[새창]교육부">교육부</a>에서 제공받아 서비스하며, 학교측 사정에 의해 변경될 수 있습니다<br/><br/><br /><img src="./imgs/edu_addfv.gif" align="absmiddle" title="즐겨찾기추가" onclick="edubookmark('가락고등학교', 7010057);" style="cursor: pointer;">&nbsp; &nbsp; <img src="./imgs/school_gotop.gif"  align="absmiddle" title="맨위로가기" border=0 onclick="window.scrollTo(0,0);" style="cursor: pointer;"></a>
+<br><br><br>
+<center><hr color="#DDDDDD" size="1" width=>
+<a href="http://www.kdclub.com/" target="_blank"><font color=#008080>Copyright ⓒ 영양사도우미(Korean Dietitian Assistant) inc</font></a>
+<br><br><br>
+
+</body>
+</html>

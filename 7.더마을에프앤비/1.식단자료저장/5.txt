@@ -1,0 +1,1071 @@
+가락고등학교 클릭
+
+https://www.kdclub.com/food_menu/edu_meal.php
+
+
+<HTML>
+<HEAD>
+<TITLE>전국학교식단 - 영양사도우미</TITLE>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.5, minimum-scale=0, user-scalable=yes">
+
+<STYLE TYPE='text/css'>
+	BODY,TD,TR,input,DIV,form,TEXTAREA,P,select{color:#45250C; font-size:10pt;font-family:"굴림",Tahoma;}
+	BODY,textarea{overflow:auto;}
+	A:link {color:#000000; text-decoration:none;}
+	A:visited {color:#474556; text-decoration:none;}
+	A:hover {color:#FF5005; text-decoration:underline;}
+	.inputtxt{ color:#000000; background-color:#FFFFFF; border: 1px solid #708BC5; }
+	.inputbtn{ color:#000000; background-color:#EEEEEE; border: 1px solid #708BC5; }
+
+	.mealbox1_tab_white{width:; height: 41px; padding:4 0 2 0; background-color:#ffffff; border:1px solid #ededed; border-width:1 1 0 1; cursor:pointer;}
+	.mealbox1_tab_gray{width:; height: 41px; padding:4 0 2 0; background-color:#F5F5F5; border:1px solid #ededed; border-width:1 1 1 1; cursor:pointer;}
+	.mealbox1_tab_blank{width:300px; border-bottom:1px solid #cccccc;}
+	.mealbox1_tab_text{ font-weight:bold; color:#5E78A7; text-align:center; }
+	.mealbox1_list_td{border:1px solid #ededed; border-width:0 1 1 1; text-align:center; padding-top:10px;}
+
+	.sc_btn {	border: 0px; cursor: pointer;	}
+	.sc_knd {
+		font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','Apple SD Gothic Neo','Malgun Gothic','맑은 고딕','NanumGothic','나눔고딕',Gulim,'굴림',arial,sans-serif; 
+		font-size: 0.85rem;
+		border:1px solid #ddd; display: inline-block; background-color: #eeeeee; margin: 5px 4px; padding: 3px 8px; border-radius: 5px;
+	}
+	.sc_atpt {	margin: 5px; border: 0px; cursor: pointer;	}
+	/* 이미지말고 css버튼으로 할 경우 */
+	.sc_knd1 {	font-size: 0.8rem;		border:1px solid #ddd; display: inline-block; background-color: #F0FFF0; margin: 5px 4px; padding: 3px 8px; border-radius: 5px;	}
+	.sc_knd2 {	font-size: 0.8rem;		border:1px solid #ddd; display: inline-block; background-color: #DEF1FF; margin: 5px 4px; padding: 3px 8px; border-radius: 5px;	}
+	.sc_knd3 {	font-size: 0.8rem;		border:1px solid #ddd; display: inline-block; background-color: #ffefd5; margin: 5px 4px; padding: 3px 8px; border-radius: 5px;	}
+	.sc_knd4 {	font-size: 0.8rem;		border:1px solid #ddd; display: inline-block; background-color: #ffddf4; margin: 5px 4px; padding: 3px 8px; border-radius: 5px;	}
+
+	.favlst {	height: 23px; width: 33%; color: blue; overflow: hidden;    white-space: nowrap;   text-overflow: ellipsis;	}
+	.favlst A:link { color:#0000CC;  text-decoration: none; -webkit-text-size-adjust:none;}
+	.favlst A:visited {color:#0000cc; text-decoration: none; -webkit-text-size-adjust:none;} /* color:#0044FF; */
+
+	.tbl_title {	display: inline-block; height: 20px; vertical-align: middle; margin: 5px 0 0 0; }
+
+	.inputmeal_cmb{ color:#000000; background-color:#FFFFFF; border: 1px solid #bbb; line-height: 1.8; padding: 5px; margin-right: 1px; }
+	.inputscb{ color:#000000; padding: 5px 5px 4px 5px; margin-right: 1px; }
+	.inputscn{ color:#000000; border: 2px solid #708BC5; padding: 5px; margin-right: 1px; width: 180px; font-weight: bold; height: 35px; }		
+</style>
+
+<link rel="stylesheet" href="/kdajs/kdabasestyle_w.css" type="text/css">
+
+</HEAD>
+
+<BODY topmargin=0 leftmargin=0 marginheight=0 marginwidth=0>
+<center>
+
+<style type="text/css">
+  #non-flash { position:absolute; top:-200px; width: 600px; }
+  #non-flash2 { position:absolute; top:-100px; width: 600px; }
+  #non-flash3 { position:absolute; top:-300px; width: 600px; }
+</style>
+
+<div id="non-flash"> <!-- 네이버 검색엔진 노출 -> 사이트 서브링크 생성 -->
+<a href="/jobs/main_gg001.php">영양사구인</a>
+<a href="/kdabrd/main.php?board=bb001">자유게시판</a>
+<a href="/kdabrd/main.php?board=bb002">영양사이야기</a>
+<a href="/kdabrd/main.php?board=jj013">영양교육</a> <!-- 다섯번째까지 인식하는 듯 나머지는 랜덤? -->
+<a href="/kdabrd/main.php?board=jj002">학교급식/운영</a>
+<a href="/kdabrd/main.php?board=jj013_1">월별영양교육</a>
+</div>
+<div id="non-flash2"> <!-- 네이버 검색엔진 노출 -> 사이트 서브링크 생성 -->
+<a href="/kdabrd/main.php?board=jj002">급식자료실</a>
+<a href="/kdabrd/main.php?board=jj004">식단/레시피</a>
+<a href="/kdabrd/main.php?board=gg004">영양사취업나눔터</a>
+<a href="/kdabrd/main.php?board=jj006_1">월별위생교육</a>
+<a href="/kdabrd/main.php?board=jj005">레시피자료실</a>
+<a href="/kdabrd/main.php?board=jj018">산업안전교육</a>
+<a href="/food_menu/fs_base.php">칼로리산출</a>
+</div>
+<div id="non-flash3"> <!-- 네이버 검색엔진 노출 -> 사이트 서브링크 생성 -->
+<a href="/kdabrd/main.php?board=jj006">위생교육</a>
+</div>
+
+<script type="text/javascript">
+document.getElementById('non-flash').style.display='none';	document.getElementById('non-flash2').style.display='none';	document.getElementById('non-flash3').style.display='none';
+</script>
+
+<DIV id="content_top_div" align=center style="background-color:#FFFFFF; width:1200px;"><style type="text/css"> /*height:10px -> 9px; -> 10px*/
+	.banbox1_tab_white{width:8px; height:8px; /*font-size:1px;*/ line-height:1px;padding:3 0 -2 0; font-family:굴림,Tahoma; color:#555555; background-color:#eeeeee; border:0px solid #eeeeee; cursor:pointer;}
+	/* 탭을  색상(그레이)만으로 표현하던 것을 번호가 있는 이미지로 표현 */
+	/* .banbox1_tab_gray{width:7px; height:6px; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#DDDDDD; border:1px solid #FFFFFF; cursor:pointer;} */
+	.banbox1_tab_blank{width:7px; height:10px; /*font-size:1px;*/ line-height:1px; border-bottom:0px solid #cccccc;}
+	.banbox1_tab_text{font-size:1pt; font-family:굴림; color:#474556; letter-spacing:-1;}
+	.banbox1_list_td{border:0px solid #DDDDDD; border-width:0px; text-align:center; padding:0px; }
+	/* 탭을  색상(그레이)만으로 표현하던 것을 번호가 있는 이미지로 표현 */
+	.banbox1_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab001.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox2_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab002.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox3_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab003.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox4_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab004.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox5_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab005.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox6_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab006.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox7_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab007.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox8_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab008.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox9_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab009.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox10_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab010.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+
+</style>
+<script type="text/javascript">
+function clearJSCookie(name){
+	var expireDate = new Date();
+	expireDate.setDate(expireDate.getDate() - 1);	document.cookie = name+'='+';path=/;domain=.kdclub.com;expires='+expireDate.toGMTString();
+}
+function setJSCookie(name, ckvalue){
+  var todayDate = new Date();
+  todayDate.setDate(todayDate.getDate()+1);  document.cookie = name+'='+escape(ckvalue)+';path=/;domain=.kdclub.com;expires='+todayDate.toGMTString()+';';
+}
+function kda_win_open(bnurl, bnwincode, bnwin_x, bnwin_y){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = bnwin_x;
+	if(max_wy > bnwin_y){ screen_y = bnwin_y; }else{ screen_y = max_wy - 30;	}
+  center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+  kdclubw = window.open(bnurl, bnwincode, 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  kdclubw.focus();
+  return true;
+}
+function kda_fix_open(bnurl, bnwincode, bnwin_x, bnwin_y){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = bnwin_x;	if(max_wy > bnwin_y){ screen_y = bnwin_y; }else{ screen_y = max_wy - 30;	}
+  center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+  kdclubw = window.open(bnurl, bnwincode, 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  kdclubw.focus();
+  return true;
+}
+function bann_win_view(bnurl, bnwincode, bnwin_x, bnwin_y){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = bnwin_x;	if(max_wy > bnwin_y){ screen_y = bnwin_y; }else{ screen_y = max_wy - 30;	}
+  center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+  tempbnw = window.open(bnurl, bnwincode, 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  tempbnw.focus();
+  return true;
+}
+	function banbox1_tab_change(num,uni){
+		var tab1=document.getElementById(uni+'_tab1');		var tab2=document.getElementById(uni+'_tab2');		var tab3=document.getElementById(uni+'_tab3');		var tab4=document.getElementById(uni+'_tab4');		var tab5=document.getElementById(uni+'_tab5');		var tab6=document.getElementById(uni+'_tab6');		var tab7=document.getElementById(uni+'_tab7');		var tab8=document.getElementById(uni+'_tab8');		var tab9=document.getElementById(uni+'_tab9');		var tab10=document.getElementById(uni+'_tab10');		/*var tab11=document.getElementById(uni+'_tab11');*/
+		var tr1=document.getElementById(uni+'_div1');		var tr2=document.getElementById(uni+'_div2');		var tr3=document.getElementById(uni+'_div3');		var tr4=document.getElementById(uni+'_div4');		var tr5=document.getElementById(uni+'_div5');		var tr6=document.getElementById(uni+'_div6');		var tr7=document.getElementById(uni+'_div7');		var tr8=document.getElementById(uni+'_div8');		var tr9=document.getElementById(uni+'_div9');		var tr10=document.getElementById(uni+'_div10');			/*var tr11=document.getElementById(uni+'_div11');*/
+		for(i=1; i<11; ++i){  // 상단 배너 7개 -> 8개 -> 9개 -> 10개
+			eval('tab'+i).className=(num==i) ? 'banbox1_tab_white' : 'banbox'+i+'_tab_gray' ;
+			/*eval('tab'+i).className=(num==i) ? 'banbox1_tab_white' : 'banbox1_tab_gray' ;*/
+			eval('tr'+i).style.display=(num==i) ? 'block' : 'none' ;
+		}
+	}
+	function banbox1_tab_change_stop(){
+		clearTimeout(auto_move_tab_ob);
+	}
+	function banbox1_tab_change_auto(num){
+		num+=1;
+		alert(num);
+		if(num>10) num=1;  /*if(num>7) num=1;*/
+		banbox1_tab_change(num,'BANBOX1');
+		auto_move_tab_ob=setTimeout("banbox1_tab_change_auto("+num+",'BANBOX1')",2000);
+	}
+	clearJSCookie('kdabn1');
+/*	setJSCookie('kdabn1', '4|4|4|2|1|1'); */
+	setJSCookie('kdabn0', '4|4|4|2|1|1');
+//이게 있으면 앵커가 안먹힌다. try{ window.addEventListener('load', function(){ setTimeout(scrollTo, 0, 0, 1); }, false); } catch(e){}	//모바일페이지 주소줄 가리기
+</script>
+
+<table width="1200" border=0 cellpadding=0 cellspacing=1 bgcolor=#FFFFFF style="padding-top: 0px;">
+<tr>
+	<td width=255 height=80 align=left><a href="http://www.kdclub.com" target="_top" style="display: block; margin-left: 16px;" ><img src="/imgng/top_Logo.gif" border=0 width=170 height=65></a></td>  <!-- height=72 -->
+	<td>
+	<div style="height:7px; clear:both;"></div>
+	<table border=0 cellpadding=0 cellspacing=0 bgcolor=#FFFFFF align=right><tr><td width=600 height=80 align=right><!-- <td width=480 height=70 76 80> -->
+<div id="BANBOX1_div1" style="display:none"><center><a href="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1505952686" target="_blank"><img style="width:600px; height:80px;" src="/img/event/A-ottogi-2017_0920.gif" alt="오뚜기" border=0 width=600 height=80></a></center></div><div id="BANBOX1_div2" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1710744707" target="_blank"><img style="width:600px; height:80px;" src="/img/event/A-NAMAN-2024.0318.gif" alt="kdclub" border="0" width="600" height="80"></A></center></div><div id="BANBOX1_div3" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1744017628" target="_blank"><img style="width:600px; height:80px;" src="/img/event/A-SRC_2025.04.07.gif" alt="kdclub" border="0" width="600" height="80"></A></center></A></center></div><div id="BANBOX1_div4" style="display:block"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1754620723" target="_blank"><img style="width:600px; height:80px;" src="/img/event/A-zerostone-11.17.gif" alt="kdclub" border="0" width="600" height="80"></A></center></div><div id="BANBOX1_div5" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1764117343" target="_blank"><img style="width:600px; height:80px;" src="/img/event/A-iscu.ac_2025.11.26.gif" alt="kdclub" border="0" width="600" height="80"></A></center></div><div id="BANBOX1_div6" style="display:none"><a href="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img style="width:600px; height:80px;" src="/img/event/2010.gif" alt="배너광고문의1" border=0 width=520 height=80></a></div><div id="BANBOX1_div7" style="display:none"><a href="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img style="width:600px; height:80px;" src="/img/event/2010.gif" alt="배너광고문의1" border=0 width=520 height=80></a></div><div id="BANBOX1_div8" style="display:none"><a href="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img style="width:600px; height:80px;" src="/img/event/2010.gif" alt="배너광고문의1" border=0 width=520 height=80></a></div><div id="BANBOX1_div9" style="display:none"><a href="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img style="width:600px; height:80px;" src="/img/event/2010.gif" alt="배너광고문의1" border=0 width=520 height=80></a></div><div id="BANBOX1_div10" style="display:none"><a href="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img style="width:600px; height:80px;" src="/img/event/2010.gif" alt="배너광고문의1" border=0 width=520 height=80></a></div>		</td>
+		<td align=left  valign=center>
+			<table  border=0 cellpadding=0 cellspacing=0 height=80> <!-- height  -->
+<tr><td class="banbox1_tab_gray" id="BANBOX1_tab1" onmouseover="banbox1_tab_change(1, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox2_tab_gray" id="BANBOX1_tab2" onmouseover="banbox1_tab_change(2, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox3_tab_gray" id="BANBOX1_tab3" onmouseover="banbox1_tab_change(3, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox1_tab_white" id="BANBOX1_tab4" onmouseover="banbox1_tab_change(4, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox5_tab_gray" id="BANBOX1_tab5" onmouseover="banbox1_tab_change(5, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox6_tab_gray" id="BANBOX1_tab6" onmouseover="banbox1_tab_change(6, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox7_tab_gray" id="BANBOX1_tab7" onmouseover="banbox1_tab_change(7, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox8_tab_gray" id="BANBOX1_tab8" onmouseover="banbox1_tab_change(8, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox9_tab_gray" id="BANBOX1_tab9" onmouseover="banbox1_tab_change(9, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox10_tab_gray" id="BANBOX1_tab10" onmouseover="banbox1_tab_change(10, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr>			</table>
+		<!-- </table> -->
+		</td>
+		</tr>
+	</table><br>
+	<div style="height:7px; clear:both;"></div>
+	</td>
+</tr>
+</table>
+
+<style type="text/css">
+html{	-webkit-text-size-adjust: none;	}
+body { margin:0px; padding:0px; background:#F2F4F7;}
+form { margin:0px; padding:0px; }
+.input_sch      { border:1px solid #FFFFFF; width:105px; height:18px; padding-top:2px; font-size:12px; }/*width:148px -> 135px -> 105; */
+.topmenustr { color:black; text-decoration:none; }/*color:white font-size:12px;*/
+.adminstr { color: #cccccc; }
+.TS_select { font-family:굴림,Tahoma; font-size:12px; text-decoration:none; cursor:pointer; color:#45250C; width:60px; height:16px;padding:1px 1px 0 2px; background:url('//www.kdclub.com/imgng/select_arrow.gif') no-repeat 100% 50%;} /*width:80px;*/
+.TS_sel_opt { font-family:굴림,Tahoma; font-size:12px; color:#45250C; text-decoration:none; cursor:pointer; height:16px; padding:0 1px 0 2px;	text-align: center;}
+
+</style>
+<script type="text/javascript">
+function kda_calendarwindow(){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;
+  max_wx = screen.availWidth;
+  screen_x = 1020;
+  screen_y = 740;
+  center_wx = (max_wx - screen_x) / 2;
+  center_wy = (max_wy - screen_y) / 2;
+  kcal = window.open('/work4u/calendar/calendar.php', 'kda_cal', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  kcal.focus();
+  return;
+}
+function kda_smswindow(){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;
+  max_wx = screen.availWidth;
+  screen_x = 550;	//700
+  screen_y = 450;	//720
+  center_wx = (max_wx - screen_x) / 2;
+  center_wy = (max_wy - screen_y) / 2;
+  ksms = window.open('/work4u/sms/sms_admin.php', 'kda_sms', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  ksms.focus();
+  return;
+}
+</script>
+<style type="text/css">
+	#cell { display: table-cell; vertical-align: middle; }
+	#wrapper_topmenustr2 { display: table; }
+    #wrapper_topmenustr { display: table; margin-top: 0px; }
+    #cell {
+		display: table-cell; vertical-align: middle;
+		font-family:'Malgun Gothic','맑은 고딕','Nanum Gothic','나눔 고딕',-apple-system,BlinkMacSystemFont,'Helvetica Neue','Gulim','굴림','Dotum','돋움',arial,sans-serif;
+		font-size: 0.83rem;
+	}
+	#cell2 { display: table-cell; vertical-align: middle; }
+    #wrapper_topmenustr a { color:black; text-decoration:none; }
+    .topmenustr {
+		color:black; text-decoration:none;
+		font-family:'Malgun Gothic','맑은 고딕','Nanum Gothic','나눔 고딕',-apple-system,BlinkMacSystemFont,'Helvetica Neue','Gulim','굴림','Dotum','돋움',arial,sans-serif;
+		font-size: 0.83rem;
+	}
+    .adminstr { color: #cccccc; }
+</style>
+<!--[if IE]>
+<style>
+#header_nav { display: none; }
+		#nav a {color: #000000; text-decoration: none;}
+		#nav > ul, #nav > ul > li { list-style: none; padding: 0; margin: 0;}
+		#nav { display: inline; }
+		#nav > ul > li { text-decoration: none; }
+</style>
+<![endif] -->
+
+<!-- 네이버 검색 노출을 위해 숨김처리함 -->
+<!-- <header id="header_nav">
+	<div class="nav_wrap">
+	    <nav id="nav">
+	      <ul>
+	        <li><a href="/jobs/Job_List.php">영양사구인구직</a></li>
+	        <li><a href="/kdabrd/main.php?board=bb002">영양사이야기</a></li>
+	        <li><a href="/kdabrd/main.php?board=jj004">식단자료실</a></li>
+	        <li><a href="/kdabrd/main.php?board=jj002">단체급식자료실</a></li>
+	        <li><a href="/kdabrd/main.php?board=jj006">위생교육자료</a></li>
+	        <li><a href="/kdabrd/main.php?board=jj013">영양교육자료</a></li>
+	      </ul>
+	    </nav>
+	</div>
+ </header> -->
+
+<table id="topmenutable" width="1200" border=0 cellpadding=0 cellspacing=0 ><tr>
+<td width="1200" height=38 background="/imgng/top_menu_background_0.gif"><!-- height=35 -->
+	<table width="100%" border=0 cellpadding=0 cellspacing=0  height=38 valign=top align=left><tr>  <!-- width 없음 height=35 -->
+	<td width=175 align=left> <!-- width=175 -->
+		<div id="wrapper_topmenustr2">
+			<div id="cell2" >
+				<div style="display: inline; width: 260px; bgcolor:fff;" >
+					<span>
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <!-- &nbsp; &nbsp; -->
+						<a href="/"><font color=white class=topmenustr>Home..</b></font></a>
+					</span>
+					<span> <!-- style="border: 0px solid #ccc;" -->
+					</span>
+				</div>
+			</div>
+		</div>
+	</td>
+	<td width=6>&nbsp;</td> <!-- width=25 -->
+	<td class=topmenustr>	<!-- width=380 580-->
+<!-- 상단메뉴 -->
+
+<div id="wrapper_topmenustr">
+	<div id="cell">
+		<IMG border=0 src="/imgng/icon002.gif" style="margin-bottom: -2px; margin-left: 2px;"> <a href="/kdabrd/main.php?board=kda001">공지사항</a>&nbsp;
+		<a href="//www.kdclub.com/kdabrd/read.php?board=kda001&xno=1198128869" target=_blank>이용안내</a>&nbsp;
+		<a href="//www.kdclub.com/kdabrd/main.php?board=FAQ" target=_blank>FAQ</a>&nbsp;
+		<a href="//www.kdclub.com/kdabrd/main.php?board=qna001" target=_blank>Q&A</a>&nbsp;
+		<a href="javascript:void(0)" onclick="kda_calendarwindow();">달력</a>&nbsp;
+		<a href="http://www.kma.go.kr/weather/main.jsp" target=_blank>날씨</a>&nbsp;
+		<a href="https://www.law.go.kr/LSW/main.html" target=_blank>법령</a>
+			</div>
+		</div>
+<!-- 상단메뉴 -->
+	</td>
+	<td width=6>&nbsp;</td>
+
+<style>
+table#total_search{
+	border-width: thin;
+	border: 1px solid #E95251;/*dcdcd1*/
+}
+</style>
+	<td width=280 align=right style="padding-top:2px;"><!-- width=320 align=left-->
+	<a href="/kdabrd/scan_idx.php" target=_blank><img src="//www.kdclub.com/imgng/top_menu_scanfrm.gif" border=0></a>
+	</td>
+
+	<td align=left valign=top width=16><!-- width=8 -->
+		<div id="div_selbox" style="position:absolute;">
+			<div id="TS_selbox" style="z-index:1; position:relative; left:-240px; top:30px; width:80px; height:150px; display:none">  <!--left:-319px; width:80px; -->
+			</div>
+		</div>
+		<div id="waitmsg" style="position:relative; left:-320px; top:0px;">
+		<div id="TS_waitmsg" style="z-index:1; position:absolute; width:320px; height:50px; display:none">
+			<table border=0 bgcolor=#64C83A cellspacing=1 cellpadding=2 width=320 height=50><tr><td align=center bgcolor=#F1FFEB>
+			검색중입니다...<br><img src="/kdabrd/imgs/pleasewait.gif" border=0><br> 조금만 기다려주세요...
+			</td></tr></table>
+		</div>
+		</div>
+<!-- 뭔지 몰라서 숨김 </span> -->
+
+	</td>
+	</tr></table>
+
+</td></tr></table> <!-- 365line -->
+
+<!-- 뭔지 몰라서 숨김 </td></tr></table> -->
+
+<!-- 임의의 DIV태그 삽입 START : SIDE + MAIN을 감싼다. (중간에 /div가 추가,삭제되었는지 모르겟으나 닫는div태그 없어도 동작함) 161116삽입  -->
+<style type="text/css">
+#wrapper { display: table; }
+#main { display: table-cell; }
+#side { display: table-cell; }
+</style>
+
+
+<DIV id="wrapper" align=center style="background-color:#FFFFFF; width:1200px;"><DIV id="side" style="background-color:#FFFFFF; float:left; width:175px; background-image: url('/imgng/LEFT_bg.gif');">
+
+<!-- 구분선 <table width=100% border=0 cellpadding=0 cellspacing=0><tr><td background="http://www.kdclub.com/imgng/LEFT_bar.gif" height=7></td></tr></table>-->
+
+<style type='text/css'>
+	.LOGIN_detail_hanjool{ color:#666666; background-color:#FFFFFF; width:155px; padding-top:0px; line-height:13px;
+		font-family:'Malgun Gothic','맑은 고딕','Nanum Gothic','나눔 고딕',-apple-system,BlinkMacSystemFont,'Helvetica Neue','Gulim','굴림','Dotum','돋움',arial,sans-serif; font-size:0.78rem; }
+	.LOGIN_detail_left{ color:#666666; background-color:#FFFFFF; width:110px; padding-top:0px; line-height:13px;
+		font-family:'Malgun Gothic','맑은 고딕','Nanum Gothic','나눔 고딕',-apple-system,BlinkMacSystemFont,'Helvetica Neue','Gulim','굴림','Dotum','돋움',arial,sans-serif; font-size:0.78rem; }
+	.LOGIN_detail_mdfy{ color:#101010; background-color:#FFFFFF; width:110px; padding-top:0px; line-height:13px;
+	font-family:'Malgun Gothic','맑은 고딕','Nanum Gothic','나눔 고딕',-apple-system,BlinkMacSystemFont,'Helvetica Neue','Gulim','굴림','Dotum','돋움',arial,sans-serif; font-size:0.80rem; }
+	.LOGIN_detail_st{ color:#49548D; background-color:#F5F5F5; width:155px; padding-top:0px; line-height:13px; }
+	.LOGIN_detail_dt{ color:#474556; background-color:#F5F5F5; width:155px; padding-top:0px; line-height:13px; }
+	.grade_span{ color:#474556; padding-top:0px; line-height:13px; }
+	.login_table{ margin-top: 1px; }
+	.login_div { padding-top: 3px; }
+	.login_wrap { margin-bottom: 1px; }
+	#logout { margin-bottom: -2px; /* margin-left: -2px; */ }
+</style>
+<div class="login_wrap">
+<table class="login_table" align=center border=0 cellpadding=0 cellspacing=0 width=167 height=3><tr><td></td></table>
+<table align=center border=0 cellspacing=0 cellpadding=3 width=167 height=102 style="background-image:url('/imgng/logbox_out.gif');">
+<tr><td>
+<table align=center border=0 cellspacing=0 cellpadding=0 width=100% height=100%>
+<tr><td colspan=2 valign=middle>
+	<table border=0 cellpadding=0 cellspacing=0>
+	<tr>
+		<TD align=left height=18 colspan=2 class=LOGIN_detail_hanjool>&nbsp;·등급: <font color=#474556>후원회원</font><font color=#49548D">(인증완료)</font></td>
+	</tr>
+	<tr>
+		<td width=110 align=left height=18 valign=bottom class=LOGIN_detail_left>&nbsp;·기간: <font color=#474556>2026.04.26</font></td>
+		<td rowspan=2 align=center valign=bottom><iframe name=ksmframe src="/ksm/chk_smk.php" align=absbottom width=40 height=35 frameborder=0 border=0 marginwidth=0 marginheight=0 topmargin=0 scrolling=no></iframe></td>
+	</tr>
+	<tr>
+<!--
+		<td width=110 align=left height=18 class=LOGIN_detail_left><iframe width=108 height=18 name=kpntframe src="/kdamember/kdapoint.php" frameborder=0 border=0 marginwidth=0 marginheight=0 topmargin=0 scrolling=no></iframe></td>
+-->
+		<td width=110 align=left height=18 class=LOGIN_detail_left>&nbsp;·포인트: 1,000</td>
+	</tr>
+	</table>
+</td></tr>
+<tr><td colspan=2 height=2></td></tr>
+<tr>
+	<td align="left" width=80>&nbsp; <a onfocus='this.blur()' href="javascript:void(0)" onclick="kda_fix_open('https://www.kdclub.com/kdamember/login_modify.php', 'fixmyinfo', 700, 600)" title="패스워드나 메일 등 회원등록정보를 수정합니다."><span class="LOGIN_detail_mdfy">정보수정</span></a>
+	</td>
+	<td align="center" valign=middle><a onfocus='this.blur()' href='/kdamember/kdalogout.php' target=_top><img id="logout" src='/imgng/logbox_btn_logout.gif' border=0 align=absmiddle title="나가실때는 반드시 로그아웃을 해주세요."></a>
+</td>
+</tr>
+</TABLE>
+</td></tr></table>
+</div>
+
+<style type="TEXT/CSS">
+.homepagemenutable { FONT-FAMILY:'Malgun Gothic','맑은 고딕','Nanum Gothic','나눔 고딕',gulim,'굴림',-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif,Tahoma; font-size: 0.85rem; color:#000000; LINE-HEIGHT:150%; width: 163px; margin-bottom: 13px;}
+.homepagemenutable td { FONT-FAMILY:'Malgun Gothic','맑은 고딕','Nanum Gothic','나눔 고딕',gulim,'굴림',-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif,Tahoma; font-size: 0.85rem; color:#000000; LINE-HEIGHT:100%; }  /* LINE-HEIGHT:150%; */
+.bigmenu{ FONT-FAMILY:'Malgun Gothic','맑은 고딕','Nanum Gothic','나눔 고딕',gulim,'굴림',-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif,Tahoma; width:150px; height:24px; padding:1; background-color:#FFFFFF; cursor:pointer;
+  /* border-bottom:1px dotted #777777;  */
+  /* border:1px solid #C0C0C0;  */
+  }/*background-color:#FAFAFA*/
+a.mainfmenu:link { COLOR:#2F3743;text-decoration:none; line-height:160%; }
+a.mainfmenu:visited { COLOR:#2F3743;text-decoration:none; line-height:160%; }
+a.mainfmenu:hover { COLOR:#0044FF;text-decoration:underline; line-height:160%; }
+
+table.gubun_tbl { border: 0; border-spacing: 0; width: 92%; margin: 0 auto; }
+table.gubun_tbl td { padding: 0px; background-color: #AAAAAA;  background-image: url("/imgng/graypoint.gif");  background-repeat: repeat-x; height: 1; }
+</style>
+<script language="javascript">
+function kda_webmaster(){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = 780;  screen_y = 700;  center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+  kwebma = window.open('/kdabrd/newgeul.php?board=webmaster', 'kda_webmaster', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  kwebma.focus();
+  return;
+}
+function kda_memojangw(){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = 800;  screen_y = 620;  center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+  window.open('/work4u/klog/hanjool.php', 'kda_hanjool', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  return;
+}
+function kda_postitw(){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = 720;	if(max_wy > 1000){ screen_y = 1000; }else{ screen_y = max_wy - 30;	}
+	center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+  window.open('/work4u/postit/memo.php', 'kda_postit', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  return;
+}
+function kda_memonotew(){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = 782;  screen_y = 542;  center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+  window.open('/work4u/memonote/note.php', 'kda_memonote', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  return;
+}
+function ksm_w(url){
+	document.ksmframe.location.reload();
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = 620;  screen_y = 550;  center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+	vw = window.open('', 'kda_smail', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  vw.focus();
+  return;
+}
+var old_menu = '';
+var old_cell = '';
+function menuclick(submenu, cellbar){
+  if(old_menu != submenu){
+    if(old_menu != ''){
+      old_menu.style.display = 'none';
+		  old_cell.src= '/imgng/icon0001.gif';
+    }
+    submenu.style.display = 'block';
+    cellbar.src = '/imgng/icon0002.gif';
+    old_menu = submenu;
+    old_cell = cellbar;
+  }else{
+    submenu.style.display = 'none';
+    cellbar.src= '/imgng/icon00.gif';
+    old_menu = '';
+    old_cell = '#ffffff';
+  }
+}
+</script>
+
+<table align="center" border="0" cellpadding="0" cellspacing="1" class=homepagemenutable> <!-- width="163" -->
+<tr><td align="left" class=bigmenu onclick="menuclick(submn00, bar99);" style="cursor:pointer;"  bordercolorlight=#000009 onmouseover=this.style.backgroundcolor='#fffffff' title="개인정보메뉴"> <!-- onmouseout=this.style.backgroundColor='' -->
+   &nbsp; <img src="/imgng/icon0001.gif" border=0 name="bar99" name="bar99"><a class=mainfmenu onfocus='this.blur()' href="/kdamember/mypage.php" style="font-weight: ">&nbsp;My Page<img src=/imgng/000000.gif width="50" height="15" border=0></td> <!-- <span style="font-weight: "> -->
+</tr>
+<tr><td align="left"  width="100%" bgcolor="white"><span id="submn00" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/scrap/zim.php">자료스크랩</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/ksm/kdamail.php">나의쪽지관리</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/work4u/calendar/calendar.php" target='_blank'>달력(일정관리)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/dicagal/main.php?mode=1296011144" target='_blank'>개인사진방</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="javascript:void(0)" onclick="kda_fix_open('/kdamember/login_modify.php', 'fixmyinfo', 700, 700)">내 정보수정</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/support/writeform.php">후원금입금했어요</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' onclick="kda_fix_open('/support/writeform.php', 'donate', 600, 670)" href="javascript:void(0);">후원금입금했어요</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/support/index2.php">후원금입금했어요</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/support/index.php">계산서신청/인쇄</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=kda001&xno=1451960429&sno=775&cate=&cate2=&cate3=&page=1&scan=&where=1">문자메세지</A><BR> -->
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/work4u/sms/smswrite.php">문자메세지</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=kda001&xno=1198128869" target='_blank'>이용안내</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu href="javascript:void(0)" onfocus='this.blur()' onclick="kda_webmaster()">운영자에게</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="javascript:void(0)" onclick="kda_memonotew()">메모노트</A><BR>
+ </SPAN>
+</TD></TR>
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+
+<!--
+<TR>
+<TD align=left class="bigmenu" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor='' style="cursor:pointer;">
+	&nbsp; <IMG border=0 src="/imgng/icon002.gif" style="margin-bottom: -2px; margin-left: 2px;"> <a class=mainfmenu href="/kdabrd/main.php?board=kda001" onfocus='this.blur()' style="font-weight: ">공지사항<img src=/imgng/000000.gif width="62" height="15" border=0></A></TD>
+</TR>
+<tr>
+  <td align="left" width="100%" bgcolor="white"><span id="submn02" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=kda001">공지사항</A><BR></span>
+  </td>
+</tr>
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+-->
+<!-- <TR><td></td></TR> 뭔지 모르겠음-->
+<tr>
+<td align="left" class=bigmenu onclick="menuclick(submn02, bar2 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="뉴스">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=kda002" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 id="bar2">&nbsp;뉴스와상식<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+ <tr>
+  <td align="left" width="100%" bgcolor="white"><span id="submn02" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=kda002">뉴스와상식</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://news.naver.com" target="_blank">네이버뉴스</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://media.daum.net" target="_blank">다음뉴스</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://news.nate.com" target="_blank">네이트뉴스</A><BR>
+  </SPAN></TD>
+  </TR>
+  <TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class=bigmenu onclick="menuclick(submn03, bar3 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="취업센터">
+&nbsp; <a class=mainfmenu href="/jobs/jobcity.php" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar3" >&nbsp;구인 /구직<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+ <tr>
+  <td align="left" width="100%" bgcolor="white"><span id="submn03" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/jobs/jobcity.php"><b>구인(영양사)</b></A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/jobs/main_gg002.php"><b>구직(영양사)</b></A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/jobs/jobcity2.php"><b>구인(조리직)</b></A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/jobs/main_gg006.php"><b>구직(조리직)</b></A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/jobs/job_guin_regist.php"><b>구인/구직등록</b></A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=gg004"><b>취업정보나눔터</b></A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=gg003">취업관련자료</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.work.go.kr/empInfo/empInfoSrch/list/dtlEmpSrchList.do?occupation=305000" target=_blank>노동부구인</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.work.go.kr/empInfo/empInfoSrch/list/dtlEmpSrchList.do?occupation=067300&siteClcd=all&termSearchGbn=W-1&resultCnt=10&occupationNm=%EC%98%81%EC%96%91%EC%82%AC" target=_blank>노동부구인</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/jobs/edu_job.php">교육청구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.dietitian.or.kr/work/news/kn_careers.do" target=_blank>영양사협회구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.welfare.net/welfare/jo/joboffer/selectJobofferList.do?mi=1072" target=_blank>복지협회구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.bokji.net/job/off/01.bokji" target=_blank>복지넷구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.w4c.go.kr/fcltNotice/jobSearchList.do" target=_blank>복지시스템구인 </A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.jobkorea.co.kr/Search/?save_stat=1&param=&stext=%EC%98%81%EC%96%91%EC%82%AC" target=_blank>잡코리아구인</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www0.jobkorea.co.kr/SM/SM_SynPart_List.asp?gubun=GI&stext=영양사&save_stat=1" target=_blank>잡코리아구인</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://job.incruit.com/jobdb_list/searchjob.asp?ct=1&ty=3&cd=12300" target=_blank>인크루트구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.saramin.co.kr/zf_user/search/recruit?searchType=search&searchword=%EC%98%81%EC%96%91%EC%82%AC" target=_blank>saramin구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.medijob.cc/rec/cag/rec_cag_101?jobDetailCode=MJ001H1" target=_blank>메디잡구인</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.findjob.co.kr/job/list/JobKind.asp?JobCode=180500230" target=_blank>파인드잡구인</A><BR> 삭제처리-->
+
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.foodnjob.com/cms/s01.php?sphere_02=%BF%B5%BE%E7%BB%E7" target=_blank>푸드앤잡구인</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.foodnjob.com/cms/s01.php?total_search_option=total&total_search_keyword=%BF%B5%BE%E7%BB%E7" target=_blank>푸드앤잡구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.gojobs.go.kr/" target=_blank>나라일터</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.gosi.go.kr/" target=_blank>사이버국가고시센터</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.work24.go.kr/cm/main.do" target=_blank>고용24</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.work.go.kr/empInfo/empInfoSrch/list/retriveEnterEmpMainList.do?pageCode=01&occupation=067300" target=_blank>대기업구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.work.go.kr/empInfo/empInfoSrch/list/retriveEnterEmpMainList.do?pageCode=02&occupation=067300" target=_blank>일반기업구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.work.go.kr/alba/" target=_blank>아르바이트</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.work.go.kr/empSpt/empNews/retrieveEmpNewsList.do" target=_blank>취업자료실</A><BR>
+
+  </SPAN></TD>
+  </TR>
+  <TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+
+
+
+<!-- <tr>
+<td align="left" class=bigmenu onclick="menuclick(submn04, bar4 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="업체&상품정보">
+&nbsp; <a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF001" style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar4">&nbsp;급식업체/장터<img src=/imgng/000000.gif  width="29" height="15" border=0></td>
+</tr>
+ <tr>
+  <td align="left"  width="100%" bgcolor="white"><span id="submn04" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF001">관련업체목록</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF003">업체를찾아요</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF002">급식오픈장터</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF004">업체신고/Q&A</A><BR>
+  </SPAN></TD>
+  </TR>
+  <TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR> -->
+
+
+
+
+<tr>
+<td align="left" class=bigmenu onclick="menuclick(submn04, bar4 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="업체&상품정보">
+&nbsp; <a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF001" style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar4">&nbsp;급식업체/장터<img src=/imgng/000000.gif  width="24" height="15" border=0></td>
+</tr>
+ <tr>
+  <td align="left"  width="100%" bgcolor="white"><span id="submn04" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF001">관련업체목록</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF003">업체를찾아요</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF002">업체장터</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF004">업체신고/Q&A</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/foodsale.php">식품판매업현황</A><BR>
+  </SPAN></TD>
+  </TR>
+  <TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+
+
+
+
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn05, bar5 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="게시판모음">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=bb001" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar5">&nbsp;자유게시판<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn05" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb001">낙서게시판</a><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/work4u/klog/hanjool.php">티타임~!</a><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb004">유머/동영상</A><BR>
+ &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=star">연예/이슈</A><BR> &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb005">이런저런~이야기</a><BR> &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb007">시사/토론방</A><BR>&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus="this.blur()" href="/kdabrd/main.php?board=debate01">시(詩)/음악</A><BR>&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb006">컴퓨터상식</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb008">아나바다장터</a><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb008_1">아나바다구함</a><BR>
+ &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb003">이벤트게시판</A><BR>
+  </SPAN></TD>
+  </TR>
+
+
+  <TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn07, bar7 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="영양사정보나눔터">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=bb002" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar7">&nbsp;영양사게시판<img src=/imgng/000000.gif width="30" height="15" border=0></td>
+</tr>
+ <tr>
+  <td align="left"  width="100%" bgcolor="white"><span id="submn07" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb002">영양사이야기</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/dicagal/main.php?board=pic">포토게시판</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=NEIS">NEIS이야기</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=clinic">식이,임상방</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=ex">인사교류방</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/kdclubmoim.php">모임/클럽</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=gg004">취업정보나눔터</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=qna001">질문답하기</A><BR> -->
+	</SPAN></TD>
+</SPAN></TD>
+  </TR>
+
+
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn06, bar6 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="질의응답모음">
+&nbsp; <a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=qna001" style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar6">&nbsp;질문답하기<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn06" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=qna001">질문답하기</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FAQ">잦은질문FAQ</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=gg004">취업,구인Q&A</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=NEIS">NEIS이야기</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=clinic">임상,식이Q&A</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj016">단가,가격Q&A</A><BR> -->
+  </SPAN></TD>
+  </TR>
+
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn18, bar18 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="정보나눔터">
+&nbsp; <a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010" style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar18">&nbsp;정보나눔터<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+<tr>
+<td align="left"  width="100%" bgcolor="white">
+  <span id="submn18" style="margin-left:5; display:none;">
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010">공개자료실</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=레시피">레시피</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=식단">식단</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=급식">급식</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=영양">영양</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=위생">위생</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=안전">안전</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=양식">양식</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=시험">시험</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=기타">기타</A><BR>  -->
+  </SPAN>
+</td>
+</tr>
+
+<!-- <tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn08, bar8 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="영양사모임">
+&nbsp; <a class=mainfmenu href="/kdabrd/kdclubmoim.php" onfocus='this.blur()'><img src="/imgng/icon0001.gif" border=0 name="bar8">&nbsp;모임/클럽<img src=/imgng/000000.gif width="54" height="15" border=0></td>
+</tr>
+ <TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn08" style="margin-left:5; ;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc001">학교급식모임</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc002">영양교사모임</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc003">병원,임상모임</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc004">산업체모임</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc005">복지시설모임</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc006">위탁급식모임</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc007">보건소/관공서</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc008">홍보/상담모임</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc009">유치원/어린이</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc010">도시락/식품회사</A><BR> -->
+ <!--  </SPAN></TD>
+  </TR> -->
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn09, bar9 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="자료실모음">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=jj002" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar9">&nbsp;급식자료실<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn09" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj002">급식/운영</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj002_1">학교/실무</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj003">양식/일지</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj007">식품관련</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj008">임상/식이</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj015">연구/논문</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj009">법규해석</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj017">관련법규</A><BR>-->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj019">검수자료</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj001">급식프로그램</A><BR>
+  </SPAN></TD>
+  </TR>
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn10, bar10 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="식단자료/레시피">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=jj004" onfocus='this.blur()' style="font-weight: bold"><img src="/imgng/icon0001.gif" border=0 name="bar10">&nbsp;식단/레시피<img src=/imgng/000000.gif width="35" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn10" style="margin-left:5; display:block;">
+
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj004">식단자료실</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/edu_meal.php">전국학교식단</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj005">레시피자료실</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=data1">급식레시피</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=food">일반레시피</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=data3">요리/쿠킹팁</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj016">시장가격정보</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/dicagal/main.php?board=pic">급식포토게시판</A><BR>
+<!--
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.foodsafetykorea.go.kr/portal/sensuousmenu/schoolMealsDetail.do?menu_grp=MENU_NEW03&menu_no=3017" target="_blank">학교식단(전국)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.use.go.kr/jsp/dep/dep11_05_01.jsp" target="_blank">학교식단(울산)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://nutrition.kfda.go.kr/greendiet/index.jsp" target="_blank">식약청녹색식단</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://kitchen.naver.com" target="_blank">네이버키친</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://navercast.naver.com/magazine_list.nhn?cid=1550&category_id=1550" target="_blank">네이버푸드</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://cook.miznet.daum.net" target="_blank">다음미즈쿡</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://section.blog.naver.com/sub/PostListByDirectory.nhn?option.directoryAlias=recipe" target="_blank">요리블로그</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=jj016&xno=1084756979" target="_blank">가격정보링크</a><BR>
+-->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/menu.php" target="_blank">게시식단편집</A><BR>
+  </SPAN></TD>
+  </TR>
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn11, bar11 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="영양/교육자료실">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=jj013" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar11">&nbsp;영양&교육<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn11" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj013">영양/교육</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj013_1">월별영양교육</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj013_2">수업교육자료</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=data4">음식궁합</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=data6">영양상식</A><br>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=data2">식품영양사전</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus="this.blur()" href="/kdabrd/main.php?board=kda002&cate=[영양]">영양뉴스</A><BR>&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus="this.blur()" href="/pds/list.php?search=&how=35&cate=04">POP자료</A><BR>&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj020&tsc=13&cate=&cate2=&where=1&scan=영양" target=_blank>동영상(영양)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.foodsafetykorea.go.kr/portal/exhealthyfoodlife/index.html" target=_blank>영양·식생활상담</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://foodsafetykorea.go.kr/" target=_blank>식품안전나라</A><BR>
+<!--
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.mfds.go.kr/nutrition/index.do" target=_blank>영양표시정보</A><BR>
+-->
+
+</SPAN></TD>
+</TR>
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn12, bar12 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="위생/교육자료실">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=jj006" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar12">&nbsp;위생&교육<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn12" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj006">위생/HACCP</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj018">산업안전보건</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj006_1">월별위생교육</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=data5">HACCP상식</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj006_2">식중독/전염병</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj020&tsc=13&cate=&cate2=&where=1&scan=위생" target=_blank>동영상(위생)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/ppm.php">소독액산출</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://foodnara.go.kr/" target=_blank>식품나라(식약청)</A><BR> -->
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.mfds.go.kr/fm/index.do" target=_blank>식중독예방정보</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.foodsafetykorea.go.kr/" target=_blank>식품안전정보포털</A><BR>
+</SPAN></TD>
+</TR>
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn13, bar13 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="참고자료실">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=jj020" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar13">&nbsp;참고자료실<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn13" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj020">동영상자료실</A><br>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj014">자격증/시험</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus="this.blur()" href="/pds/list.php?search=&how=35">이미지갤러리</A><BR>&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus="this.blur()" href="/pds1/index.php">아이콘갤러리</A><BR>&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus="this.blur()" href="/kdabrd/main.php?board=jj011">이미지자료실</A><BR>&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/dicagal/gdimgsize.php" target=_blank>이미지줄이기</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus="this.blur()" href="/kdabrd/main.php?board=jj012">컴퓨터/유틸</A><BR>&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/iyagi/index.html" target=_blank>식사요법</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/menu/license1.php" target=_blank>자격증정보</A><BR>
+<!--	&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/entlr/enporl.htm" target=_blank>영양사업무</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/diets/diet.htm" target=_blank>비만을이기자</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/mainjj.php">새자료리스트</A><BR>
+  </SPAN></TD>
+  </TR>
+<!-- <tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn14, bar14 );"  onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="영양가산출하기">
+&nbsp; <a class=mainfmenu onfocus='this.blur()' href="/food_menu/rc_kns2010_edit.php"><img src="/imgng/icon0001.gif" border=0 name="bar14">&nbsp;영양가산출<img src=/imgng/000000.gif width="48" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left" width="100%" bgcolor="white"><span id="submn14" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/rc_kns2010_edit.php">영양가산출표(1)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/rc_rda2007_edit.php">영양가산출표(2)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj001&scan=레시피및식단" target=blank>식단작성(엑셀)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/kcalreq.php">1인에너지필요추정량</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/KDRIs2020_list.php">급식영양기준량산출</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/obesity.php">비만도판정법</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/obesity_bmi.php">BMI계산기(아동)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/kcalBEE.php">기초대사량산출</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/iyagi/index2.html">영양섭취기준(권장량)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/kns_reci_list.php">개인레시피TEST</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/kns_sikdan_day_SP.php">일일영양가TEST</A><BR>
+  </SPAN></TD>
+  </TR> -->
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn15, bar15 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="영양소찾기">
+&nbsp; <a class=mainfmenu onfocus='this.blur()' href="/food_menu/fs_base.php" style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar15">&nbsp;칼로리산출<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+
+<!-- &nbsp; <a class=mainfmenu onfocus='this.blur()' href="/food_menu/kns_base.php"><img src="/imgng/icon0001.gif" border=0 name="bar15">&nbsp;칼로리사전<img src=/imgng/000000.gif width="48" height="15" border=0></td> -->
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn15" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/fs_base.php">칼로리사전(식품)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/fd_base.php">칼로리사전(음식)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus="this.blur()" href="/foodmenu/fds_edit.php">영양가산출표</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/KDRIs_list.php">평균영양량산출</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/iyagi/index2.php">1일영양섭취기준</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/kcalreq.php">1인에너지추정량</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/obesity.php">비만도판정법</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/obesity_bmi.php">BMI계산기</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/kcalBEE.php">기초대사량산출</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.foodsafetykorea.go.kr/portal/exhealthyfoodlife/index.html" target=_blank>영양·식생활상담</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.foodsafetykorea.go.kr/portal/healthyfoodlife/foodnutrient/simpleSearch.do?menu_grp=MENU_NEW03&menu_no=2805" target=_blank>식품영양성분DB</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.foodnara.go.kr/kisna/index.do" target=_blank>식품영양성분DB</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj013&scan=음식별칼로리">음식별칼로리</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus="this.blur()" href="/foodmenu/kns_reci_list.php" target=_blank>개인레시피</A><BR>&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus="this.blur()" href="/foodmenu/kns_sikdan_day_SP.php" target=_blank>일일식단작성</A><BR>&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus="this.blur()" href="/kdabrd/main.php?board=bb009">영양산출Q&A</A><BR>  </SPAN></TD>
+  </TR>
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+
+
+
+<!-- 2012.05.08 추천정보란 삭제. 식사요법, 자격증정보, 비만을이기자 는 참고자료실로 이동. -->
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn17, bar17 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="관련사이트">
+&nbsp; <a class=mainfmenu href="/kdabrd/read.php?board=site001&xno=967620529&sno=4&cate" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar17">&nbsp;관련사이트<img src=/imgng/000000.gif width="40" height="15" border=0></a></td>
+<!-- &nbsp; <a class=mainfmenu href="/kdaOX/st_index.php?cate=11" onfocus='this.blur()'><img src="/imgng/icon0001.gif" border=0 name="bar17">&nbsp;관련사이트<img src=/imgng/000000.gif width="48" height="15" border=0></a></td> -->
+</tr>
+ <TR>
+ <TD align=left width="100%" bgcolor="white"><span id="submn17" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=site001&xno=967620529&sno=4&cate">[식품/영양사]</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=site001&xno=968474349&sno=4&cate">[건강/위생]</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=site001&xno=968911639&sno=4&cate">[요리/블로그]</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=site001&xno=968933489&sno=4&cate">[교육청/관공서]</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=site001&xno=969323316&sno=4&cate">[유통/업체]</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=site001&xno=969345901&sno=4&cate">[대학/단체급식]</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=site001">[기타/추천]</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdaOX/st_index.php?cate=11">영양/영양사</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdaOX/st_index.php?cate=21">위생/HACCP</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdaOX/st_index.php?cate=31">요리/음식</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdaOX/st_index.php?cate=41">단체급식</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdaOX/st_index.php?cate=51">식품관련</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdaOX/st_index.php?cate=61">유통/시장</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdaOX/st_index.php?cate=71">관공서</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=site001">추천사이트</A><BR> -->
+  </span></TD>
+  </TR>
+</table>
+<style type="text/css">
+	.banbox3_tab_white{width:8px; height:7px; font-size:1px; padding:2 0 -2 0; font-family:굴림,Tahoma; color:#555555; background-color:#eeeeee; border:0px solid #eeeeee; cursor:pointer;}
+  .banbox3_tab_white_etc{width:5px; height:7px; font-size:3px; padding:2 0 -2 0; font-family:굴림,Tahoma; color:#555555; background-color:#eeeeee; border:0px solid #eeeeee; cursor:pointer;}
+/*   .banboxC3_tab_gray{width:7px; height:7px; font-size:3px; padding:2 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#DDDDDD; border:1px solid #FFFFFF; cursor:pointer;} */
+	.banbox3_tab_blank{width:8px; font-size:3px; line-height:2px; border-bottom:1px solid #cccccc;}
+	.banbox3_tab_text{font-size:6pt; font-family:굴림; color:#474556; letter-spacing:-1;}
+	.banbox3_list_td{border:0px solid #DDDDDD; border-width:0px; text-align:center; padding:0px;}
+
+  /* .banboxC_tab_gray{width:7px; height:7px; font-size:3px; padding:2 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#DDDDDD; border:1px solid #FFFFFF; cursor:pointer;} */
+  .banboxC1_tab_gray { background: url('/img/C-bntab001.gif'); }  .banboxC2_tab_gray { background: url('/img/C-bntab002.gif'); } .banboxC3_tab_gray { background: url('/img/C-bntab003.gif'); }
+  .banboxC4_tab_gray { background: url('/img/C-bntab004.gif'); } .banboxC5_tab_gray { background: url('/img/C-bntab005.gif'); } .banboxC6_tab_gray { background: url('/img/C-bntab006.gif'); }
+  .banboxC7_tab_gray { background: url('/img/C-bntab007.gif'); } .banboxC8_tab_gray { background: url('/img/C-bntab008.gif'); } .banboxC9_tab_gray { background: url('/img/C-bntab009.gif'); }
+  .banboxC10_tab_gray { background: url('/img/C-bntab010.gif'); }  .banboxC11_tab_gray { background: url('/img/C-bntab011.gif'); }  .banboxC12_tab_gray { background: url('/img/C-bntab012.gif'); }
+  .banboxC13_tab_gray { background: url('/img/C-bntab013.gif'); }  .banboxC14_tab_gray { background: url('/img/C-bntab014.gif'); }  .banboxC15_tab_gray { background: url('/img/C-bntab015.gif'); }
+  .banboxC16_tab_gray { background: url('/img/C-bntab016.gif'); }  .banboxC17_tab_gray { background: url('/img/C-bntab017.gif'); }  .banboxC18_tab_gray { background: url('/img/C-bntab018.gif'); }
+  .banboxC19_tab_gray { background: url('/img/C-bntab019.gif'); }  .banboxC20_tab_gray { background: url('/img/C-bntab020.gif'); }
+  .banboxC21_tab_gray { background: url('/img/C-bntab021.gif'); width: 5px; }
+</style>
+<script language=javascript>
+	function banbox3_tab_change(num,uni){
+		var	tab1=document.getElementById(uni+'_tab1');		var tab2=document.getElementById(uni+'_tab2');		var tab3=document.getElementById(uni+'_tab3');		var tab4=document.getElementById(uni+'_tab4');		var	tab5=document.getElementById(uni+'_tab5');		var tab6=document.getElementById(uni+'_tab6');		var tab7=document.getElementById(uni+'_tab7');		var tab8=document.getElementById(uni+'_tab8');		var	tab9=document.getElementById(uni+'_tab9');		var tab10=document.getElementById(uni+'_tab10');		var tab11=document.getElementById(uni+'_tab11');		var tab12=document.getElementById(uni+'_tab12');		var tab13=document.getElementById(uni+'_tab13');		var tab14=document.getElementById(uni+'_tab14');		var tab15=document.getElementById(uni+'_tab15');    var tab16=document.getElementById(uni+'_tab16');    var tab17=document.getElementById(uni+'_tab17');    var tab18=document.getElementById(uni+'_tab18');    var tab19=document.getElementById(uni+'_tab19');    var tab20=document.getElementById(uni+'_tab20');  var tab21=document.getElementById(uni+'_tab21');  /* var tab22=document.getElementById(uni+'_tab22');*/
+		var	tr1=document.getElementById(uni+'_div1');		var tr2=document.getElementById(uni+'_div2');		var tr3=document.getElementById(uni+'_div3');		var tr4=document.getElementById(uni+'_div4');		var	tr5=document.getElementById(uni+'_div5');		var tr6=document.getElementById(uni+'_div6');		var tr7=document.getElementById(uni+'_div7');		var tr8=document.getElementById(uni+'_div8');		var	tr9=document.getElementById(uni+'_div9');		var tr10=document.getElementById(uni+'_div10');		var tr11=document.getElementById(uni+'_div11');		var tr12=document.getElementById(uni+'_div12');		var tr13=document.getElementById(uni+'_div13');		var tr14=document.getElementById(uni+'_div14');		var tr15=document.getElementById(uni+'_div15');   var tr16=document.getElementById(uni+'_div16');   var tr17=document.getElementById(uni+'_div17');   var tr18=document.getElementById(uni+'_div18');   var tr19=document.getElementById(uni+'_div19');   var tr20=document.getElementById(uni+'_div20');  var tr21=document.getElementById(uni+'_div21');  /* var tr22=document.getElementById(uni+'_div22');*/
+		for(i=1; i<22; ++i){  // i<17(16개) i<19(18개) i<20(19개) i<21(20개)
+			  eval('tab'+i).className=(num==i) ? 'banbox3_tab_white' : 'banboxC'+i+'_tab_gray' ;
+			  eval('tr'+i).style.display=(num==i) ? 'block' : 'none' ;
+		}
+    eval('tab'+21).className=(num==21) ? 'banbox3_tab_white_etc' : 'banboxC'+21+'_tab_gray' ;
+    eval('tr'+21).style.display=(num==21) ? 'block' : 'none' ;
+
+	}
+	function banbox3_tab_change_stop(){
+		clearTimeout(auto_move_tab_ob);
+	}
+	function banbox3_tab_change_auto(num){
+		num+=1;
+		if(num>21) num=1; /*if(num>18) num=1;*/
+		banbox1_tab_change(num,'BANBOX3');
+		auto_move_tab_ob=setTimeout("banbox3_tab_change_auto("+num+",'BANBOX3')",2000);
+	}
+function clearJSCookie3(name){
+	var expireDate = new Date();
+	expireDate.setDate(expireDate.getDate() - 1);
+	document.cookie = name+'='+';path=/;domain=.kdclub.com;expires='+expireDate.toGMTString();
+}
+function setJSCookie3(name, ckvalue){
+  var todayDate = new Date();
+  todayDate.setDate(todayDate.getDate()+1);
+  document.cookie = name+'='+escape(ckvalue)+';path=/;domain=.kdclub.com;expires='+todayDate.toGMTString()+';';
+}
+	clearJSCookie3('kdabn3');
+	setJSCookie3('kdabn3', '4|4|4|2|1|1');
+</script>
+
+<table align="center" border="0" cellpadding="0" cellspacing="1" bordercolor=white class=homepagemenutable2>
+
+<TR><TD>
+<table align=center width=97% border=0 cellpadding=0 cellspacing=0 bgcolor=#eeeeee><tr><td align=center>
+    <table width=140 height=360 border=0 cellpadding=0 cellspacing=0 align=center valign=top style="overflow:hidden;"><tr><td>
+<div id="BANBOX3_div1" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1704680721" target="_blank"><img src="/img/event/C-IRANG_24.01.08.gif" alt="kdclub" border="0" width="165" height="420"></A></center></div><div id="BANBOX3_div2" style="display:none"><center><a href="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1478849336" target="_blank"><img src="/img/event/C-SunjinFS_2016-1111.gif" alt="선진FS" border=0 width=165 height=420></a></center></div><div id="BANBOX3_div3" style="display:none"><center><a href="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1128925474" target=_blank><img src="/img/event/C_onskyfarm_2021-0118.gif" border=0 width=165 height=420 title="하늘농가"></a></center></div><div id="BANBOX3_div4" style="display:block"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1733203241" target="_blank"><img src="/img/event/C-parrfarm_24.0919.gif" alt="kdclub" border="0" width="165" height="420"></A></center></div><div id="BANBOX3_div5" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1710744707" target="_blank"><img src="/img/event/C-NAMAN-2024.0318.gif" alt="kdclub" border="0" width="165" height="420"></A></center></div><div id="BANBOX3_div6" style="display:none"><a href="https://www.instagram.com/otoki_plate/" target="_blank"><img src="/img/event/C-ottogi-2017_0920.gif" alt="오뚜기" border=0 width=165 height=420></a></center></div><div id="BANBOX3_div7" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1667259047" target="_blank"><img src="/img/event/C-noodlelovers-2022_1104.gif" alt="kdclub" border="0" width="165" height="420"></A></center></div><div id="BANBOX3_div8" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1744017628" target="_blank"><img src="/img/event/C-SRC_2025.04.07.gif" alt="kdclub" border="0" width="165" height="420"></A></center></div><div id="BANBOX3_div9" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1758585351" target="_blank"><img src="/img/event/C-farmsco-2025.09.22.jpg" alt="kdclub" border="0" width="165" height="420"></A></center></div><div id="BANBOX3_div10" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1754620723" target="_blank"><img src="/img/event/C-zerostone-11.17.gif" alt="kdclub" border="0" width="165" height="420"></A></center></div><div id="BANBOX3_div11" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div12" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div13" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div14" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div15" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div16" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div17" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div18" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div19" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div20" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div>  </td></tr></table>
+</td></tr>
+<tr><td align=left>
+    <table width=165 height=9 border=0 cellpadding=0 cellspacing=0 align=center><tr> <!-- 15개일때 width=165  -->
+    <td class="banboxC1_tab_gray" id="BANBOX3_tab1" onmouseover="banbox3_tab_change(1, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC2_tab_gray" id="BANBOX3_tab2" onmouseover="banbox3_tab_change(2, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC3_tab_gray" id="BANBOX3_tab3" onmouseover="banbox3_tab_change(3, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banbox3_tab_white" id="BANBOX3_tab4" onmouseover="banbox3_tab_change(4, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC5_tab_gray" id="BANBOX3_tab5" onmouseover="banbox3_tab_change(5, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC6_tab_gray" id="BANBOX3_tab6" onmouseover="banbox3_tab_change(6, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC7_tab_gray" id="BANBOX3_tab7" onmouseover="banbox3_tab_change(7, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC8_tab_gray" id="BANBOX3_tab8" onmouseover="banbox3_tab_change(8, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC9_tab_gray" id="BANBOX3_tab9" onmouseover="banbox3_tab_change(9, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC10_tab_gray" id="BANBOX3_tab10" onmouseover="banbox3_tab_change(10, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC11_tab_gray" id="BANBOX3_tab11" onmouseover="banbox3_tab_change(11, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC12_tab_gray" id="BANBOX3_tab12" onmouseover="banbox3_tab_change(12, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC13_tab_gray" id="BANBOX3_tab13" onmouseover="banbox3_tab_change(13, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC14_tab_gray" id="BANBOX3_tab14" onmouseover="banbox3_tab_change(14, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC15_tab_gray" id="BANBOX3_tab15" onmouseover="banbox3_tab_change(15, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC16_tab_gray" id="BANBOX3_tab16" onmouseover="banbox3_tab_change(16, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC17_tab_gray" id="BANBOX3_tab17" onmouseover="banbox3_tab_change(17, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC18_tab_gray" id="BANBOX3_tab18" onmouseover="banbox3_tab_change(18, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC19_tab_gray" id="BANBOX3_tab19" onmouseover="banbox3_tab_change(19, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC20_tab_gray" id="BANBOX3_tab20" onmouseover="banbox3_tab_change(20, 'BANBOX3')" align=center style="border-right:0;"></td>    </tr></table>
+</td></tr>
+</table>
+</TR></TD>
+
+<tr><td height="3"></td></tr><tr><td height="3"></td></tr>
+<TR>
+<TD align=left class="bigmenu" width=100%
+  onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor='' style="cursor:pointer;">
+  &nbsp; <a class=mainfmenu href="javascript:void(0)" onfocus='this.blur()' onclick="kda_webmaster()"><IMG border=0 src="/imgng/icon010.gif">&nbsp;운영자에게..<img src=/imgng/000000.gif width="40" height="15" border=0></A></TD>
+</TR>
+</table>
+
+<table align=center width=97% border=0 cellpadding=0 cellspacing=0 bgcolor=#FFFFFF><tr><td align=center><tr><td height="5"></td></tr><TR><TD align=center><a class=mainfmenu onfocus="this.blur()" href="/support/index2.php">(이용안내/계산서발급)</A></TD></TR><tr><td height="3"></td></tr></table>
+<!-- <table width=100% border=0 cellpadding=0 cellspacing=0><tr><td style="background-image:url('/imgng/RIGHT_bar.gif');" height=5>&nbsp;</td></tr></table> -->
+<!-- 작은배너 넣는 코드 숨김 -->
+<!--   <div>
+    <table align=center width=100% border=0 cellpadding=1 cellspacing=0>
+    <tr><td height=3></td></tr>
+    <tr><td align=center><a href="/kdabrd/read.php?board=FF001&xno=1339633204" target="_blank"><img src="/img/event/hakwiedu20150618_B.gif" width=165 border=0 alt="사간영" border=0 ></a></td></tr>
+    </table>
+  </div> -->
+
+
+<!-- 마감선 --><table width=100% border=0 cellpadding=0 cellspacing=0><tr><td style="background:url('/imgng/LEFT_bar11.gif');" height=11><font size=1>&nbsp;</font></td></tr></table>
+</DIV><!-- 왼쪽메뉴 float DIV -->
+
+
+
+
+<DIV id="main" style="background-color:#FFFFFF; float:right; width:1025px;overflow:hidden"><!--
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//																여기서 부터는 KDABRD 프로그램에서 표시하는 부분
+///////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+<center><table border=0 cellpadding=0 cellspacing=0 width=500 height=5><tr><td></td></tr></table>
+
+<!-- ? div이 태그 없어야 한다. side 와 main안에 </DIV>가 포함되어 있는 듯? 임의의 DIV태그 삽입 END : SIDE + MAIN을 감싼다 -->
+<!-- </DIV> --><center>
+<div style="height: 16px;"></div>
+<div align="center"><img src= http://www.kdclub.com/imgng/school_menu2.gif></div>
+
+<div style="height: 16px;"></div><!-- 공간 -->
+
+
+<table align=center cellpadding=0 cellspacing=0 border=0 width="950">
+<tr>
+	<td class=mealbox1_tab_white id="EDUSITEBOX9_tab0" onclick="mealbox1_tab_change(0,'EDUSITEBOX9');" align=center><span class=mealbox1_tab_text>학교바로가기</span></td>
+	<td class=mealbox1_tab_gray id="EDUSITEBOX9_tab1" onclick="mealbox1_tab_change(1,'EDUSITEBOX9');" align=center style="border-left:0; border-right:0;"><span class=mealbox1_tab_text>학교이름검색</span></td>
+	<td class=mealbox1_tab_gray id="EDUSITEBOX9_tab2" onclick="mealbox1_tab_change(2,'EDUSITEBOX9');" align=center><span class=mealbox1_tab_text>식단즐겨찾기</span></td>
+</tr>
+
+<tr align=center>
+<td colspan=19 class=mealbox1_list_td valign=top height=700>
+
+<div id="EDUSITEBOX9_div0" style="display:block;"><br><form name=frmscscan onsubmit="return school_list_scan()"><input type="hidden" name="ifr" value="1"><select name="atptsc" class="inputmeal_cmb" onchange="changeatptsc(this);" title="교육청"><option value="">교육청(전체)</option><option value="B10">서울교육청</option><option value="J10">경기교육청</option><option value="C10">부산교육청</option><option value="D10">대구교육청</option><option value="E10">인천교육청</option><option value="F10">광주교육청</option><option value="G10">대전교육청</option><option value="H10">울산교육청</option><option value="I10">세종교육청</option><option value="K10">강원교육청</option><option value="M10">충북교육청</option><option value="N10">충남교육청</option><option value="P10">전북교육청</option><option value="Q10">전남교육청</option><option value="R10">경북교육청</option><option value="S10">경남교육청</option><option value="T10">제주교육청</option></select><select name="knd" class="inputmeal_cmb" onchange="changeknd(this);" title="학교종류"><option value="">전체</option><option value="1">초등</option><option value="2">중등</option><option value="3">고등</option><option value="4">기타</option></select><input type="text" name="scn" value="" class="inputscn" placeholder=""><input type="submit" value="학교찾기" class="inputscb"></form><br><br>
+<table border="0" cellpadding="0" cellspacing="0" width="870" align=center><tr><td align="right" class="favlst" style=""><A href="/kdabrd/main.php?board=jj004">식단자료</A>ㅣ<A href="/food_menu/edu_meal.php"><b><u>학교식단</b></u></A>ㅣ<A href="/kdabrd/main.php?board=jj005">레시피자료</A>ㅣ<A href="/kdabrd/main.php?board=data1">급식레시피</A>ㅣ<A href="/kdabrd/main.php?board=food">일반레시피</A>ㅣ<A href="/kdabrd/main.php?board=data3">쿠킹팁</A>ㅣ<A href="/kdabrd/main.php?board=jj016">가격정보</A></td></tr></tr></table><table width=870 border=0 cellpadding=0 cellspacing=0 align=center><tr><td colspan=2 height=1 bgcolor=#738AC6></td></tr><tr><td colspan=2 height="40" bgcolor=#EFF3FF width=740>&nbsp; &nbsp;<img src=./imgs/mark1.gif border=0 align=absmiddle></a>&nbsp;&nbsp; <b>식단바로가기</b></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_01.gif" onclick="school_list_kndw('B10', 0);" alt="서울교육청" class="sc_atpt" title="서울교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('B10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('B10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('B10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('B10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_02.gif" onclick="school_list_kndw('J10', 0);" alt="경기교육청" class="sc_atpt" title="경기교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('J10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('J10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('J10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('J10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_03.gif" onclick="school_list_kndw('C10', 0);" alt="부산교육청" class="sc_atpt" title="부산교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('C10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('C10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('C10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('C10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_04.gif" onclick="school_list_kndw('D10', 0);" alt="대구교육청" class="sc_atpt" title="대구교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('D10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('D10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('D10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('D10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_05.gif" onclick="school_list_kndw('E10', 0);" alt="인천교육청" class="sc_atpt" title="인천교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('E10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('E10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('E10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('E10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_06.gif" onclick="school_list_kndw('F10', 0);" alt="광주교육청" class="sc_atpt" title="광주교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('F10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('F10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('F10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('F10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_07.gif" onclick="school_list_kndw('G10', 0);" alt="대전교육청" class="sc_atpt" title="대전교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('G10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('G10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('G10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('G10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_08.gif" onclick="school_list_kndw('H10', 0);" alt="울산교육청" class="sc_atpt" title="울산교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('H10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('H10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('H10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('H10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_09.gif" onclick="school_list_kndw('I10', 0);" alt="세종교육청" class="sc_atpt" title="세종교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('I10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('I10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('I10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('I10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_10.gif" onclick="school_list_kndw('K10', 0);" alt="강원교육청" class="sc_atpt" title="강원교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('K10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('K10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('K10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('K10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_11.gif" onclick="school_list_kndw('M10', 0);" alt="충북교육청" class="sc_atpt" title="충북교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('M10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('M10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('M10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('M10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_12.gif" onclick="school_list_kndw('N10', 0);" alt="충남교육청" class="sc_atpt" title="충남교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('N10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('N10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('N10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('N10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_13.gif" onclick="school_list_kndw('P10', 0);" alt="전북교육청" class="sc_atpt" title="전북교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('P10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('P10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('P10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('P10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_14.gif" onclick="school_list_kndw('Q10', 0);" alt="전남교육청" class="sc_atpt" title="전남교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('Q10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('Q10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('Q10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('Q10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_15.gif" onclick="school_list_kndw('R10', 0);" alt="경북교육청" class="sc_atpt" title="경북교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('R10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('R10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('R10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('R10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_16.gif" onclick="school_list_kndw('S10', 0);" alt="경남교육청" class="sc_atpt" title="경남교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('S10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('S10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('S10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('S10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr bgcolor=#FFFFFF><td width=300 height="45">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./imgs/edu_atpt_17.gif" onclick="school_list_kndw('T10', 0);" alt="제주교육청" class="sc_atpt" title="제주교육청"></td><td height="45"> <img src="./imgs/school_btn1.gif" onclick="school_list_kndw('T10', 1);" alt="초등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn2.gif" onclick="school_list_kndw('T10', 2);" alt="중학교" class="sc_btn"> &nbsp;  <img src="./imgs/school_btn3.gif" onclick="school_list_kndw('T10', 3);" alt="고등학교" class="sc_btn"> &nbsp; <img src="./imgs/school_btn4.gif" onclick="school_list_kndw('T10', 4);" alt="기타학교" class="sc_btn"></td></tr><tr><td colspan=2 height=1 bgcolor=#738AC6 background="./imgs/graypoint.gif"></td></tr><tr><td colspan=4 height=1 bgcolor=#738AC6></td></tr></table><br>* 전국학교식단은 <a href="http://www.moe.go.kr/" target="_blank" title="[새창]교육부">교육부</a>에서 제공받아 서비스하며, 학교측 사정에 의해 변경될 수 있습니다<br/><br/></div>
+<div id="EDUSITEBOX9_div1" style="display:none;"><br><iframe id="school_list_frame" name="school_list_frame" src="./edu_schs.php?ifr=1" width=100% height=600 frameborder=0></iframe></div>
+<div id="EDUSITEBOX9_div2" style="display:none;"><br><iframe id="favorite_list_frame" name="favorite_list_frame" src="./edu_favorite.php?ifr=1" width=100% height=600 frameborder=0></iframe></div>
+
+</td>
+</tr>
+</table>
+
+	
+<br><br><br>
+<center><hr color="#DDDDDD" size="1" width=950>
+<a href="http://www.kdclub.com/" target="_blank"><font color=#008080>Copyright ⓒ 영양사도우미(Korean Dietitian Assistant) inc</font></a>
+<br><br><br>
+</center>
+</td></tr></table></center>
+
+<script type="text/javascript" src="/kdajs/main_script.js"></script>
+<!-- kdawinbox 대체용 -->
+<script src="/kdajs/jquery-1.12.4.min.js" charset="euc-kr"></script>
+<link rel="stylesheet" href="/kdajs/jquery-ui-1.12.1.css" charset="euc-kr">
+<script src="/kdajs/jquery-ui-1.12.1.js" charset="euc-kr"></script>
+
+<script type="text/javascript">
+function school_list_kndw(sc, sn){	//교육청코드, 초중고번호
+	document.getElementById('school_list_frame').src='./edu_schs.php?ifr=1&atptsc='+sc+'&knd='+sn;
+	mealbox1_tab_change(1,'EDUSITEBOX9');
+	window.scrollTo(0,0);
+	return false;	
+}
+function school_list_scan(){	//교육청코드, 초중고번호
+	var frm=document.forms.frmscscan;
+	var sc=frm.atptsc.value;
+	var sn=frm.knd.value;
+	var scn=frm.scn.value;
+	document.getElementById('school_list_frame').src='./edu_schs.php?ifr=1&atptsc='+sc+'&knd='+sn+'&scn='+scn;
+	mealbox1_tab_change(1,'EDUSITEBOX9');
+	return false;
+}
+function school_list_kndw_org(sc, sn){	//교육청코드, 초중고번호
+	var pwin_w, pwin_h, center_wx, center_wy, specs;
+	pwin_w = 850;	pwin_h = 650;
+	center_wx = Math.round(window.screenX + (window.outerWidth/2) - (pwin_w/2));
+    center_wy = Math.round(window.screenY + (window.outerHeight/2) - (pwin_h/2));
+	specs = 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,copyhistory=no,top='+center_wy+',left='+center_wx+',width='+pwin_w+',height='+pwin_h;
+	vw = window.open('./edu_schs.php?atptsc='+sc+'&knd='+sn,'sclistw', specs);
+	vw.focus();
+	return false;	
+}
+
+
+function school_list_knd(sc, sn){	//교육청코드, 초중고번호
+	//function kdawinbox_OPEN(파일URL, iwin_name, 가로크기, 세로크기, 좌측위치(-1), 상단위치(0), 가로이동값(0), 세로이동값(0), titlemsg, '스크롤여부:scroll', '스킨:없거나 vista'){
+	//kdawinbox를 가운데로 모으려면 좌측위치와 상단위치를 -1 로 지정한다.
+	kdawinbox_OPEN('./edu_schs.php?atptsc='+sc+'&knd='+sn,'sclistw', 850, 650, -1,-1,0,0, '학교리스트', 'scroll', '');
+	return false;
+}
+
+function school_list(sc, sn){	//번호, 탭번호
+	//function kdawinbox_OPEN(파일URL, iwin_name, 가로크기, 세로크기, 좌측위치(-1), 상단위치(0), 가로이동값(0), 세로이동값(0), titlemsg, '스크롤여부:scroll', '스킨:없거나 vista'){
+	//kdawinbox를 가운데로 모으려면 좌측위치와 상단위치를 -1 로 지정한다.
+	kdawinbox_OPEN('./edu_schs.php?atptsc='+sc+'&atptsn='+sn,'sclistw', 850, 650, -1,-1,0,0, '학교리스트', 'scroll', '');
+	return false;
+}
+
+// 탭변경 action
+function mealbox1_tab_change(num,uni){
+
+		var tab0=document.getElementById(uni+'_tab0');
+		var tab1=document.getElementById(uni+'_tab1');
+		var tab2=document.getElementById(uni+'_tab2');
+		var tr0=document.getElementById(uni+'_div0');
+		var tr1=document.getElementById(uni+'_div1');
+		var tr2=document.getElementById(uni+'_div2');
+		for(i=0; i<3; ++i){
+			eval('tab'+i).className=(num==i) ? 'mealbox1_tab_white' : 'mealbox1_tab_gray' ;
+			eval('tr'+i).style.display=(num==i) ? 'block' : 'none' ;
+		}
+
+	if(num==2){ document.getElementById('favorite_list_frame').contentDocument.location.reload(true);	}
+}
+</script>
+
+<!-- 테러 태그 방지용 --></xml></xmp><a href=""></a><a href=''></a>
+</DIV> <!-- 오른쪽 float div 종료 -->
+<div id="kdahomeframe_tail" style="clear:both;  margin:auto;  width:980px; height:0px;"></div>
+</BODY>
+</HTML>

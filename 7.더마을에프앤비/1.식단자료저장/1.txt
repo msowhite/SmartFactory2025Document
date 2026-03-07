@@ -1,0 +1,1750 @@
+메인화면
+
+https://www.kdclub.com/
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>영양사도우미</TITLE>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" CONTENT="-1"/>
+<meta name="robots" content="index,follow">
+<meta name="naver-site-verification" content="077a290d86ebbe3d85956afba2d9c2ac9ab792c5" />
+<meta name="google-site-verification" content="VYf89kFXA5P9rAdlhzwjQ-qpuMyftaS7w_Q7r0jv1rU" />
+<meta name="description" content="영양사구인구직,영양사이야기,단체급식자료실,식단표,레시피자료,위생교육자료,영양교육자료,업무서식,영양사면허증,영양사자격,영양가산출표,식이요법" />
+<meta name="keywords" content="영양사,영양사도우미,영양사구인,영양사이야기,영양사면허증,영양사자격,영양사시험,단체급식자료실,식단표,레시피자료,위생교육자료,영양교육자료,업무서식,식이요법,영양사자격증" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="영양사도우미" />
+<meta property="og:description" content="영양사구인구직,영양사이야기,단체급식자료실,식단표,레시피자료,위생교육자료,영양교육자료,업무서식,영양사면허증,영양사자격,영양사시험" />
+<meta property="og:image" content="http://www.kdclub.com/imgng/top_Logo.gif" />
+<meta property="og:url" content="http://www.kdclub.com" />
+<meta property="og:site_name" content="영양사도우미" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="영양사도우미" />
+<meta name="twitter:description" content="영양사구인구직,영양사이야기,단체급식자료실,식단표,레시피자료,위생교육자료,영양교육자료,업무서식,영양사면허증,영양사자격,영양사시험" />
+<meta name="twitter:image" content="http://www.kdclub.com/imgng/top_Logo.gif" />
+<meta name="twitter:domain" content="영양사도우미" />
+
+<link rel='shortcut icon' href='/favicon.ico'>
+<link rel="canonical" href="http://www.kdclub.com"> <!-- 2017.03.28 추가, 2022.10.24변경 -->
+
+<link rel="stylesheet" href="/kdajs/kdabasestyle_z.css" type="text/css">
+<!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
+<style type="text/css">
+body {
+ margin-left: 0px;
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+}
+
+A:link {color:#101010; text-decoration: none; }
+A:visited {color:#101010; text-decoration: none; }
+A:hover {color: red; text-decoration: underline; }
+
+#addr_tbl { width: 100%; border: 0; border-spacing: 0px; text-align: center; }
+#addr_tbl td { padding: 10 0;}
+a#addr_link_str:link { color: #888888; }
+a#addr_link_str:visited { color: #888888; }
+hr#addr_hr { width: 100%; border:0; height: 1px; background: #eeeeee ; padding-left: 0; } /* color=#d5d3d3 SIZE=1  */
+
+/* 레이어스타일 */
+#_hidden_layer_{position: absolute;z-index:999; width: 100%;top: 0px; left: 0px;}/*팝업을 담아 제어할 레이어 - 그냥 상단에 커튼걸이 비슷한 용도*/
+#pop-layer-20160801{position:absolute;z-index:999;display:none;width:500px;height:500px;top:120px;left:500px;}/* 레이어 너비/높이, 상단/좌측 위치 width:600px;height:600px;top:130px;left:170px; */
+#pop-layer-20160801-body{height:475px;overflow-x:hidden;overflow-y:hidden;border:#dfdfdf solid 1px;background:#ffffff;}/* 레이어 높이 -25 = height:575px;*/
+#pop-layer-20160801-close{height:25px;background:#343434;text-align:center;color:#ffffff;}
+#pop-layer-20160801-ckd{  }
+#pop-layer-20160801-btn{position:relative;left:20px; padding: 0 6px;}
+
+#contents { background: #fff; font-size: 14px; padding: 20px 50px; }
+#hr { margin:0; padding: 0 3px;}
+
+  #non-flash { position:absolute; top:-200px; width: 600px; }
+  #non-flash2 { position:absolute; top:-100px; width: 600px; }
+  #non-flash3 { position:absolute; top:-300px; width: 600px; }
+
+.idxsub33 { text-align: left; width: 33%; }
+</style>
+<script type="text/javascript" src="/kdajs/main_script.js"></script>
+<script type="text/javascript">
+	function wbutton(imgid, imgsrc){
+		document.getElementById(imgid).src= '/imgng/'+imgsrc;
+	}
+	function noti_manryo(){
+		kdawinbox_OPEN('/kda_extend.htm','kda_extend', 530, 700, -1,-1,0,0, '후원회원기간 연장안내', '', '');
+	}
+	function noti_family(){
+		kdawinbox_OPEN('/kdamember/family/index_family.php','kda_family', 500, 720, -1,-1,0,0, '가족회원알림', '', '');
+	}
+	/*function sorry(){
+		kdawinbox_OPEN('/kdabrd/read.php?board=kda001&xno=1551055615','kda_extend', 600, 800, -1,-1,0,0, '공지사항', '', '');
+	}*/
+</script>
+
+</HEAD>
+
+<BODY><center>
+<div id="non-flash"> <!-- 네이버 검색엔진 노출 -> 사이트 서브링크 생성 -->
+<a href="//www.kdclub.com/jobs/main_gg001.php">영양사구인</a>
+<a href="//www.kdclub.com/kdabrd/main.php?board=bb001">자유게시판</a>
+<a href="//www.kdclub.com/kdabrd/main.php?board=bb002">영양사이야기</a>
+<a href="//www.kdclub.com/kdabrd/main.php?board=jj013">영양교육</a> <!-- 다섯번째까지 인식하는 듯 나머지는 랜덤? -->
+<a href="//www.kdclub.com/kdabrd/main.php?board=jj002">학교급식/운영</a>
+<a href="//www.kdclub.com/kdabrd/main.php?board=jj013_1">월별영양교육</a>
+</div>
+<div id="non-flash2"> <!-- 네이버 검색엔진 노출 -> 사이트 서브링크 생성 -->
+<a href="//www.kdclub.com/kdabrd/main.php?board=jj002">급식자료실</a>
+<a href="//www.kdclub.com/kdabrd/main.php?board=jj004">식단/레시피</a>
+<a href="//www.kdclub.com/kdabrd/main.php?board=gg004">영양사취업나눔터</a>
+<a href="//www.kdclub.com/kdabrd/main.php?board=jj006_1">월별위생교육</a>
+<a href="//www.kdclub.com/kdabrd/main.php?board=jj005">레시피자료실</a>
+<a href="//www.kdclub.com/kdabrd/main.php?board=jj018">산업안전교육</a>
+<a href="//www.kdclub.com/food_menu/fs_base.php">칼로리산출</a>
+<a href="//www.kdclub.com/menu/license1.php">영양사면허/자격증/시험</a>
+</div>
+<div id="non-flash3"> <!-- 네이버 검색엔진 노출 -> 사이트 서브링크 생성 -->
+<a href="/kdabrd/main.php?board=jj006">위생교육</a>
+</div>
+<script type="text/javascript">
+document.getElementById('non-flash').style.display='none';	document.getElementById('non-flash2').style.display='none';	document.getElementById('non-flash3').style.display='none';
+</script>
+
+<style type="text/css">
+#content_main_div{
+/*	padding-top: 4px;*/ /*공간에 바탕화면 색상이 들어옴*/
+}
+</style>
+<DIV id="content_top_div" align=center style="width:1200px;">
+
+<style type="text/css"> /*height:10px -> 9px; -> 10px*/
+	.banbox1_tab_white{width:8px; height:8px; /*font-size:1px;*/ line-height:1px;padding:3 0 -2 0; font-family:굴림,Tahoma; color:#555555; background-color:#eeeeee; border:0px solid #eeeeee; cursor:pointer;}
+	/* 탭을  색상(그레이)만으로 표현하던 것을 번호가 있는 이미지로 표현 */
+	/* .banbox1_tab_gray{width:7px; height:6px; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#DDDDDD; border:1px solid #FFFFFF; cursor:pointer;} */
+	.banbox1_tab_blank{width:7px; height:10px; /*font-size:1px;*/ line-height:1px; border-bottom:0px solid #cccccc;}
+	.banbox1_tab_text{font-size:1pt; font-family:굴림; color:#474556; letter-spacing:-1;}
+	.banbox1_list_td{border:0px solid #DDDDDD; border-width:0px; text-align:center; padding:0px; }
+	/* 탭을  색상(그레이)만으로 표현하던 것을 번호가 있는 이미지로 표현 */
+	.banbox1_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab001.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox2_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab002.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox3_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab003.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox4_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab004.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox5_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab005.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox6_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab006.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox7_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab007.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox8_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab008.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox9_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab009.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox10_tab_gray { text-align: center; width:8px; height:8px; background-position:center center;background: url('/img/bntab010.gif') no-repeat; font-size:1px; line-height:1px; padding:3 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#eeeeee; border:0px solid #FFFFFF; cursor:pointer;}
+
+</style>
+<script type="text/javascript">
+function clearJSCookie(name){
+	var expireDate = new Date();
+	expireDate.setDate(expireDate.getDate() - 1);	document.cookie = name+'='+';path=/;domain=.kdclub.com;expires='+expireDate.toGMTString();
+}
+function setJSCookie(name, ckvalue){
+  var todayDate = new Date();
+  todayDate.setDate(todayDate.getDate()+1);  document.cookie = name+'='+escape(ckvalue)+';path=/;domain=.kdclub.com;expires='+todayDate.toGMTString()+';';
+}
+function kda_win_open(bnurl, bnwincode, bnwin_x, bnwin_y){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = bnwin_x;
+	if(max_wy > bnwin_y){ screen_y = bnwin_y; }else{ screen_y = max_wy - 30;	}
+  center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+  kdclubw = window.open(bnurl, bnwincode, 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  kdclubw.focus();
+  return true;
+}
+function kda_fix_open(bnurl, bnwincode, bnwin_x, bnwin_y){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = bnwin_x;	if(max_wy > bnwin_y){ screen_y = bnwin_y; }else{ screen_y = max_wy - 30;	}
+  center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+  kdclubw = window.open(bnurl, bnwincode, 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  kdclubw.focus();
+  return true;
+}
+function bann_win_view(bnurl, bnwincode, bnwin_x, bnwin_y){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = bnwin_x;	if(max_wy > bnwin_y){ screen_y = bnwin_y; }else{ screen_y = max_wy - 30;	}
+  center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+  tempbnw = window.open(bnurl, bnwincode, 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  tempbnw.focus();
+  return true;
+}
+	function banbox1_tab_change(num,uni){
+		var tab1=document.getElementById(uni+'_tab1');		var tab2=document.getElementById(uni+'_tab2');		var tab3=document.getElementById(uni+'_tab3');		var tab4=document.getElementById(uni+'_tab4');		var tab5=document.getElementById(uni+'_tab5');		var tab6=document.getElementById(uni+'_tab6');		var tab7=document.getElementById(uni+'_tab7');		var tab8=document.getElementById(uni+'_tab8');		var tab9=document.getElementById(uni+'_tab9');		var tab10=document.getElementById(uni+'_tab10');		/*var tab11=document.getElementById(uni+'_tab11');*/
+		var tr1=document.getElementById(uni+'_div1');		var tr2=document.getElementById(uni+'_div2');		var tr3=document.getElementById(uni+'_div3');		var tr4=document.getElementById(uni+'_div4');		var tr5=document.getElementById(uni+'_div5');		var tr6=document.getElementById(uni+'_div6');		var tr7=document.getElementById(uni+'_div7');		var tr8=document.getElementById(uni+'_div8');		var tr9=document.getElementById(uni+'_div9');		var tr10=document.getElementById(uni+'_div10');			/*var tr11=document.getElementById(uni+'_div11');*/
+		for(i=1; i<11; ++i){  // 상단 배너 7개 -> 8개 -> 9개 -> 10개
+			eval('tab'+i).className=(num==i) ? 'banbox1_tab_white' : 'banbox'+i+'_tab_gray' ;
+			/*eval('tab'+i).className=(num==i) ? 'banbox1_tab_white' : 'banbox1_tab_gray' ;*/
+			eval('tr'+i).style.display=(num==i) ? 'block' : 'none' ;
+		}
+	}
+	function banbox1_tab_change_stop(){
+		clearTimeout(auto_move_tab_ob);
+	}
+	function banbox1_tab_change_auto(num){
+		num+=1;
+		alert(num);
+		if(num>10) num=1;  /*if(num>7) num=1;*/
+		banbox1_tab_change(num,'BANBOX1');
+		auto_move_tab_ob=setTimeout("banbox1_tab_change_auto("+num+",'BANBOX1')",2000);
+	}
+	clearJSCookie('kdabn1');
+/*	setJSCookie('kdabn1', '2|1|7|2|1|1'); */
+	setJSCookie('kdabn0', '2|1|7|2|1|1');
+//이게 있으면 앵커가 안먹힌다. try{ window.addEventListener('load', function(){ setTimeout(scrollTo, 0, 0, 1); }, false); } catch(e){}	//모바일페이지 주소줄 가리기
+</script>
+
+<table width="1200" border=0 cellpadding=0 cellspacing=1 bgcolor=#FFFFFF style="padding-top: 0px;">
+<tr>
+	<td width=255 height=80 align=left><a href="http://www.kdclub.com" target="_top" style="display: block; margin-left: 16px;" ><img src="/imgng/top_Logo.gif" border=0 width=170 height=65></a></td>  <!-- height=72 -->
+	<td>
+	<div style="height:7px; clear:both;"></div>
+	<table border=0 cellpadding=0 cellspacing=0 bgcolor=#FFFFFF align=right><tr><td width=600 height=80 align=right><!-- <td width=480 height=70 76 80> -->
+<div id="BANBOX1_div1" style="display:none"><center><a href="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1505952686" target="_blank"><img style="width:600px; height:80px;" src="/img/event/A-ottogi-2017_0920.gif" alt="오뚜기" border=0 width=600 height=80></a></center></div><div id="BANBOX1_div2" style="display:block"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1710744707" target="_blank"><img style="width:600px; height:80px;" src="/img/event/A-NAMAN-2024.0318.gif" alt="kdclub" border="0" width="600" height="80"></A></center></div><div id="BANBOX1_div3" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1744017628" target="_blank"><img style="width:600px; height:80px;" src="/img/event/A-SRC_2025.04.07.gif" alt="kdclub" border="0" width="600" height="80"></A></center></A></center></div><div id="BANBOX1_div4" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1754620723" target="_blank"><img style="width:600px; height:80px;" src="/img/event/A-zerostone-11.17.gif" alt="kdclub" border="0" width="600" height="80"></A></center></div><div id="BANBOX1_div5" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1764117343" target="_blank"><img style="width:600px; height:80px;" src="/img/event/A-iscu.ac_2025.11.26.gif" alt="kdclub" border="0" width="600" height="80"></A></center></div><div id="BANBOX1_div6" style="display:none"><a href="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img style="width:600px; height:80px;" src="/img/event/2010.gif" alt="배너광고문의1" border=0 width=520 height=80></a></div><div id="BANBOX1_div7" style="display:none"><a href="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img style="width:600px; height:80px;" src="/img/event/2010.gif" alt="배너광고문의1" border=0 width=520 height=80></a></div><div id="BANBOX1_div8" style="display:none"><a href="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img style="width:600px; height:80px;" src="/img/event/2010.gif" alt="배너광고문의1" border=0 width=520 height=80></a></div><div id="BANBOX1_div9" style="display:none"><a href="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img style="width:600px; height:80px;" src="/img/event/2010.gif" alt="배너광고문의1" border=0 width=520 height=80></a></div><div id="BANBOX1_div10" style="display:none"><a href="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img style="width:600px; height:80px;" src="/img/event/2010.gif" alt="배너광고문의1" border=0 width=520 height=80></a></div>		</td>
+		<td align=left  valign=center>
+			<table  border=0 cellpadding=0 cellspacing=0 height=80> <!-- height  -->
+<tr><td class="banbox1_tab_gray" id="BANBOX1_tab1" onmouseover="banbox1_tab_change(1, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox1_tab_white" id="BANBOX1_tab2" onmouseover="banbox1_tab_change(2, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox3_tab_gray" id="BANBOX1_tab3" onmouseover="banbox1_tab_change(3, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox4_tab_gray" id="BANBOX1_tab4" onmouseover="banbox1_tab_change(4, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox5_tab_gray" id="BANBOX1_tab5" onmouseover="banbox1_tab_change(5, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox6_tab_gray" id="BANBOX1_tab6" onmouseover="banbox1_tab_change(6, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox7_tab_gray" id="BANBOX1_tab7" onmouseover="banbox1_tab_change(7, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox8_tab_gray" id="BANBOX1_tab8" onmouseover="banbox1_tab_change(8, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox9_tab_gray" id="BANBOX1_tab9" onmouseover="banbox1_tab_change(9, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox10_tab_gray" id="BANBOX1_tab10" onmouseover="banbox1_tab_change(10, 'BANBOX1')" style="border-bottom:0;" align=center></td></tr>			</table>
+		<!-- </table> -->
+		</td>
+		</tr>
+	</table><br>
+	<div style="height:7px; clear:both;"></div>
+	</td>
+</tr>
+</table>
+
+<style type="text/css">
+html{	-webkit-text-size-adjust: none;	}
+body { margin:0px; padding:0px; background:#F2F4F7;}
+form { margin:0px; padding:0px; }
+.input_sch      { border:1px solid #FFFFFF; width:105px; height:18px; padding-top:2px; font-size:12px; }/*width:148px -> 135px -> 105; */
+.topmenustr { color:black; text-decoration:none; }/*color:white font-size:12px;*/
+.adminstr { color: #cccccc; }
+.TS_select { font-family:굴림,Tahoma; font-size:12px; text-decoration:none; cursor:pointer; color:#45250C; width:60px; height:16px;padding:1px 1px 0 2px; background:url('//www.kdclub.com/imgng/select_arrow.gif') no-repeat 100% 50%;} /*width:80px;*/
+.TS_sel_opt { font-family:굴림,Tahoma; font-size:12px; color:#45250C; text-decoration:none; cursor:pointer; height:16px; padding:0 1px 0 2px;	text-align: center;}
+
+</style>
+<script type="text/javascript">
+function kda_calendarwindow(){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;
+  max_wx = screen.availWidth;
+  screen_x = 1020;
+  screen_y = 740;
+  center_wx = (max_wx - screen_x) / 2;
+  center_wy = (max_wy - screen_y) / 2;
+  kcal = window.open('/work4u/calendar/calendar.php', 'kda_cal', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  kcal.focus();
+  return;
+}
+function kda_smswindow(){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;
+  max_wx = screen.availWidth;
+  screen_x = 550;	//700
+  screen_y = 450;	//720
+  center_wx = (max_wx - screen_x) / 2;
+  center_wy = (max_wy - screen_y) / 2;
+  ksms = window.open('/work4u/sms/sms_admin.php', 'kda_sms', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  ksms.focus();
+  return;
+}
+</script>
+<style type="text/css">
+	#cell { display: table-cell; vertical-align: middle; }
+	#wrapper_topmenustr2 { display: table; }
+    #wrapper_topmenustr { display: table; margin-top: 0px; }
+    #cell {
+		display: table-cell; vertical-align: middle;
+		font-family:'Malgun Gothic','맑은 고딕','Nanum Gothic','나눔 고딕',-apple-system,BlinkMacSystemFont,'Helvetica Neue','Gulim','굴림','Dotum','돋움',arial,sans-serif;
+		font-size: 0.83rem;
+	}
+	#cell2 { display: table-cell; vertical-align: middle; }
+    #wrapper_topmenustr a { color:black; text-decoration:none; }
+    .topmenustr {
+		color:black; text-decoration:none;
+		font-family:'Malgun Gothic','맑은 고딕','Nanum Gothic','나눔 고딕',-apple-system,BlinkMacSystemFont,'Helvetica Neue','Gulim','굴림','Dotum','돋움',arial,sans-serif;
+		font-size: 0.83rem;
+	}
+    .adminstr { color: #cccccc; }
+</style>
+<!--[if IE]>
+<style>
+#header_nav { display: none; }
+		#nav a {color: #000000; text-decoration: none;}
+		#nav > ul, #nav > ul > li { list-style: none; padding: 0; margin: 0;}
+		#nav { display: inline; }
+		#nav > ul > li { text-decoration: none; }
+</style>
+<![endif] -->
+
+<!-- 네이버 검색 노출을 위해 숨김처리함 -->
+<!-- <header id="header_nav">
+	<div class="nav_wrap">
+	    <nav id="nav">
+	      <ul>
+	        <li><a href="/jobs/Job_List.php">영양사구인구직</a></li>
+	        <li><a href="/kdabrd/main.php?board=bb002">영양사이야기</a></li>
+	        <li><a href="/kdabrd/main.php?board=jj004">식단자료실</a></li>
+	        <li><a href="/kdabrd/main.php?board=jj002">단체급식자료실</a></li>
+	        <li><a href="/kdabrd/main.php?board=jj006">위생교육자료</a></li>
+	        <li><a href="/kdabrd/main.php?board=jj013">영양교육자료</a></li>
+	      </ul>
+	    </nav>
+	</div>
+ </header> -->
+
+<table id="topmenutable" width="1200" border=0 cellpadding=0 cellspacing=0 ><tr>
+<td width="1200" height=38 background="/imgng/top_menu_background_0.gif"><!-- height=35 -->
+	<table width="100%" border=0 cellpadding=0 cellspacing=0  height=38 valign=top align=left><tr>  <!-- width 없음 height=35 -->
+	<td width=175 align=left> <!-- width=175 -->
+		<div id="wrapper_topmenustr2">
+			<div id="cell2" >
+				<div style="display: inline; width: 260px; bgcolor:fff;" >
+					<span>
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <!-- &nbsp; &nbsp; -->
+						<a href="/"><font color=white class=topmenustr>Home..</b></font></a>
+					</span>
+					<span> <!-- style="border: 0px solid #ccc;" -->
+					</span>
+				</div>
+			</div>
+		</div>
+	</td>
+	<td width=6>&nbsp;</td> <!-- width=25 -->
+	<td class=topmenustr>	<!-- width=380 580-->
+<!-- 상단메뉴 -->
+
+<div id="wrapper_topmenustr">
+	<div id="cell">
+		<IMG border=0 src="/imgng/icon002.gif" style="margin-bottom: -2px; margin-left: 2px;"> <a href="/kdabrd/main.php?board=kda001">공지사항</a>&nbsp;
+		<a href="//www.kdclub.com/kdabrd/read.php?board=kda001&xno=1198128869" target=_blank>이용안내</a>&nbsp;
+		<a href="//www.kdclub.com/kdabrd/main.php?board=FAQ" target=_blank>FAQ</a>&nbsp;
+		<a href="//www.kdclub.com/kdabrd/main.php?board=qna001" target=_blank>Q&A</a>&nbsp;
+		<a href="javascript:void(0)" onclick="kda_calendarwindow();">달력</a>&nbsp;
+		<a href="http://www.kma.go.kr/weather/main.jsp" target=_blank>날씨</a>&nbsp;
+		<a href="https://www.law.go.kr/LSW/main.html" target=_blank>법령</a>
+			</div>
+		</div>
+<!-- 상단메뉴 -->
+	</td>
+	<td width=6>&nbsp;</td>
+
+<style>
+table#total_search{
+	border-width: thin;
+	border: 1px solid #E95251;/*dcdcd1*/
+}
+</style>
+	<td width=280 align=right style="padding-top:2px;"><!-- width=320 align=left-->
+	<a href="/kdabrd/scan_idx.php" target=_blank><img src="//www.kdclub.com/imgng/top_menu_scanfrm.gif" border=0></a>
+	</td>
+
+	<td align=left valign=top width=16><!-- width=8 -->
+		<div id="div_selbox" style="position:absolute;">
+			<div id="TS_selbox" style="z-index:1; position:relative; left:-240px; top:30px; width:80px; height:150px; display:none">  <!--left:-319px; width:80px; -->
+			</div>
+		</div>
+		<div id="waitmsg" style="position:relative; left:-320px; top:0px;">
+		<div id="TS_waitmsg" style="z-index:1; position:absolute; width:320px; height:50px; display:none">
+			<table border=0 bgcolor=#64C83A cellspacing=1 cellpadding=2 width=320 height=50><tr><td align=center bgcolor=#F1FFEB>
+			검색중입니다...<br><img src="/kdabrd/imgs/pleasewait.gif" border=0><br> 조금만 기다려주세요...
+			</td></tr></table>
+		</div>
+		</div>
+<!-- 뭔지 몰라서 숨김 </span> -->
+
+	</td>
+	</tr></table>
+
+</td></tr></table> <!-- 365line -->
+
+<!-- 뭔지 몰라서 숨김 </td></tr></table> -->
+</DIV>
+
+<DIV  id="content_main_div" align=center style="width:1200px;">
+<TABLE width=1200 border=0 cellpadding=0 cellspacing=0>
+<TR>
+<TD width="175" background="/imgng/LEFT_bg.gif" valign=top>
+
+<script language='JavaScript'>
+function show_loginwaitmsg(){
+	document.getElementById('LG_waitmsg').style.display='block';
+}
+function hide_loginwaitmsg(){
+	document.getElementById('LG_waitmsg').style.display='none';
+}
+function KDALOGINchecking(){
+  if(KDALOGINFORM.input_id.value.length < 1){alert('아이디를 입력하세요.'); KDALOGINFORM.input_id.focus(); return false;}
+  if(KDALOGINFORM.password.value.length < 3){alert('비밀번호를 입력하세요.'); KDALOGINFORM.password.focus(); return false;}
+	show_loginwaitmsg();
+	KDALOGINFORM.action = '/kdamember/kdalogin.php';
+	KDALOGINFORM.scnmode.value = screen.width+'x'+screen.height;
+	KDALOGINFORM.action = '/kdamember/kdalogin.php';
+}
+function help_on(str,obj,mv_right,mv_up){
+	var alt_balloon=document.getElementById('login_help');
+	alt_balloon.innerHTML="<table cellpadding=0 cellspacing=0 border=0><tr><td width=4 height=21><img src=./iw_img/alt_left.gif align=absmiddle></td><td background=./iw_img/alt_center.gif style='color:#624c10; font-size:8pt; letter-spacing:-1; font-family:굴림;'><nobr>&nbsp;"+str+"&nbsp;</nobr></td><td width=5 height=21><img src=./iw_img/alt_right.gif align=absmiddle></td></tr></table>";
+	alt_balloon.style.left=job_get_objLeft(obj)+mv_right;
+	alt_balloon.style.top=job_get_objTop(obj)-20-mv_up;
+	alt_balloon.style.visibility = 'visible';
+}
+function help_off(){document.getElementById('login_help').style.visibility = 'hidden';}
+function clearField_id(field){
+	field.className = "lgn_inputc";
+}
+function clearField_pw(field){
+	field.className = 'lgn_passwdc';
+}
+function checkField_id(field){
+	if (field.value == ''){
+		field.className = 'lgn_input';
+	}else{
+		field.className = 'lgn_inputc';
+	}
+}
+function checkField_pw(field){
+	if (field.value == ''){
+		field.className = 'lgn_passwd';
+	}else{
+		field.className = 'lgn_passwdc';
+	}
+}
+function checkIDpresave(){
+	if(KDALOGINFORM.slid.checked){
+		alert('로그인아이디를 저장하여 다음부터 자동입력해줍니다.\n\n☞ PC방등 공개된 장소의 컴에서는 체크를 [해제]해주세요. ☜\n\n☞ 웹브라우저의 아이디/비밀번호 자동입력과는 다릅니다. ☜');
+	}
+}
+function checkSSLpresave(){
+	if(KDALOGINFORM.SSLGO.checked){
+//		alert('로그인시 보안경고가 뜬다면 보안접속을 체크해제하세요');
+	}
+}
+</script>
+<style type="text/css">
+	.lgn_input { color:#000000; font-size:9pt; width:92px; height:19px; padding-top:2px; border-width:1; border-color:#FFFFFF; border-style:solid; background-image:url('/imgng/logbox_txtid.gif');	}
+	.lgn_inputc{ color:#000000; font-size:9pt; width:92px; height:19px; padding-top:2px; border-width:1; border-color:#FFFFFF; border-style:solid; background-image:url('/imgng/logbox_txtclear.gif');}
+	.lgn_passwd{ font-size:10px; color:#000000; width:92px; height:19px; padding-top:4px; border-width:1; border-color:#FFFFFF; border-style:solid; background-image:url('/imgng/logbox_txtpw.gif');	}
+	.lgn_passwdc{ font-size:10px; color:#000000; width:92px; height:19px; padding-top:4px; border-width:1; border-color:#FFFFFF; border-style:solid; background-image:url('/imgng/logbox_txtclear.gif');}
+	.login_wrap { margin-bottom: 1px; }
+	.login_sub { color: #cccccc; font-size: 11px; margin: 0; }
+	.login_sub2 { color: #999999; font-size: 12px; margin-left: 6px;}
+
+	input[type="checkbox"] { display: inline-block; width: 10pt; height: 10pt; vertical-align: middle;
+		/* -webkit-appearance: none;
+		border-radius: 0; border: 0; margin:0; padding:0; cursor: pointer;  */
+		margin-left:10px; margin-right: 4px;
+	}
+	/* input[type="radio"], input[type="checkbox"] { display: inline-block; width: 10px; height: 10px; vertical-align: middle; -webkit-appearance: none; border-radius: 0; border: 0; margin:0; padding:0; cursor: pointer } */
+</style>
+<!-- 로그인폼 -->
+<DIV class="login_wrap"><form name="KDALOGINFORM" method="POST" action="https://www.kdclub.com/kdamember/noscript.php" onsubmit="return KDALOGINchecking();" target=_top><input type=hidden name=scnmode value=''>
+<table class="login_table" align=center border=0 cellpadding=0 cellspacing=0 width=167 height=3><tr><td></td></table>
+<table align=center border=0 cellpadding=0 cellpadding=0 width=167 height=102 style="background-image:url('/imgng/logbox_in.gif');" >
+<tr><td valign=top>
+	<table align=center border=0 width=160 height=43 cellpadding=0 cellspacing=0>
+	<tr><td height=5></td></tr>
+	<tr><td align=right>
+		<table border=0 width=95 height=43 cellpadding=0 cellspacing=1 bgcolor=#AAAAAA>
+		<tr><td align=center bgcolor=#FFFFFF><INPUT type=text value="" size=14 name="input_id" autocomplete="off" class="lgn_input" onBlur="checkField_id(this)" onFocus="clearField_id(this)"></td></tr>
+		<tr><td align=center width=95 bgcolor=#FFFFFF><INPUT value="" size=14 type=password name="password" autocomplete="off" class="lgn_passwd" onBlur="checkField_pw(this)" onFocus="clearField_pw(this)"></td></tr>
+		</table>
+	</td>
+	<td width=2></td>
+	<td align=left><input type="image" src="/imgng/logbox_btn_login.gif" border=0></td>
+	</tr></table>
+</td>
+</tr>
+<tr><td align=center valign=top>
+	<table align=center border=0 width=99% cellpadding=0 cellspacing=0><tr>
+	<td align=left width=75 height=23>
+	<SPAN title="로그인아이디 자동입력" onclick="checkIDpresave()"><INPUT type=checkbox name=slid value="GO"> <span class="login_sub">ID저장 </span></SPAN>
+	</td><td align=left>
+	&nbsp; 
+	</td>
+	</tr></table>
+</tr>
+<tr><td align=center valign=middle height=18>
+	<table align=center border=0 width=99% cellpadding=0 cellspacing=0><tr>
+	<td align=center width=75 height=20>
+	<a onfocus='this.blur()' href="javascript:void(0)" onclick="kda_fix_open('https://www.kdclub.com/kdamember/kdajoin.php', 'joinmekda', 700, 680)" title="영양사도우미 일반회원가입"><b><span class="login_sub2"> 회원가입</a></span><b>
+	</td><td align=center>
+	<a onfocus='this.blur()' href="javascript:void(0)" onclick="kda_fix_open('https://www.kdclub.com/kdamember/myidis.php', 'findmykda', 700, 580)" title="회원정보찾기"><span class="login_sub2">ID·PW찾기</span></a>
+	</td><td width=3>
+		<center><div id="loginwait" style="position:relative; left:-150px; top:-80px;"><div id="LG_waitmsg" style="z-index:1; position:absolute; width:320px; height:50px; display:none"><table border=0 bgcolor=#64C83A cellspacing=1 cellpadding=2 width=320 height=50><tr><td align=center bgcolor=#F1FFEB>로그인중입니다...<br><img src="https://www.kdclub.com/kdabrd/imgs/pleasewait.gif" border=0><br> 잠시만 기다려주세요...</td></tr></table></div></div></center>
+	</td>
+	</tr></table>
+</td></tr>
+</table>
+
+</form>
+<div id='login_help_msg' style='width:50px; position:absolute; visibility:hidden; z-Index:11; padding:0;'></div>
+</DIV>
+<!-- 로그인폼 -->
+
+<style type="TEXT/CSS">
+.homepagemenutable { FONT-FAMILY:'Malgun Gothic','맑은 고딕','Nanum Gothic','나눔 고딕',gulim,'굴림',-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif,Tahoma; font-size: 0.85rem; color:#000000; LINE-HEIGHT:150%; width: 163px; margin-bottom: 13px;}
+.homepagemenutable td { FONT-FAMILY:'Malgun Gothic','맑은 고딕','Nanum Gothic','나눔 고딕',gulim,'굴림',-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif,Tahoma; font-size: 0.85rem; color:#000000; LINE-HEIGHT:100%; }  /* LINE-HEIGHT:150%; */
+.bigmenu{ FONT-FAMILY:'Malgun Gothic','맑은 고딕','Nanum Gothic','나눔 고딕',gulim,'굴림',-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif,Tahoma; width:150px; height:24px; padding:1; background-color:#FFFFFF; cursor:pointer;
+  /* border-bottom:1px dotted #777777;  */
+  /* border:1px solid #C0C0C0;  */
+  }/*background-color:#FAFAFA*/
+a.mainfmenu:link { COLOR:#2F3743;text-decoration:none; line-height:160%; }
+a.mainfmenu:visited { COLOR:#2F3743;text-decoration:none; line-height:160%; }
+a.mainfmenu:hover { COLOR:#0044FF;text-decoration:underline; line-height:160%; }
+
+table.gubun_tbl { border: 0; border-spacing: 0; width: 92%; margin: 0 auto; }
+table.gubun_tbl td { padding: 0px; background-color: #AAAAAA;  background-image: url("/imgng/graypoint.gif");  background-repeat: repeat-x; height: 1; }
+</style>
+<script language="javascript">
+function kda_webmaster(){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = 780;  screen_y = 700;  center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+  kwebma = window.open('/kdabrd/newgeul.php?board=webmaster', 'kda_webmaster', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  kwebma.focus();
+  return;
+}
+function kda_memojangw(){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = 800;  screen_y = 620;  center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+  window.open('/work4u/klog/hanjool.php', 'kda_hanjool', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  return;
+}
+function kda_postitw(){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = 720;	if(max_wy > 1000){ screen_y = 1000; }else{ screen_y = max_wy - 30;	}
+	center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+  window.open('/work4u/postit/memo.php', 'kda_postit', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  return;
+}
+function kda_memonotew(){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = 782;  screen_y = 542;  center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+  window.open('/work4u/memonote/note.php', 'kda_memonote', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  return;
+}
+function ksm_w(url){
+	document.ksmframe.location.reload();
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;  max_wx = screen.availWidth;  screen_x = 620;  screen_y = 550;  center_wx = (max_wx - screen_x) / 2;  center_wy = (max_wy - screen_y) / 2;
+	vw = window.open('', 'kda_smail', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  vw.focus();
+  return;
+}
+var old_menu = '';
+var old_cell = '';
+function menuclick(submenu, cellbar){
+  if(old_menu != submenu){
+    if(old_menu != ''){
+      old_menu.style.display = 'none';
+		  old_cell.src= '/imgng/icon0001.gif';
+    }
+    submenu.style.display = 'block';
+    cellbar.src = '/imgng/icon0002.gif';
+    old_menu = submenu;
+    old_cell = cellbar;
+  }else{
+    submenu.style.display = 'none';
+    cellbar.src= '/imgng/icon00.gif';
+    old_menu = '';
+    old_cell = '#ffffff';
+  }
+}
+</script>
+
+<table align="center" border="0" cellpadding="0" cellspacing="1" class=homepagemenutable> <!-- width="163" -->
+
+<!--
+<TR>
+<TD align=left class="bigmenu" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor='' style="cursor:pointer;">
+	&nbsp; <IMG border=0 src="/imgng/icon002.gif" style="margin-bottom: -2px; margin-left: 2px;"> <a class=mainfmenu href="/kdabrd/main.php?board=kda001" onfocus='this.blur()' style="font-weight: ">공지사항<img src=/imgng/000000.gif width="62" height="15" border=0></A></TD>
+</TR>
+<tr>
+  <td align="left" width="100%" bgcolor="white"><span id="submn02" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=kda001">공지사항</A><BR></span>
+  </td>
+</tr>
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+-->
+<!-- <TR><td></td></TR> 뭔지 모르겠음-->
+<tr>
+<td align="left" class=bigmenu onclick="menuclick(submn02, bar2 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="뉴스">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=kda002" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 id="bar2">&nbsp;뉴스와상식<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+ <tr>
+  <td align="left" width="100%" bgcolor="white"><span id="submn02" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=kda002">뉴스와상식</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://news.naver.com" target="_blank">네이버뉴스</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://media.daum.net" target="_blank">다음뉴스</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://news.nate.com" target="_blank">네이트뉴스</A><BR>
+  </SPAN></TD>
+  </TR>
+  <TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class=bigmenu onclick="menuclick(submn03, bar3 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="취업센터">
+&nbsp; <a class=mainfmenu href="/jobs/jobcity.php" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar3" >&nbsp;구인 /구직<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+ <tr>
+  <td align="left" width="100%" bgcolor="white"><span id="submn03" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/jobs/jobcity.php"><b>구인(영양사)</b></A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/jobs/main_gg002.php"><b>구직(영양사)</b></A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/jobs/jobcity2.php"><b>구인(조리직)</b></A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/jobs/main_gg006.php"><b>구직(조리직)</b></A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/jobs/job_guin_regist.php"><b>구인/구직등록</b></A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=gg004"><b>취업정보나눔터</b></A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=gg003">취업관련자료</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.work.go.kr/empInfo/empInfoSrch/list/dtlEmpSrchList.do?occupation=305000" target=_blank>노동부구인</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.work.go.kr/empInfo/empInfoSrch/list/dtlEmpSrchList.do?occupation=067300&siteClcd=all&termSearchGbn=W-1&resultCnt=10&occupationNm=%EC%98%81%EC%96%91%EC%82%AC" target=_blank>노동부구인</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/jobs/edu_job.php">교육청구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.dietitian.or.kr/work/news/kn_careers.do" target=_blank>영양사협회구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.welfare.net/welfare/jo/joboffer/selectJobofferList.do?mi=1072" target=_blank>복지협회구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.bokji.net/job/off/01.bokji" target=_blank>복지넷구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.w4c.go.kr/fcltNotice/jobSearchList.do" target=_blank>복지시스템구인 </A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.jobkorea.co.kr/Search/?save_stat=1&param=&stext=%EC%98%81%EC%96%91%EC%82%AC" target=_blank>잡코리아구인</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www0.jobkorea.co.kr/SM/SM_SynPart_List.asp?gubun=GI&stext=영양사&save_stat=1" target=_blank>잡코리아구인</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://job.incruit.com/jobdb_list/searchjob.asp?ct=1&ty=3&cd=12300" target=_blank>인크루트구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.saramin.co.kr/zf_user/search/recruit?searchType=search&searchword=%EC%98%81%EC%96%91%EC%82%AC" target=_blank>saramin구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.medijob.cc/rec/cag/rec_cag_101?jobDetailCode=MJ001H1" target=_blank>메디잡구인</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.findjob.co.kr/job/list/JobKind.asp?JobCode=180500230" target=_blank>파인드잡구인</A><BR> 삭제처리-->
+
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.foodnjob.com/cms/s01.php?sphere_02=%BF%B5%BE%E7%BB%E7" target=_blank>푸드앤잡구인</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.foodnjob.com/cms/s01.php?total_search_option=total&total_search_keyword=%BF%B5%BE%E7%BB%E7" target=_blank>푸드앤잡구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.gojobs.go.kr/" target=_blank>나라일터</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.gosi.go.kr/" target=_blank>사이버국가고시센터</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.work24.go.kr/cm/main.do" target=_blank>고용24</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.work.go.kr/empInfo/empInfoSrch/list/retriveEnterEmpMainList.do?pageCode=01&occupation=067300" target=_blank>대기업구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.work.go.kr/empInfo/empInfoSrch/list/retriveEnterEmpMainList.do?pageCode=02&occupation=067300" target=_blank>일반기업구인</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.work.go.kr/alba/" target=_blank>아르바이트</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.work.go.kr/empSpt/empNews/retrieveEmpNewsList.do" target=_blank>취업자료실</A><BR>
+
+  </SPAN></TD>
+  </TR>
+  <TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+
+
+
+<!-- <tr>
+<td align="left" class=bigmenu onclick="menuclick(submn04, bar4 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="업체&상품정보">
+&nbsp; <a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF001" style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar4">&nbsp;급식업체/장터<img src=/imgng/000000.gif  width="29" height="15" border=0></td>
+</tr>
+ <tr>
+  <td align="left"  width="100%" bgcolor="white"><span id="submn04" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF001">관련업체목록</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF003">업체를찾아요</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF002">급식오픈장터</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF004">업체신고/Q&A</A><BR>
+  </SPAN></TD>
+  </TR>
+  <TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR> -->
+
+
+
+
+<tr>
+<td align="left" class=bigmenu onclick="menuclick(submn04, bar4 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="업체&상품정보">
+&nbsp; <a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF001" style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar4">&nbsp;급식업체/장터<img src=/imgng/000000.gif  width="24" height="15" border=0></td>
+</tr>
+ <tr>
+  <td align="left"  width="100%" bgcolor="white"><span id="submn04" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF001">관련업체목록</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF003">업체를찾아요</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF002">업체장터</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FF004">업체신고/Q&A</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/foodsale.php">식품판매업현황</A><BR>
+  </SPAN></TD>
+  </TR>
+  <TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+
+
+
+
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn05, bar5 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="게시판모음">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=bb001" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar5">&nbsp;자유게시판<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn05" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb001">낙서게시판</a><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/work4u/klog/hanjool.php">티타임~!</a><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb004">유머/동영상</A><BR>
+ &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/">연예/이슈</A><BR> &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/">이런저런~이야기</a><BR>&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb006">컴퓨터상식</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb008">아나바다장터</a><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb008_1">아나바다구함</a><BR>
+
+  </SPAN></TD>
+  </TR>
+
+
+  <TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn07, bar7 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="영양사정보나눔터">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=bb002" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar7">&nbsp;영양사게시판<img src=/imgng/000000.gif width="30" height="15" border=0></td>
+</tr>
+ <tr>
+  <td align="left"  width="100%" bgcolor="white"><span id="submn07" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb002">영양사이야기</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/dicagal/main.php?board=pic">포토게시판</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=NEIS">NEIS이야기</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=clinic">식이,임상방</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=ex">인사교류방</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/kdclubmoim.php">모임/클럽</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=gg004">취업정보나눔터</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=qna001">질문답하기</A><BR> -->
+	</SPAN></TD>
+</SPAN></TD>
+  </TR>
+
+
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn06, bar6 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="질의응답모음">
+&nbsp; <a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=qna001" style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar6">&nbsp;질문답하기<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn06" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=qna001">질문답하기</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=FAQ">잦은질문FAQ</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=gg004">취업,구인Q&A</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=NEIS">NEIS이야기</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=clinic">임상,식이Q&A</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj016">단가,가격Q&A</A><BR> -->
+  </SPAN></TD>
+  </TR>
+
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn18, bar18 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="정보나눔터">
+&nbsp; <a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010" style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar18">&nbsp;정보나눔터<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+<tr>
+<td align="left"  width="100%" bgcolor="white">
+  <span id="submn18" style="margin-left:5; display:none;">
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010">공개자료실</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=레시피">레시피</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=식단">식단</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=급식">급식</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=영양">영양</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=위생">위생</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=안전">안전</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=양식">양식</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=시험">시험</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=bb010&cate=기타">기타</A><BR>  -->
+  </SPAN>
+</td>
+</tr>
+
+<!-- <tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn08, bar8 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="영양사모임">
+&nbsp; <a class=mainfmenu href="/kdabrd/kdclubmoim.php" onfocus='this.blur()'><img src="/imgng/icon0001.gif" border=0 name="bar8">&nbsp;모임/클럽<img src=/imgng/000000.gif width="54" height="15" border=0></td>
+</tr>
+ <TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn08" style="margin-left:5; ;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc001">학교급식모임</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc002">영양교사모임</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc003">병원,임상모임</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc004">산업체모임</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc005">복지시설모임</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc006">위탁급식모임</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc007">보건소/관공서</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc008">홍보/상담모임</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc009">유치원/어린이</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=cc010">도시락/식품회사</A><BR> -->
+ <!--  </SPAN></TD>
+  </TR> -->
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn09, bar9 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="자료실모음">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=jj002" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar9">&nbsp;급식자료실<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn09" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj002">급식/운영</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj002_1">학교/실무</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj003">양식/일지</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj007">식품관련</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj008">임상/식이</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj015">연구/논문</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj009">법규해석</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj017">관련법규</A><BR>-->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj019">검수자료</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj001">급식프로그램</A><BR>
+  </SPAN></TD>
+  </TR>
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn10, bar10 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="식단자료/레시피">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=jj004" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar10">&nbsp;식단/레시피<img src=/imgng/000000.gif width="35" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn10" style="margin-left:5; display:none;">
+
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj004">식단자료실</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/edu_meal.php">전국학교식단</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj005">레시피자료실</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=data1">급식레시피</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=food">일반레시피</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=data3">요리/쿠킹팁</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj016">시장가격정보</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/dicagal/main.php?board=pic">급식포토게시판</A><BR>
+<!--
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.foodsafetykorea.go.kr/portal/sensuousmenu/schoolMealsDetail.do?menu_grp=MENU_NEW03&menu_no=3017" target="_blank">학교식단(전국)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.use.go.kr/jsp/dep/dep11_05_01.jsp" target="_blank">학교식단(울산)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://nutrition.kfda.go.kr/greendiet/index.jsp" target="_blank">식약청녹색식단</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://kitchen.naver.com" target="_blank">네이버키친</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://navercast.naver.com/magazine_list.nhn?cid=1550&category_id=1550" target="_blank">네이버푸드</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://cook.miznet.daum.net" target="_blank">다음미즈쿡</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://section.blog.naver.com/sub/PostListByDirectory.nhn?option.directoryAlias=recipe" target="_blank">요리블로그</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=jj016&xno=1084756979" target="_blank">가격정보링크</a><BR>
+-->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/menu.php" target="_blank">게시식단편집</A><BR>
+  </SPAN></TD>
+  </TR>
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn11, bar11 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="영양/교육자료실">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=jj013" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar11">&nbsp;영양&교육<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn11" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj013">영양/교육</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj013_1">월별영양교육</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj013_2">수업교육자료</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=data4">음식궁합</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=data6">영양상식</A><br>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=data2">식품영양사전</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus="this.blur()" href="/pds/listpop.php">POP자료</A><BR>&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj020&tsc=13&cate=&cate2=&where=1&scan=영양" target=_blank>동영상(영양)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.foodsafetykorea.go.kr/portal/exhealthyfoodlife/index.html" target=_blank>영양·식생활상담</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://foodsafetykorea.go.kr/" target=_blank>식품안전나라</A><BR>
+<!--
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="https://www.mfds.go.kr/nutrition/index.do" target=_blank>영양표시정보</A><BR>
+-->
+
+</SPAN></TD>
+</TR>
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn12, bar12 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="위생/교육자료실">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=jj006" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar12">&nbsp;위생&교육<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn12" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj006">위생/HACCP</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj018">산업안전보건</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj006_1">월별위생교육</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=data5">HACCP상식</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj006_2">식중독/전염병</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj020&tsc=13&cate=&cate2=&where=1&scan=위생" target=_blank>동영상(위생)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/ppm.php">소독액산출</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://foodnara.go.kr/" target=_blank>식품나라(식약청)</A><BR> -->
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.mfds.go.kr/fm/index.do" target=_blank>식중독예방정보</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.foodsafetykorea.go.kr/" target=_blank>식품안전정보포털</A><BR>
+</SPAN></TD>
+</TR>
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn13, bar13 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="참고자료실">
+&nbsp; <a class=mainfmenu href="/kdabrd/main.php?board=jj020" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar13">&nbsp;참고자료실<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn13" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj020">동영상자료실</A><br>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj014">자격증/시험</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus="this.blur()" href="/pds/listpop.php">이미지갤러리</A><BR>&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/dicagal/gdimgsize.php" target=_blank>이미지줄이기</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/iyagi/index.html" target=_blank>식사요법</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/menu/license1.php" target=_blank>자격증정보</A><BR>
+<!--	&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/entlr/enporl.htm" target=_blank>영양사업무</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/diets/diet.htm" target=_blank>비만을이기자</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/mainjj.php">새자료리스트</A><BR>
+  </SPAN></TD>
+  </TR>
+<!-- <tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn14, bar14 );"  onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="영양가산출하기">
+&nbsp; <a class=mainfmenu onfocus='this.blur()' href="/food_menu/rc_kns2010_edit.php"><img src="/imgng/icon0001.gif" border=0 name="bar14">&nbsp;영양가산출<img src=/imgng/000000.gif width="48" height="15" border=0></td>
+</tr>
+<TR>
+<td align="left" width="100%" bgcolor="white"><span id="submn14" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/rc_kns2010_edit.php">영양가산출표(1)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/rc_rda2007_edit.php">영양가산출표(2)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj001&scan=레시피및식단" target=blank>식단작성(엑셀)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/kcalreq.php">1인에너지필요추정량</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/KDRIs2020_list.php">급식영양기준량산출</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/obesity.php">비만도판정법</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/obesity_bmi.php">BMI계산기(아동)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/kcalBEE.php">기초대사량산출</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/iyagi/index2.html">영양섭취기준(권장량)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/kns_reci_list.php">개인레시피TEST</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/kns_sikdan_day_SP.php">일일영양가TEST</A><BR>
+  </SPAN></TD>
+  </TR> -->
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn15, bar15 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="영양소찾기">
+&nbsp; <a class=mainfmenu onfocus='this.blur()' href="/food_menu/fs_base.php" style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar15">&nbsp;칼로리산출<img src=/imgng/000000.gif width="40" height="15" border=0></td>
+
+<!-- &nbsp; <a class=mainfmenu onfocus='this.blur()' href="/food_menu/kns_base.php"><img src="/imgng/icon0001.gif" border=0 name="bar15">&nbsp;칼로리사전<img src=/imgng/000000.gif width="48" height="15" border=0></td> -->
+</tr>
+<TR>
+<td align="left"  width="100%" bgcolor="white"><span id="submn15" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/fs_base.php">칼로리사전(식품)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/fd_base.php">칼로리사전(음식)</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus="this.blur()" href="/foodmenu/fds_edit.php">영양가산출표</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/KDRIs_list.php">평균영양량산출</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/iyagi/index2.php">1일영양섭취기준</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/kcalreq.php">1인에너지추정량</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/obesity.php">비만도판정법</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/obesity_bmi.php">BMI계산기</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/food_menu/kcalBEE.php">기초대사량산출</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.foodsafetykorea.go.kr/portal/exhealthyfoodlife/index.html" target=_blank>영양·식생활상담</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.foodsafetykorea.go.kr/portal/healthyfoodlife/foodnutrient/simpleSearch.do?menu_grp=MENU_NEW03&menu_no=2805" target=_blank>식품영양성분DB</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="http://www.foodnara.go.kr/kisna/index.do" target=_blank>식품영양성분DB</A><BR> -->
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=jj013&scan=음식별칼로리">음식별칼로리</A><BR>
+  </SPAN></TD>
+  </TR>
+<TR><TD class="gubun_td"><TABLE class="gubun_tbl"><tr><td></td></tr></table></TD></TR>
+
+
+
+<!-- 2012.05.08 추천정보란 삭제. 식사요법, 자격증정보, 비만을이기자 는 참고자료실로 이동. -->
+<tr>
+<td align="left" class="bigmenu" onclick="menuclick(submn17, bar17 );" onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor=''  title="관련사이트">
+&nbsp; <a class=mainfmenu href="/kdabrd/read.php?board=site001&xno=967620529&sno=4&cate" onfocus='this.blur()' style="font-weight: "><img src="/imgng/icon0001.gif" border=0 name="bar17">&nbsp;관련사이트<img src=/imgng/000000.gif width="40" height="15" border=0></a></td>
+<!-- &nbsp; <a class=mainfmenu href="/kdaOX/st_index.php?cate=11" onfocus='this.blur()'><img src="/imgng/icon0001.gif" border=0 name="bar17">&nbsp;관련사이트<img src=/imgng/000000.gif width="48" height="15" border=0></a></td> -->
+</tr>
+ <TR>
+ <TD align=left width="100%" bgcolor="white"><span id="submn17" style="margin-left:5; display:none;">
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=site001&xno=967620529&sno=4&cate">[식품/영양사]</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=site001&xno=968474349&sno=4&cate">[건강/위생]</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=site001&xno=968911639&sno=4&cate">[요리/블로그]</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=site001&xno=968933489&sno=4&cate">[교육청/관공서]</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=site001&xno=969323316&sno=4&cate">[유통/업체]</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/read.php?board=site001&xno=969345901&sno=4&cate">[대학/단체급식]</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=site001">[기타/추천]</A><BR>
+<!-- &nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdaOX/st_index.php?cate=11">영양/영양사</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdaOX/st_index.php?cate=21">위생/HACCP</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdaOX/st_index.php?cate=31">요리/음식</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdaOX/st_index.php?cate=41">단체급식</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdaOX/st_index.php?cate=51">식품관련</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdaOX/st_index.php?cate=61">유통/시장</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdaOX/st_index.php?cate=71">관공서</A><BR>
+&nbsp;<img src=/imgng/icon01.gif border=0>&nbsp;<a class=mainfmenu onfocus='this.blur()' href="/kdabrd/main.php?board=site001">추천사이트</A><BR> -->
+  </span></TD>
+  </TR>
+</table>
+<style type="text/css">
+	.banbox3_tab_white{width:8px; height:7px; font-size:1px; padding:2 0 -2 0; font-family:굴림,Tahoma; color:#555555; background-color:#eeeeee; border:0px solid #eeeeee; cursor:pointer;}
+  .banbox3_tab_white_etc{width:5px; height:7px; font-size:3px; padding:2 0 -2 0; font-family:굴림,Tahoma; color:#555555; background-color:#eeeeee; border:0px solid #eeeeee; cursor:pointer;}
+/*   .banboxC3_tab_gray{width:7px; height:7px; font-size:3px; padding:2 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#DDDDDD; border:1px solid #FFFFFF; cursor:pointer;} */
+	.banbox3_tab_blank{width:8px; font-size:3px; line-height:2px; border-bottom:1px solid #cccccc;}
+	.banbox3_tab_text{font-size:6pt; font-family:굴림; color:#474556; letter-spacing:-1;}
+	.banbox3_list_td{border:0px solid #DDDDDD; border-width:0px; text-align:center; padding:0px;}
+
+  /* .banboxC_tab_gray{width:7px; height:7px; font-size:3px; padding:2 0 -2 0; font-family:굴림,Tahoma; color:#CCCCCC; background-color:#DDDDDD; border:1px solid #FFFFFF; cursor:pointer;} */
+  .banboxC1_tab_gray { background: url('/img/C-bntab001.gif'); }  .banboxC2_tab_gray { background: url('/img/C-bntab002.gif'); } .banboxC3_tab_gray { background: url('/img/C-bntab003.gif'); }
+  .banboxC4_tab_gray { background: url('/img/C-bntab004.gif'); } .banboxC5_tab_gray { background: url('/img/C-bntab005.gif'); } .banboxC6_tab_gray { background: url('/img/C-bntab006.gif'); }
+  .banboxC7_tab_gray { background: url('/img/C-bntab007.gif'); } .banboxC8_tab_gray { background: url('/img/C-bntab008.gif'); } .banboxC9_tab_gray { background: url('/img/C-bntab009.gif'); }
+  .banboxC10_tab_gray { background: url('/img/C-bntab010.gif'); }  .banboxC11_tab_gray { background: url('/img/C-bntab011.gif'); }  .banboxC12_tab_gray { background: url('/img/C-bntab012.gif'); }
+  .banboxC13_tab_gray { background: url('/img/C-bntab013.gif'); }  .banboxC14_tab_gray { background: url('/img/C-bntab014.gif'); }  .banboxC15_tab_gray { background: url('/img/C-bntab015.gif'); }
+  .banboxC16_tab_gray { background: url('/img/C-bntab016.gif'); }  .banboxC17_tab_gray { background: url('/img/C-bntab017.gif'); }  .banboxC18_tab_gray { background: url('/img/C-bntab018.gif'); }
+  .banboxC19_tab_gray { background: url('/img/C-bntab019.gif'); }  .banboxC20_tab_gray { background: url('/img/C-bntab020.gif'); }
+  .banboxC21_tab_gray { background: url('/img/C-bntab021.gif'); width: 5px; }
+</style>
+<script language=javascript>
+	function banbox3_tab_change(num,uni){
+		var	tab1=document.getElementById(uni+'_tab1');		var tab2=document.getElementById(uni+'_tab2');		var tab3=document.getElementById(uni+'_tab3');		var tab4=document.getElementById(uni+'_tab4');		var	tab5=document.getElementById(uni+'_tab5');		var tab6=document.getElementById(uni+'_tab6');		var tab7=document.getElementById(uni+'_tab7');		var tab8=document.getElementById(uni+'_tab8');		var	tab9=document.getElementById(uni+'_tab9');		var tab10=document.getElementById(uni+'_tab10');		var tab11=document.getElementById(uni+'_tab11');		var tab12=document.getElementById(uni+'_tab12');		var tab13=document.getElementById(uni+'_tab13');		var tab14=document.getElementById(uni+'_tab14');		var tab15=document.getElementById(uni+'_tab15');    var tab16=document.getElementById(uni+'_tab16');    var tab17=document.getElementById(uni+'_tab17');    var tab18=document.getElementById(uni+'_tab18');    var tab19=document.getElementById(uni+'_tab19');    var tab20=document.getElementById(uni+'_tab20');  var tab21=document.getElementById(uni+'_tab21');  /* var tab22=document.getElementById(uni+'_tab22');*/
+		var	tr1=document.getElementById(uni+'_div1');		var tr2=document.getElementById(uni+'_div2');		var tr3=document.getElementById(uni+'_div3');		var tr4=document.getElementById(uni+'_div4');		var	tr5=document.getElementById(uni+'_div5');		var tr6=document.getElementById(uni+'_div6');		var tr7=document.getElementById(uni+'_div7');		var tr8=document.getElementById(uni+'_div8');		var	tr9=document.getElementById(uni+'_div9');		var tr10=document.getElementById(uni+'_div10');		var tr11=document.getElementById(uni+'_div11');		var tr12=document.getElementById(uni+'_div12');		var tr13=document.getElementById(uni+'_div13');		var tr14=document.getElementById(uni+'_div14');		var tr15=document.getElementById(uni+'_div15');   var tr16=document.getElementById(uni+'_div16');   var tr17=document.getElementById(uni+'_div17');   var tr18=document.getElementById(uni+'_div18');   var tr19=document.getElementById(uni+'_div19');   var tr20=document.getElementById(uni+'_div20');  var tr21=document.getElementById(uni+'_div21');  /* var tr22=document.getElementById(uni+'_div22');*/
+		for(i=1; i<22; ++i){  // i<17(16개) i<19(18개) i<20(19개) i<21(20개)
+			  eval('tab'+i).className=(num==i) ? 'banbox3_tab_white' : 'banboxC'+i+'_tab_gray' ;
+			  eval('tr'+i).style.display=(num==i) ? 'block' : 'none' ;
+		}
+    eval('tab'+21).className=(num==21) ? 'banbox3_tab_white_etc' : 'banboxC'+21+'_tab_gray' ;
+    eval('tr'+21).style.display=(num==21) ? 'block' : 'none' ;
+
+	}
+	function banbox3_tab_change_stop(){
+		clearTimeout(auto_move_tab_ob);
+	}
+	function banbox3_tab_change_auto(num){
+		num+=1;
+		if(num>21) num=1; /*if(num>18) num=1;*/
+		banbox1_tab_change(num,'BANBOX3');
+		auto_move_tab_ob=setTimeout("banbox3_tab_change_auto("+num+",'BANBOX3')",2000);
+	}
+function clearJSCookie3(name){
+	var expireDate = new Date();
+	expireDate.setDate(expireDate.getDate() - 1);
+	document.cookie = name+'='+';path=/;domain=.kdclub.com;expires='+expireDate.toGMTString();
+}
+function setJSCookie3(name, ckvalue){
+  var todayDate = new Date();
+  todayDate.setDate(todayDate.getDate()+1);
+  document.cookie = name+'='+escape(ckvalue)+';path=/;domain=.kdclub.com;expires='+todayDate.toGMTString()+';';
+}
+	clearJSCookie3('kdabn3');
+	setJSCookie3('kdabn3', '2|1|7|2|1|1');
+</script>
+
+<table align="center" border="0" cellpadding="0" cellspacing="1" bordercolor=white class=homepagemenutable2>
+
+<TR><TD>
+<table align=center width=97% border=0 cellpadding=0 cellspacing=0 bgcolor=#eeeeee><tr><td align=center>
+    <table width=140 height=360 border=0 cellpadding=0 cellspacing=0 align=center valign=top style="overflow:hidden;"><tr><td>
+<div id="BANBOX3_div1" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1704680721" target="_blank"><img src="/img/event/C-IRANG_24.01.08.gif" alt="kdclub" border="0" width="165" height="420"></A></center></div><div id="BANBOX3_div2" style="display:none"><center><a href="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1478849336" target="_blank"><img src="/img/event/C-SunjinFS_2016-1111.gif" alt="선진FS" border=0 width=165 height=420></a></center></div><div id="BANBOX3_div3" style="display:none"><center><a href="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1128925474" target=_blank><img src="/img/event/C_onskyfarm_2021-0118.gif" border=0 width=165 height=420 title="하늘농가"></a></center></div><div id="BANBOX3_div4" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1733203241" target="_blank"><img src="/img/event/C-parrfarm_24.0919.gif" alt="kdclub" border="0" width="165" height="420"></A></center></div><div id="BANBOX3_div5" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1710744707" target="_blank"><img src="/img/event/C-NAMAN-2024.0318.gif" alt="kdclub" border="0" width="165" height="420"></A></center></div><div id="BANBOX3_div6" style="display:none"><a href="https://www.instagram.com/otoki_plate/" target="_blank"><img src="/img/event/C-ottogi-2017_0920.gif" alt="오뚜기" border=0 width=165 height=420></a></center></div><div id="BANBOX3_div7" style="display:block"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1667259047" target="_blank"><img src="/img/event/C-noodlelovers-2022_1104.gif" alt="kdclub" border="0" width="165" height="420"></A></center></div><div id="BANBOX3_div8" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1744017628" target="_blank"><img src="/img/event/C-SRC_2025.04.07.gif" alt="kdclub" border="0" width="165" height="420"></A></center></div><div id="BANBOX3_div9" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1758585351" target="_blank"><img src="/img/event/C-farmsco-2025.09.22.jpg" alt="kdclub" border="0" width="165" height="420"></A></center></div><div id="BANBOX3_div10" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1754620723" target="_blank"><img src="/img/event/C-zerostone-11.17.gif" alt="kdclub" border="0" width="165" height="420"></A></center></div><div id="BANBOX3_div11" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div12" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div13" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div14" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div15" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div16" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div17" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div18" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div19" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div><div id="BANBOX3_div20" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img src=/img/event/dietitian_l.gif alt="배너광고문의" border=0 width=165 height=420></A></center></div>  </td></tr></table>
+</td></tr>
+<tr><td align=left>
+    <table width=165 height=9 border=0 cellpadding=0 cellspacing=0 align=center><tr> <!-- 15개일때 width=165  -->
+    <td class="banboxC1_tab_gray" id="BANBOX3_tab1" onmouseover="banbox3_tab_change(1, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC2_tab_gray" id="BANBOX3_tab2" onmouseover="banbox3_tab_change(2, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC3_tab_gray" id="BANBOX3_tab3" onmouseover="banbox3_tab_change(3, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC4_tab_gray" id="BANBOX3_tab4" onmouseover="banbox3_tab_change(4, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC5_tab_gray" id="BANBOX3_tab5" onmouseover="banbox3_tab_change(5, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC6_tab_gray" id="BANBOX3_tab6" onmouseover="banbox3_tab_change(6, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banbox3_tab_white" id="BANBOX3_tab7" onmouseover="banbox3_tab_change(7, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC8_tab_gray" id="BANBOX3_tab8" onmouseover="banbox3_tab_change(8, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC9_tab_gray" id="BANBOX3_tab9" onmouseover="banbox3_tab_change(9, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC10_tab_gray" id="BANBOX3_tab10" onmouseover="banbox3_tab_change(10, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC11_tab_gray" id="BANBOX3_tab11" onmouseover="banbox3_tab_change(11, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC12_tab_gray" id="BANBOX3_tab12" onmouseover="banbox3_tab_change(12, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC13_tab_gray" id="BANBOX3_tab13" onmouseover="banbox3_tab_change(13, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC14_tab_gray" id="BANBOX3_tab14" onmouseover="banbox3_tab_change(14, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC15_tab_gray" id="BANBOX3_tab15" onmouseover="banbox3_tab_change(15, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC16_tab_gray" id="BANBOX3_tab16" onmouseover="banbox3_tab_change(16, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC17_tab_gray" id="BANBOX3_tab17" onmouseover="banbox3_tab_change(17, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC18_tab_gray" id="BANBOX3_tab18" onmouseover="banbox3_tab_change(18, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC19_tab_gray" id="BANBOX3_tab19" onmouseover="banbox3_tab_change(19, 'BANBOX3')" align=center style="border-right:0;"></td><td class="banboxC20_tab_gray" id="BANBOX3_tab20" onmouseover="banbox3_tab_change(20, 'BANBOX3')" align=center style="border-right:0;"></td>    </tr></table>
+</td></tr>
+</table>
+</TR></TD>
+
+<tr><td height="3"></td></tr><tr><td height="3"></td></tr>
+<TR>
+<TD align=left class="bigmenu" width=100%
+  onmouseover=this.style.backgroundcolor='#fffffff' onmouseout=this.style.backgroundColor='' style="cursor:pointer;">
+  &nbsp; <a class=mainfmenu href="javascript:void(0)" onfocus='this.blur()' onclick="kda_webmaster()"><IMG border=0 src="/imgng/icon010.gif">&nbsp;운영자에게..<img src=/imgng/000000.gif width="40" height="15" border=0></A></TD>
+</TR>
+</table>
+
+<br>
+<!-- <table width=100% border=0 cellpadding=0 cellspacing=0><tr><td style="background-image:url('/imgng/RIGHT_bar.gif');" height=5>&nbsp;</td></tr></table> -->
+<!-- 작은배너 넣는 코드 숨김 -->
+<!--   <div>
+    <table align=center width=100% border=0 cellpadding=1 cellspacing=0>
+    <tr><td height=3></td></tr>
+    <tr><td align=center><a href="/kdabrd/read.php?board=FF001&xno=1339633204" target="_blank"><img src="/img/event/hakwiedu20150618_B.gif" width=165 border=0 alt="사간영" border=0 ></a></td></tr>
+    </table>
+  </div> -->
+
+</TD>
+
+<TD align=center valign=top bgcolor=#FFFFFF>
+
+<table border=0 width=100% cellpadding=0 cellspacing=0><tr><td height=12 bgcolor=#FFFFFF></td></tr></table>
+
+<DIV>
+<table border=0 cellpadding=0 cellspacing=0	width="740" align=center><tr>
+<td width="480" valign=top>
+	<table width="480" border=0 cellpadding=0 cellspacing=0 align=left>
+	<tr><td><a href="/kdabrd/main.php?board=kda001"><img src="/imgng/middle_main01.gif" alt="공지사항" border=0></a></td></tr>
+	<tr><td align=left><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden; "><tr><td width=10></td><td height=25 align=left title="2026학년도 유&#903;초&#903;중등 영양교사 임용시험 선발인원 현황"><nobr>· <a href="/kdabrd/main.php?board=kda001">2026학년도 유&#903;초&#903;중등 영양교사 임용시험 선발인원 현황</a></nobr></td></tr><tr><td width=10></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=10></td><td height=25 align=left title="식약처, 집단급식소 조리 후 2시간 이내 배식... 위생·안전관리 강화 (2025.07.21) [댓글:4]"><nobr>· <a href="/kdabrd/main.php?board=kda001">식약처, 집단급식소 조리 후 2시간 이내 배식... 위생·안전관리 강화 (202…</a></nobr></td></tr><tr><td width=10></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=10></td><td height=25 align=left title="[식약처] 2025년 어린이급식관리지원센터 식단·운영 관리 지침서 일부개정 (떡,딱딱한음식제공관련)"><nobr>· <a href="/kdabrd/main.php?board=kda001">[식약처] 2025년 어린이급식관리지원센터 식단·운영 관리 지침서 일부개정…</a></nobr></td></tr><tr><td width=10></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=10></td><td height=25 align=left title="&lt;b&gt;2025년 영양사 및 조리사가 받아야할 법정교육(영양사위생교육/보수교육)&lt;/b&gt; [댓글:9]"><nobr>· <a href="/kdabrd/main.php?board=kda001"><b>2025년 영양사 및 조리사가 받아야할 법정교육(영양사위생교육/보수교육…</a></nobr></td></tr><tr><td width=10></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr></table>
+</td></tr>
+	</table>
+</td>
+<td valign=bottom width=200 align=right>
+<style type="text/css">
+	.itab_homp_subject{padding:3 0 0 0; font-size:8pt; color:#777777; line-height:130%; text-align:center;}
+	.itab_box_img_subject{padding:4 0 0 0; font-size:8pt; color:#777777; width:120px; text-align:left; line-height:140%;}
+	.itab_box_img_box{background-color:#dadada; border-bottom:2px solid #f3f3f3; margin:10 0 5 0; cursor:pointer;}
+	.castbox_tab_white{width:25%; font-size:7pt; padding:4 0 2 0; color:#555555; background-color:#ffffff; border:1px solid #DDDDDD; border-width:1 1 0 1; cursor:pointer;}
+	.castbox_tab_gray{width:25%; font-size:7pt; padding:4 0 2 0; color:#474556; background-color:#F1F1F1; border:1px solid #DDDDDD; border-width:1 1 1 1; cursor:pointer;}
+	.castbox_tab_blank{width:10%; border-bottom:1px solid #cccccc;}
+	.castbox_tab_text{ font-size: 0.83rem; font-weight: bold; color:#474556;}
+	.castbox_doc_text{ line-height: 1.7; }
+	.castbox_list_td{border:1px solid #DDDDDD; border-width:0 1 1 1; text-align:center; padding-top:10px;}
+</style>
+<script type="text/javascript">
+	function castbox_tab_change(num,uni){
+		var tab1=document.getElementById(uni+'_tab1');		var tab2=document.getElementById(uni+'_tab2');		var tab3=document.getElementById(uni+'_tab3');		var tab4=document.getElementById(uni+'_tab4');
+		var tr1=document.getElementById(uni+'_div1');		var tr2=document.getElementById(uni+'_div2');		var tr3=document.getElementById(uni+'_div3');		var tr4=document.getElementById(uni+'_div4');
+		for(i=1; i<5; ++i){
+			eval('tab'+i).className=(num==i) ? 'castbox_tab_white' : 'castbox_tab_gray' ;
+			eval('tr'+i).style.display=(num==i) ? 'block' : 'none' ;
+		}
+	}
+	function castbox_tab_change_stop(){
+		clearTimeout(auto_move_tab_ob);
+	}
+	function castbox_tab_change_auto(num){
+		num+=1;
+		if(num>3) num=1;
+		castbox_tab_change(num,'IMCASTBOX1');
+		auto_move_tab_ob=setTimeout("castbox_tab_change_auto("+num+",'IMCASTBOX1')",2000);
+	}
+</script>
+	<table cellpadding=0 cellspacing=0 border=0 width=247 height=100%><!-- 안내 정보 캐스트박스 -->
+		<tr align=center>
+			<td class=castbox_tab_white id='IMCASTBOX1_tab1' onmouseover=castbox_tab_change(1,'IMCASTBOX1')><span class=castbox_tab_text>안내</span></td>
+			<td class=castbox_tab_gray id='IMCASTBOX1_tab2' onmouseover=castbox_tab_change(2,'IMCASTBOX1') style="border-left:0; border-right:0;"><span class=castbox_tab_text>정보</span></td>
+			<td class=castbox_tab_gray id='IMCASTBOX1_tab3' onmouseover=castbox_tab_change(3,'IMCASTBOX1') style="border-right:0;"><span class=castbox_tab_text>기관</span></td>
+			<td class=castbox_tab_gray id='IMCASTBOX1_tab4' onmouseover=castbox_tab_change(4,'IMCASTBOX1')><span class=castbox_tab_text>물가</span></td>
+		</tr>
+
+		<tr align=center>
+			<td colspan=4 class=castbox_list_td valign=top height=110>
+<div id='IMCASTBOX1_div1' style='display:block;'><table border=0 width=100% cellpadding=2 cellspacing=0><tr><td class="castbox_doc_text">&#160;· <a href=http://www.kma.go.kr/weather/main.jsp target="_blank">날씨정보</a> · <a href=http://forecast.nhis.or.kr/menu.do target="_blank">식중독지수</a> · <a href=https://kostat.go.kr/cpi/ target="_blank">소비자물가</a><br>&#160;· <a href=http://www.kdclub.com/kdabrd/read.php?board=kda001&xno=1198128869 target="_blank">후원회원가입안내!</a> · <a href=http://www.kdclub.com/kdabrd/read.php?board=kda001&xno=1041517187 target="_blank">ID중복접속?</a><br>&#160;· <a href=http://www.kdclub.com/kdabrd/read.php?board=kda001&xno=1004473777 target="_blank">로그인이 안되요? 또 로그인하래요?</a><br>&#160;· <a href=http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster target="_blank">운영자에게 문의(건의) 글 남기기!</a></td></tr></table></div>
+<div id='IMCASTBOX1_div2' style='display:none;'><table border=0 width=100% cellpadding=2 cellspacing=0><tr><td class="castbox_doc_text"><table cellpadding="0" cellspacing="0" width="220" bordercolordark="white" bordercolorlight="black">
+<tr><td valign="top">
+&#160;· <a href="http://www.foodsafetykorea.go.kr/minwonMain.do" target="_blank">식약청Q&A</a><br>
+&#160;· <a href="http://www.epeople.go.kr" target="_blank">신문고Q&A</a><br>
+&#160;· <a href="http://www.foodsafetykorea.go.kr/" target="_blank">식품안전</a><br>
+&#160;· <a href="http://www.10000recipe.com" target="_blank">만개레시피</a><br>
+</td><td valign="top">
+· <a href=http://www.mfds.go.kr/fm/index.do target="_blank">식중독정보</a><br>
+· <a href=http://www.cdc.go.kr target="_blank">전염병정보</a><br>
+· <a href=http://www.kfia21.or.kr target="_blank">식품산업협회</a><br>
+· <a href="https://www.haccp.or.kr" target="_blank">haccp인증</a>
+</td></tr></table></td></tr></table></div>
+<div id='IMCASTBOX1_div3' style='display:none;'><table border=0 width=100% cellpadding=2 cellspacing=0><tr><td class="castbox_doc_text"><table cellpadding="0" cellspacing="0" width="220" bordercolordark="white" bordercolorlight="black">
+<tr><td valign="top">
+&#160;· <a href=http://www.mfds.go.kr target="_blank">식약처</a><br>
+&#160;· <a href=http://www.moe.go.kr target="_blank">교육부</a><br>
+&#160;· <a href=http://www.kdclub.com/kdabrd/read.php?board=kda001&xno=966493702&sno=0 target="_blank">교육청</a><br>
+&#160;· <a href=http://www.mohw.go.kr target="_blank">복지부</a></td>
+<td valign="top">
+· <a href=http://www.moleg.go.kr target="_blank">법제처</a><br>
+· <a href=http://www.mafra.go.kr/ target="_blank">농림부</a><br>
+· <a href=http://www.kormeat.com target="_blank">판정소</a><br>
+· <a href=http://www.moel.go.kr target="_blank">노동부</a></p>
+</td>
+<td valign="top">
+· <a href=http://www.dietitian.or.kr target="_blank">협회</a><br>
+· <a href=http://www.kuksiwon.or.kr target="_blank">국시원</a><br>
+· <a href=http://www.me.go.kr target="_blank">환경부</a><br>
+· <a href=http://www.pps.go.kr target="_blank">조달청</a></p>
+</td></tr></table></td></tr></table></div>
+<div id='IMCASTBOX1_div4' style='display:none;'><table border=0 width=100% cellpadding=2 cellspacing=0><tr><td class="castbox_doc_text"><table cellpadding="0" cellspacing="0" width="220" bordercolordark="white" bordercolorlight="black">
+<tr><td valign="top">
+<p><a href="http://www.okdab.kr/distribution/realtime/realTimeAuctionCate.do" target="_blank">·농축산물</a><br>
+<a href="http://www.kprc.or.kr/consumerMain.do?mcla_cd=10&page=1&page_sz=10&board_id=use08" target="_blank">·물가협회</a><br>
+<a href="http://www.kdclub.com/kdabrd/main.php?board=jj016"" target="_blank">·물가자료</a><br>
+<a href="http://www.fips.go.kr" target="_blank">·수산포탈</a>
+</td><td valign="top">
+<a href="http://www.kamis.co.kr/" target="_blank">·유통공사</a><br>
+<a href="http://www.garak.co.kr/" target="_blank">·가락시장</a><br>
+<a href="http://www.ekapepia.com" target="_blank">·축산정보</a><br>
+<a href="http://kostat.go.kr/portal/korea/kor_nw/1/1/index.board" target="_blank">·물가지수</a>
+</td><td valign="top">
+<a href="http://www.kdclub.com/kdabrd/main.php?board=jj019">·검수법</a><br>
+<a href="http://www.naqs.go.kr/information/smain.jsp" target="_blank">·농산물</a><br>
+<a href="https://www.ekape.or.kr/index.do" target="_blank">·축산물</a><br>
+<a href="http://cattle.mtrace.go.kr/" target="_blank">·이력제</a>
+</td></tr></table></td></tr></table></div>
+			</td>
+		</tr>
+	</table>
+</td>
+</tr></table>
+</DIV>
+
+<center>
+<table border=0 width=100% cellpadding=0 cellspacing=0><tr><td height=5 bgcolor=#FFFFFF></td></tr></table>
+
+<style type="text/css">
+	.banbox2_tab_white{width:8px; height:9px; font-size:3px; line-height:2px; padding:2 0 -2 0; color:#555555; background-color:#eeeeee; border:0px solid #eeeeee; cursor:pointer;}
+/* 	.banbox2_tab_gray{width:8px; height:9px; font-size:3px; line-height:2px; padding:2 0 -2 0; color:#CCCCCC; background-color:#DDDDDD; border:1px solid #FFFFFF; cursor:pointer;} */
+	.banbox2_tab_blank{width:10px; font-size:3px; line-height:2px; border-bottom:0px solid #cccccc;}
+	.banbox2_tab_text{font-size:9pt; color:#474556;}
+	.banbox2_list_td{border:0px solid #DDDDDD; border-width:0 0 0 0; text-align:center; padding:0px;}
+	#bandbox2_div{margin-left: 12px;}
+
+	.banbox11_tab_gray { text-align: center; width:8px; height:8px; background: url(/img/bntab001.gif); font-size:1px; line-height:1px; padding:3 0 -2 0; color:#CCCCCC; background-color:#eee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox12_tab_gray { text-align: center; width:8px; height:8px; background: url(/img/bntab002.gif); font-size:1px; line-height:1px; padding:3 0 -2 0; color:#CCCCCC; background-color:#eee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox13_tab_gray { text-align: center; width:8px; height:8px; background: url(/img/bntab003.gif); font-size:1px; line-height:1px; padding:3 0 -2 0; color:#CCCCCC; background-color:#eee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox14_tab_gray { text-align: center; width:8px; height:8px; background: url(/img/bntab004.gif); font-size:1px; line-height:1px; padding:3 0 -2 0; color:#CCCCCC; background-color:#eee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox15_tab_gray { text-align: center; width:8px; height:8px; background: url(/img/bntab005.gif); font-size:1px; line-height:1px; padding:3 0 -2 0; color:#CCCCCC; background-color:#eee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox16_tab_gray { text-align: center; width:8px; height:8px; background: url(/img/bntab006.gif); font-size:1px; line-height:1px; padding:3 0 -2 0; color:#CCCCCC; background-color:#eee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox17_tab_gray { text-align: center; width:8px; height:8px; background: url(/img/bntab007.gif); font-size:1px; line-height:1px; padding:3 0 -2 0; color:#CCCCCC; background-color:#eee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox18_tab_gray { text-align: center; width:8px; height:8px; background: url(/img/bntab008.gif); font-size:1px; line-height:1px; padding:3 0 -2 0; color:#CCCCCC; background-color:#eee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox19_tab_gray { text-align: center; width:8px; height:8px; background: url(/img/bntab009.gif); font-size:1px; line-height:1px; padding:3 0 -2 0; color:#CCCCCC; background-color:#eee; border:0px solid #FFFFFF; cursor:pointer;}
+	.banbox20_tab_gray { text-align: center; width:8px; height:8px; background: url(/img/bntab010.gif); font-size:1px; line-height:1px; padding:3 0 0 0; color:#CCCCCC; background-color:#eee; border:0px solid #FFFFFF; cursor:pointer;}
+</style>
+<script type="text/javascript">
+function bann_win_view2(bnurl, bnwincode, bnwin_x, bnwin_y){
+  var max_wy, max_wy, screen_x, center_wx;
+  max_wy = screen.availHeight - 20;
+  max_wx = screen.availWidth;
+  screen_x = bnwin_x;
+	if(max_wy > bnwin_y){ screen_y = bnwin_y; }else{ screen_y = max_wy - 40;	}
+  center_wx = (max_wx - screen_x) / 2;
+  center_wy = (max_wy - screen_y) / 2;
+  tempbnw = window.open(bnurl, bnwincode, 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,top=' + center_wy + ',left=' + center_wx + ',width=' + screen_x + ',height=' + screen_y);
+  tempbnw.focus();
+  return true;
+}
+	function banbox2_tab_change(num,uni){ // 1,2,3...10 | BANDBOX2
+		var tab1=document.getElementById(uni+'_tab1');		var tab2=document.getElementById(uni+'_tab2');		var tab3=document.getElementById(uni+'_tab3');		var tab4=document.getElementById(uni+'_tab4');		var tab5=document.getElementById(uni+'_tab5');		var tab6=document.getElementById(uni+'_tab6');		var tab7=document.getElementById(uni+'_tab7');		var tab8=document.getElementById(uni+'_tab8');		var tab9=document.getElementById(uni+'_tab9');		var tab10=document.getElementById(uni+'_tab10');
+		var tr1=document.getElementById(uni+'_div1');		var tr2=document.getElementById(uni+'_div2');		var tr3=document.getElementById(uni+'_div3');		var tr4=document.getElementById(uni+'_div4');		var tr5=document.getElementById(uni+'_div5');		var tr6=document.getElementById(uni+'_div6');		var tr7=document.getElementById(uni+'_div7');		var tr8=document.getElementById(uni+'_div8');		var tr9=document.getElementById(uni+'_div9');		var tr10=document.getElementById(uni+'_div10');
+		for(i=1; i<11; ++i){		// 7개(i<8) 8개(i<9) 9개(i<10)
+			var tabidx = 10+i;
+			eval('tab'+i).className=(num==i) ? 'banbox2_tab_white' : 'banbox'+tabidx+'_tab_gray' ;
+			eval('tr'+i).style.display=(num==i) ? 'block' : 'none' ;
+		}
+	}
+	function banbox2_tab_change_stop(){
+		clearTimeout(auto_move_tab_ob);
+	}
+	function banbox2_tab_change_auto(num){
+		num+=1;
+		alert(num);
+		if(num>10) num=1; // 7개(num>7) 8개(num>8) 9개(num>9)
+		banbox2_tab_change(num,'BANBOX2');
+		auto_move_tab_ob=setTimeout("banbox2_tab_change_auto("+num+",'BANBOX2')",2000);
+	}
+	/* 지워야할 놈 */
+	clearJSCookie('kdabn2');
+	setJSCookie('kdabn2', '2|1|7|2|1|1');
+</script>
+<table border=0 width=100% cellpadding=0 cellspacing=0><tr><td height=5 bgcolor=#FFFFFF></td></tr></table>
+<DIV id="bandbox2_div">
+<table cellpadding=0 cellspacing=0 border=0 align=center><tr><td width=600 height=80 align=right><!-- <td width=480 height=70> -->
+<div id="BANBOX2_div1" style="display:block"><center><a href="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1128925474" target=_blank><img style="width:600px; height:80px;" src="/img/event/B_onskyfarm_2021-0118.gif" width=600 height=80 border=0 title="하늘농가"></a></center></div><div id="BANBOX2_div2" style="display:none"><center><a href="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1478849336" target="_blank"><img style="width:600px; height:80px;" src="/img/event/B-SunjinFS_2016-1111.gif" alt="선진FS" border=0 width="600" height="80"></a></center></div><div id="BANBOX2_div3" style="display:none"><center><A HREF="https://www.instagram.com/p/DR3GVuCk7o0/" target="_blank"><img style="width:600px; height:80px;" src="/img/event/B-noodlelovers-2022_1104.gif" alt="kdclub" border="0" width="600" height="80"></A></center></div><div id="BANBOX2_div4" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1704680721" target="_blank"><img style="width:600px; height:80px;" src="/img/event/B-IRANG_24.01.08.gif" alt="kdclub" border="0" width="600" height="80"></A></center></div><div id="BANBOX2_div5" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1733203241" target="_blank"><img style="width:600px; height:80px;" src="/img/event/B-parrfarm_24.0919.gif" alt="kdclub" border="0" width="600" height="80"></A></center></div><div id="BANBOX2_div6" style="display:none"><center><A HREF="http://www.kdclub.com/kdabrd/read.php?board=FF001&xno=1758585351" target="_blank"><img style="width:600px; height:80px;" src="/img/event/B-farmsco-2025.09.22.jpg" alt="kdclub" border="0" width="600" height="80"></A></center></div><div id="BANBOX2_div7" style="display:none"><a href="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img style="width:600px; height:80px;" src="/img/event/2010.gif" alt="배너광고문의1" border=0 width=520 height=80></a></div><div id="BANBOX2_div8" style="display:none"><a href="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img style="width:600px; height:80px;" src="/img/event/2010.gif" alt="배너광고문의1" border=0 width=520 height=80></a></div><div id="BANBOX2_div9" style="display:none"><a href="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img style="width:600px; height:80px;" src="/img/event/2010.gif" alt="배너광고문의1" border=0 width=520 height=80></a></div><div id="BANBOX2_div10" style="display:none"><a href="http://www.kdclub.com/kdabrd/newgeul.php?board=webmaster" target="_blank"><img style="width:600px; height:80px;" src="/img/event/2010.gif" alt="배너광고문의1" border=0 width=520 height=80></a></div></td>
+<td align=left>
+    <table  border=0 cellpadding=0 cellspacing=0 height=80> <!-- height=70 72 78-->
+<tr><td class="banbox1_tab_white" id="BANBOX2_tab1" onmouseover="banbox1_tab_change(1, 'BANBOX2')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox2_tab_gray" id="BANBOX2_tab2" onmouseover="banbox1_tab_change(2, 'BANBOX2')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox3_tab_gray" id="BANBOX2_tab3" onmouseover="banbox1_tab_change(3, 'BANBOX2')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox4_tab_gray" id="BANBOX2_tab4" onmouseover="banbox1_tab_change(4, 'BANBOX2')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox5_tab_gray" id="BANBOX2_tab5" onmouseover="banbox1_tab_change(5, 'BANBOX2')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox6_tab_gray" id="BANBOX2_tab6" onmouseover="banbox1_tab_change(6, 'BANBOX2')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox7_tab_gray" id="BANBOX2_tab7" onmouseover="banbox1_tab_change(7, 'BANBOX2')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox8_tab_gray" id="BANBOX2_tab8" onmouseover="banbox1_tab_change(8, 'BANBOX2')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox9_tab_gray" id="BANBOX2_tab9" onmouseover="banbox1_tab_change(9, 'BANBOX2')" style="border-bottom:0;" align=center></td></tr><tr><td class="banbox10_tab_gray" id="BANBOX2_tab10" onmouseover="banbox1_tab_change(10, 'BANBOX2')" style="border-bottom:0;" align=center></td></tr>  </table>
+</td></tr>
+</table>
+</DIV>
+<table border=0 width=100% cellpadding=0 cellspacing=0><tr><td height=5 bgcolor=#FFFFFF></td></tr></table>
+<DIV>
+<table border=0 cellpadding=0 cellspacing=0	width=740 align=center>
+    <tr>
+		<td><a href="/kdabrd/main.php?board=kda002"><img src="/imgng/middle_main02.gif" alt="뉴스와상식" border=0></a></td>
+		<td width=247><a href="/kdabrd/main.php?board=bb004"><img src="/imgng/light_main08.gif" border=0 alt="유머/동영상"></a></td>
+	</tr>
+  	<tr>
+		<td align=left><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden; "><tr><td width=10></td><td height=25 align=left title="여주 고교 3곳 학생 100여명 식중독 의심…보건·교육당국 초긴장"><nobr>· <a href="/kdabrd/main.php?board=kda002">여주 고교 3곳 학생 100여명 식중독 의심…보건·교육당국 초긴장</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=10></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=10></td><td height=25 align=left title="“달걀 15분 이상 삶으면, 毒(독)이 생긴다?”…달걀 둘러싼 오해, 여전히 많아"><nobr>· <a href="/kdabrd/main.php?board=kda002">“달걀 15분 이상 삶으면, 毒(독)이 생긴다?”…달걀 둘러싼 오해, 여전히 많아</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=10></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=10></td><td height=25 align=left title="&quot;굴, 익히면 안전한 거 아니었어?&quot; 믿었다가 '깜짝'…미세플라스틱 득실"><nobr>· <a href="/kdabrd/main.php?board=kda002">&quot;굴, 익히면 안전한 거 아니었어?&quot; 믿었다가 '깜짝'…미세플라스틱 …</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=10></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=10></td><td height=25 align=left title="&quot;계란 둥근 쪽을 위로? 아래로? … 올바른 '계란 보관법'은 [에그리씽]"><nobr>· <a href="/kdabrd/main.php?board=kda002">&quot;계란 둥근 쪽을 위로? 아래로? … 올바른 '계란 보관법'은 [에그리씽]</a></nobr></td></tr><tr><td width=10></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td>
+		<td align=left width=247><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="남자 손님 11명 단체의 위엄."><nobr>· <a href="/kdabrd/main.php?board=bb004">남자 손님 11명 단체의 위엄.</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="매일 20km 걸어서 회사 다닌다는 공무원"><nobr>· <a href="/kdabrd/main.php?board=bb004">매일 20km 걸어서 회사 다닌다는…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="악동뮤지션 출국 사진"><nobr>· <a href="/kdabrd/main.php?board=bb004">악동뮤지션 출국 사진</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="비닐봉투 꽉 묶는 방법"><nobr>· <a href="/kdabrd/main.php?board=bb004">비닐봉투 꽉 묶는 방법</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td>
+	</tr>
+</table>
+</DIV>
+
+<div style="height:15px; clear:both;"></div><!-- 큰 섹션간 35px 기준 210616 -->
+
+<DIV>
+<table width="740" border=0 cellpadding=0 cellspacing=0 align=center><tr><td colspan=3><img src="/imgng/middle_main03.gif" alt="커뮤니티" border=0></td></tr>
+<tr><td colspan=3 height=10></td></tr>
+<tr>
+	<td class="idxsub33"><a href="/kdabrd/main.php?board=bb001"><img src="/imgng/middle_main03_03.gif" border=0 alt="낙서게시판"></a></td>
+	<td class="idxsub33"><a href="/kdabrd/main.php?board=qna001"><img src="/imgng/middle_main03_02.gif" border=0 alt="질문답하기"></a></td>
+	<td class="idxsub33"><a href="/kdabrd/main.php?board=bb002"><img src="/imgng/middle_main03_01.gif" border=0 alt="영양사이야기"></a></td>
+</tr>
+<tr>
+	<td class="idxsub33" valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=10></td><td height=25 align=left title="초등 1학년 남아. 친구 폭력 싸움 고민,, [댓글:2]"><nobr>· <a href="/kdabrd/main.php?board=bb001">초등 1학년 남아. 친구 폭력 싸…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=10></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=10></td><td height=25 align=left title="카톡으로 파일 보냈는데 답장 없으면... [댓글:4]"><nobr>· <a href="/kdabrd/main.php?board=bb001">카톡으로 파일 보냈는데 답장 없…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=10></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=10></td><td height=25 align=left title="부모님 생신 케익케익!!!!급해요ㅠㅠ [댓글:10]"><nobr>· <a href="/kdabrd/main.php?board=bb001">부모님 생신 케익케익!!!!급해요…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=10></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr></table>
+</td>
+	<td class="idxsub33" valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="병원 스케줄 근무 연차 [댓글:1]"><nobr>· <a href="/kdabrd/main.php?board=qna001">병원 스케줄 근무 연차</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="데친 두부 제공 시 문의드립니다. [댓글:2]"><nobr>· <a href="/kdabrd/main.php?board=qna001">데친 두부 제공 시 문의드립니다…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="외국인 급식비"><nobr>· <a href="/kdabrd/main.php?board=qna001">외국인 급식비</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td>
+	<td class="idxsub33" valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="보수교육, 위생교육 들어야하나요? [댓글:2]"><nobr>· <a href="/kdabrd/main.php?board=bb002">보수교육, 위생교육 들어야하나…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="msds LPG 가스 관리하시는분 계시나요?&gt;"><nobr>· <a href="/kdabrd/main.php?board=bb002">msds LPG 가스 관리하시는분 계…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="집단급식소 신고시 [댓글:1]"><nobr>· <a href="/kdabrd/main.php?board=bb002">집단급식소 신고시</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td>
+</tr>
+</table>
+</DIV>
+
+<div style="height:10px;"></div><!-- 큰 섹션간 35px 기준 210616 -->
+
+<DIV>
+<table border=0 cellpadding=0 cellspacing=0 width="740" align=center>
+  <tr>
+  <td valign=top align=center>
+    <table width=100% border=0 cellpadding=0 cellspacing=0 align=left><tr>
+    <td><a style="margin-left: -3px;" href="/dicagal/main.php"><img src="/imgng/middle_main09.gif" alt="포토갤러리" border=0></a></td>
+	<tr><td height=10></td></tr>
+    </tr></table>
+    <table width="740" height=90 border=0 cellpadding=0 cellspacing=1 style="table-layout: fixed; word-break: break-all;">
+    <tr><td><table border=0 width=100% cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td align=center valign=top><a href="/dicagal/main.php" target=_self><img src="/dicagal/list/298/1765177328_1.jpg" width=86 border=1 style="border-color:#DBDBDB" onmouseover="javascript:this.style.cssText='border-color:#6599CD'" onmouseout="javascript:this.style.cssText='border-color:#DBDBDB'" title="지나간 식단 12월 06일 생야채오징어젓무말랭이비빔밥 연근순두부샐러드" align=absmiddle></a><table width=50 border=0><tr><td></td></tr></table><p><font style="font-size:12px;line-height:130%;"> 지나간 식단 12월 06일 … <img src="/imgng/new.gif" border=0></font></p></td><td align=center valign=top><a href="/dicagal/main.php" target=_self><img src="/dicagal/list/298/1765175356_1.jpg" width=86 border=1 style="border-color:#DBDBDB" onmouseover="javascript:this.style.cssText='border-color:#6599CD'" onmouseout="javascript:this.style.cssText='border-color:#DBDBDB'" title="미역국 가자미구이 계란볶음 양배추찜*우렁살강된장 두부스테이크 치킨텐더샐러드 백" align=absmiddle></a><table width=50 border=0><tr><td></td></tr></table><p><font style="font-size:12px;line-height:130%;"> 미역국 가자미구이 계란… <img src="/imgng/new.gif" border=0></font></p></td><td align=center valign=top><a href="/dicagal/main.php" target=_self><img src="/dicagal/list/298/1765175200_1.jpg" width=86 border=1 style="border-color:#DBDBDB" onmouseover="javascript:this.style.cssText='border-color:#6599CD'" onmouseout="javascript:this.style.cssText='border-color:#DBDBDB'" title="지난 급식(파송송계란국, 자반고등어구이, 비엔나케찹볶음, 숙주나물)" align=absmiddle></a><table width=50 border=0><tr><td></td></tr></table><p><font style="font-size:12px;line-height:130%;"> 지난 급식(파송송계란국… <img src="/imgng/new.gif" border=0></font></p></td><td align=center valign=top><a href="/dicagal/main.php" target=_self><img src="/dicagal/list/298/1765174999_1.jpg" width=86 border=1 style="border-color:#DBDBDB" onmouseover="javascript:this.style.cssText='border-color:#6599CD'" onmouseout="javascript:this.style.cssText='border-color:#DBDBDB'" title="순두부된장국 갈비구이 오징어당면볶음 호떡 대파채무침 바나나" align=absmiddle></a><table width=50 border=0><tr><td></td></tr></table><p><font style="font-size:12px;line-height:130%;"> 순두부된장국 갈비구이 … <img src="/imgng/new.gif" border=0></font></p></td><td align=center valign=top><a href="/dicagal/main.php" target=_self><img src="/dicagal/list/298/1765174948_1.jpg" width=86 border=1 style="border-color:#DBDBDB" onmouseover="javascript:this.style.cssText='border-color:#6599CD'" onmouseout="javascript:this.style.cssText='border-color:#DBDBDB'" title="오늘 점심(콩가루배춧국, 닭구이보쌈, 짬뽕버섯볶음, 모듬쌈/쌈장)" align=absmiddle></a><table width=50 border=0><tr><td></td></tr></table><p><font style="font-size:12px;line-height:130%;"> 오늘 점심(콩가루배춧국… <img src="/imgng/new.gif" border=0></font></p></td><td align=center valign=top><a href="/dicagal/main.php" target=_self><img src="/dicagal/list/298/1765174908_1.jpg" width=86 border=1 style="border-color:#DBDBDB" onmouseover="javascript:this.style.cssText='border-color:#6599CD'" onmouseout="javascript:this.style.cssText='border-color:#DBDBDB'" title="맑디맑은영혼쌤&#128155; 불고기채소찜 해봤어요!" align=absmiddle></a><table width=50 border=0><tr><td></td></tr></table><p><font style="font-size:12px;line-height:130%;"> 맑디맑은영혼쌤&#128155… <img src="/imgng/new.gif" border=0></font></p></td><td align=center valign=top><a href="/dicagal/main.php" target=_self><img src="/dicagal/list/298/1765173737_1.jpg" width=86 border=1 style="border-color:#DBDBDB" onmouseover="javascript:this.style.cssText='border-color:#6599CD'" onmouseout="javascript:this.style.cssText='border-color:#DBDBDB'" title="애기들 먹은 거..." align=absmiddle></a><table width=50 border=0><tr><td></td></tr></table><p><font style="font-size:12px;line-height:130%;"> 애기들 먹은 거... <img src="/imgng/new.gif" border=0></font></p></td><td align=center valign=top><a href="/dicagal/main.php" target=_self><img src="/dicagal/list/298/1765173318_1.jpg" width=86 border=1 style="border-color:#DBDBDB" onmouseover="javascript:this.style.cssText='border-color:#6599CD'" onmouseout="javascript:this.style.cssText='border-color:#DBDBDB'" title="(yeon89 )면사랑요리대회♥ 가리비칠리파스타/ 닭목살새우타코/ 수육삼합/ 온라인강의" align=absmiddle></a><table width=50 border=0><tr><td></td></tr></table><p><font style="font-size:12px;line-height:130%;"> (yeon89 )면사랑요리대… <img src="/imgng/new.gif" border=0></font></p></td></tr></table>
+</td></tr>
+    </table>
+  </td>
+  </tr>
+</table>
+</DIV>
+
+<div style="height:25px; clear:both; "></div><!-- 큰 섹션간 35px 기준 210616 -->
+
+<DIV>
+<table width="740" border=0 cellpadding=0 cellspacing=0 align=center>
+<tr>
+	<td colspan=2><img src="/imgng/middle_main04.gif" border=0 alt="식단레시피" border=0></td>
+	<td align=left></td>
+</tr>
+<tr><td colspan=3 height=10></td></tr>
+<tr>
+	<td class="idxsub33"><a href="/kdabrd/main.php?board=jj004"><img src="/imgng/middle_main04_01.gif" border=0 alt="식단자료실"></a></td>
+	<td class="idxsub33"><a href="/kdabrd/main.php?board=food"><img src="/imgng/middle_main04_03.gif" border=0 alt="일반레시피"></a></td>
+	<td class="idxsub33"><a href="/kdabrd/main.php?board=data1"><img src="/imgng/middle_main04_02.gif" border=0 alt="레시피사전"></a></td>
+</tr>
+<tr>
+	<td class="idxsub33" valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="12월 3주"><nobr>· <a href="/kdabrd/main.php?board=jj004">12월 3주</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="12월 2주"><nobr>· <a href="/kdabrd/main.php?board=jj004">12월 2주</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="12월2주"><nobr>· <a href="/kdabrd/main.php?board=jj004">12월2주</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td>
+	<td class="idxsub33" valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="김치된장찌개"><nobr>· <a href="/kdabrd/main.php?board=food">김치된장찌개</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="김치된장찌개"><nobr>· <a href="/kdabrd/main.php?board=food">김치된장찌개</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="김치된장찌개"><nobr>· <a href="/kdabrd/main.php?board=food">김치된장찌개</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td>
+	<td class="idxsub33" valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="순두부견과타르타르소스"><nobr>· <a href="/kdabrd/main.php?board=data1">순두부견과타르타르소스</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="두부봉깻잎전"><nobr>· <a href="/kdabrd/main.php?board=data1">두부봉깻잎전</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="새우열무전"><nobr>· <a href="/kdabrd/main.php?board=data1">새우열무전</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td>
+</tr>
+</table>
+</DIV>
+
+<div style="height:13px;"></div><!-- 큰 섹션간 35px 기준 210616 -->
+
+<DIV>
+<table width="740" border=0 cellpadding=0 cellspacing=0 align=center><tr><td colspan=2><img src="/imgng/middle_main05.gif" border=0 alt="통합자료실" border=0></td></tr>
+<tr><td colspan=3 height=10></td></tr>
+<tr>
+	<td align=left><a href="/kdabrd/main.php?board=jj002"><img src="/imgng/middle_main05_01.gif" border=0 alt="급식/운영자료실"></a></td>
+	<td align=left><a href="/kdabrd/main.php?board=jj003"><img src="/imgng/middle_main05_04.gif" border=0 alt="양식/일지자료실"></a></td>
+</tr>
+<tr>
+	<td align=left valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="(대구) 2025년 교육부 주관 학교급식 우수사례 수상 결과"><nobr>· <a href="/kdabrd/main.php?board=jj002">(대구) 2025년 교육부 주관 학교급식 우수사례 수상 …</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="[교육부] 대학 현장실습 운영 매뉴얼 -대학생 국내 현장실습에 대한 학교 실무자용 안내서-"><nobr>· <a href="/kdabrd/main.php?board=jj002">[교육부] 대학 현장실습 운영 매뉴얼 -대학생 국내 현…</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="2025년 어린이집 평가 매뉴얼(어린이집용)"><nobr>· <a href="/kdabrd/main.php?board=jj002">2025년 어린이집 평가 매뉴얼(어린이집용)</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td><!-- 급식/운영자료실 -->
+	<td align=left valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="크리스마스 라벨 [댓글:1]"><nobr>· <a href="/kdabrd/main.php?board=jj003">크리스마스 라벨</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="[산업안전보건자료] 물질안전보건자료(MSDS) 목록/  안전보건 교육 일지"><nobr>· <a href="/kdabrd/main.php?board=jj003">[산업안전보건자료] 물질안전보건자료(MSDS) 목록/  …</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="식사 및 간식 설문지(노인요양원)"><nobr>· <a href="/kdabrd/main.php?board=jj003">식사 및 간식 설문지(노인요양원)</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td> <!-- 양식/일지자료실 -->
+</tr>
+</table>
+</DIV>
+<DIV>
+<table width="740" border=0 cellpadding=0 cellspacing=0 align=center><tr><td colspan=2 height=3></td></tr>
+<tr>
+  <td align=left><a href="/kdabrd/main.php?board=jj002_1"><img src="/imgng/middle_main05_07.gif" border=0 alt="학교급식자료"></a></td>
+  <td align=left><a href="/kdabrd/main.php?board=jj008"><img src="/imgng/middle_main05_11.gif" border=0 alt="임상/식이자료"></a></td>
+</tr>
+<tr>
+  <td align=left valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="(부산) 2026학년도 공립 학교회계 예산편성 기본지침"><nobr>· <a href="/kdabrd/main.php?board=jj002_1">(부산) 2026학년도 공립 학교회계 예산편성 기본지침</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="(경북) [영양교사] 공립학교 영양교사 인사 보완기준 3차 안 (26.3.1 시행)"><nobr>· <a href="/kdabrd/main.php?board=jj002_1">(경북) [영양교사] 공립학교 영양교사 인사 보완기준 …</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="(전북) 2026학년도 학교회계 예산편성 및 운영지침"><nobr>· <a href="/kdabrd/main.php?board=jj002_1">(전북) 2026학년도 학교회계 예산편성 및 운영지침</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td><!-- 학교급식자료 -->
+  <td align=left valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="병원 영양관리위원회 규정 예제"><nobr>· <a href="/kdabrd/main.php?board=jj008">병원 영양관리위원회 규정 예제</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="유동식이란??  농축유동식, 일반유동식, 맑은유동식"><nobr>· <a href="/kdabrd/main.php?board=jj008">유동식이란??  농축유동식, 일반유동식, 맑은유동식</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="변비식사요법"><nobr>· <a href="/kdabrd/main.php?board=jj008">변비식사요법</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td><!-- 임상/식이자료 -->
+</tr>
+</table>
+</DIV>
+<DIV>
+<table width="740" border=0 cellpadding=0 cellspacing=0 align=center><tr><td colspan=2 height=3></td></tr>
+<tr>
+  <td align=left><a href="/kdabrd/main.php?board=jj005"><img src="/imgng/middle_main05_09.gif" border=0 alt="레시피자료실"></a></td>
+  <td align=left><a href="/kdabrd/main.php?board=jj020"><img src="/imgng/middle_main05_10.gif" border=0 alt="동양상자료실"></a></td>
+</tr>
+<tr>
+  <td align=left valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="(광주) 2025년 학교급식 직무연수 - 글로벌DAY. 조리역량 강화 레시피"><nobr>· <a href="/kdabrd/main.php?board=jj005">(광주) 2025년 학교급식 직무연수 - 글로벌DAY. 조리…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="(한국임업진흥원) 건강한 먹거리 숲푸드 레시피북"><nobr>· <a href="/kdabrd/main.php?board=jj005">(한국임업진흥원) 건강한 먹거리 숲푸드 레시피북</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="[한식재단]  한식상차림 가이드 (전통음식 상차림, 식사예절등)"><nobr>· <a href="/kdabrd/main.php?board=jj005">[한식재단]  한식상차림 가이드 (전통음식 상차림, 식…</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td><!-- 레시피자료실 -->
+  <td align=left valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="(나이스사용법) 신규 영양교사를 위한 급식 식재료 입찰 방법"><nobr>· <a href="/kdabrd/main.php?board=jj020">(나이스사용법) 신규 영양교사를 위한 급식 식재료 입…</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="(경북) 카페인 섭취를 줄이기 위한 교육 영상 - 일상속카페인루틴"><nobr>· <a href="/kdabrd/main.php?board=jj020">(경북) 카페인 섭취를 줄이기 위한 교육 영상 - 일상…</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="[지킬박사의 HACCP 동화] 콩쥐 팥쥐 편 (스마트 HACCP)"><nobr>· <a href="/kdabrd/main.php?board=jj020">[지킬박사의 HACCP 동화] 콩쥐 팥쥐 편 (스마트 HACCP…</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td><!-- 동양상자료실 -->
+</tr>
+</table>
+</DIV>
+
+<div style="height:13px;"></div><!-- 큰 섹션간 35px 기준 210616 -->
+
+<DIV>
+<table width="740" border=0 cellpadding=0 cellspacing=0 align=center><tr><td colspan=2><img src="/imgng/middle_main06.gif" border=0 alt="교육자료실" border=0></td></tr>
+<tr><td colspan=3 height=10></td></tr>
+<tr>
+  <td align=left><a href="/kdabrd/main.php?board=jj006"><img src="/imgng/middle_main05_03.gif" border=0 alt="위생/교육자료실"></a></td>
+  <td align=left><a href="/kdabrd/main.php?board=jj013"><img src="/imgng/middle_main05_02.gif" border=0 alt="영양/교육자료실"></a></td>
+</tr>
+<tr>
+  <td align=left valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="[질병관리청] 겨울철 노로바이러스 감염증 주의 당부"><nobr>· <a href="/kdabrd/main.php?board=jj006">[질병관리청] 겨울철 노로바이러스 감염증 주의 당부</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="[카드뉴스] HACCP 관리 가이드라인 배포로 안전한 식품 관리, HACCP만 믿으라구!"><nobr>· <a href="/kdabrd/main.php?board=jj006">[카드뉴스] HACCP 관리 가이드라인 배포로 안전한 식…</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="[카드뉴스] 식음료 페트병 다시 식음료 페트병으로! 안전하게 다시 태어납니다."><nobr>· <a href="/kdabrd/main.php?board=jj006">[카드뉴스] 식음료 페트병 다시 식음료 페트병으로! …</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td><!-- 위생/교육자료실 -->
+  <td align=left valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="[카드뉴스] 혈당 관리 식단_ 제철 재료 넣은 '통밀 오픈 샌드위치'"><nobr>· <a href="/kdabrd/main.php?board=jj013">[카드뉴스] 혈당 관리 식단_ 제철 재료 넣은 '통밀 오…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="[카드뉴스] 재미있는 김이야기 / 고추의모든것"><nobr>· <a href="/kdabrd/main.php?board=jj013">[카드뉴스] 재미있는 김이야기 / 고추의모든것</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="[교육부] 영양 UP! 위생 UP! 겨울철 건강을 지키는 식습관"><nobr>· <a href="/kdabrd/main.php?board=jj013">[교육부] 영양 UP! 위생 UP! 겨울철 건강을 지키는 식…</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td><!-- 영양/교육자료실 -->
+</tr>
+</table>
+</DIV>
+<DIV>
+<table width="740" border=0 cellpadding=0 cellspacing=0 align=center><tr><td colspan=2 height=3></td></tr>
+<tr>
+  <td align=left><a href="/kdabrd/main.php?board=jj006_1"><img src="/imgng/middle_main05_06.gif" border=0 alt="월별위생교육"></a></td>
+  <td align=left><a href="/kdabrd/main.php?board=jj013_1"><img src="/imgng/middle_main05_12.gif" border=0 alt="월별영양교육"></a></td>
+</tr>
+<tr>
+  <td align=left valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="(경기) 산업안전보건- 이상고온 물질접촉으로 인한 재해예방(화상예방)"><nobr>· <a href="/kdabrd/main.php?board=jj006_1">(경기) 산업안전보건- 이상고온 물질접촉으로 인한 재…</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="(인천) 조리원 위생교육자료 - 이물관리(급식 이물사고 원인과 예방) [댓글:2]"><nobr>· <a href="/kdabrd/main.php?board=jj006_1">(인천) 조리원 위생교육자료 - 이물관리(급식 이물사…</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="[식약처]식중독 주의정보알림(25년 12월) - 바실러스세레우스식중독주의"><nobr>· <a href="/kdabrd/main.php?board=jj006_1">[식약처]식중독 주의정보알림(25년 12월) - 바실러스…</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td><!-- 월별위생교육자료실 -->
+	<td align=left valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="(인천) 유치원 1월 영양소식지 - 노로바이러스 식중독"><nobr>· <a href="/kdabrd/main.php?board=jj013_1">(인천) 유치원 1월 영양소식지 - 노로바이러스 식중독</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="[가정통신문] &quot;식품첨가물&quot; 바로 알고 섭취하기"><nobr>· <a href="/kdabrd/main.php?board=jj013_1">[가정통신문] &quot;식품첨가물&quot; 바로 알고 섭취…</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="(경기) 학부모 식생활교육자료 - 음식물쓰레기, 어린이 올바른식생활"><nobr>· <a href="/kdabrd/main.php?board=jj013_1">(경기) 학부모 식생활교육자료 - 음식물쓰레기, 어린…</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td><!-- 월별영양교육자료실 -->
+</tr>
+</table>
+</DIV>
+
+<DIV>
+<table width="740" border=0 cellpadding=0 cellspacing=0 align=center><tr><td colspan=2 height=3></td></tr>
+<tr>
+	<td align=left><a href="/kdabrd/main.php?board=jj013_2"><img src="/imgng/middle_main05_05.gif" border=0 alt="수업/교육자료실"></a></td>
+  <td align=left><a href="/kdabrd/main.php?board=jj018"><img src="/imgng/middle_main05_08.gif" border=0 alt="산업안전보건"></a></td>
+</tr>
+<tr>
+	<td align=left valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="(경북) 세계음식의 날 (다문화 이해의 날): 이탈리아, 포르투칼, 독일 (ppt,pop,레시피)"><nobr>· <a href="/kdabrd/main.php?board=jj013_2">(경북) 세계음식의 날 (다문화 이해의 날): 이탈리아,…</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="(경북) 세계음식의 날 (다문화 이해의 날): 러시아 (ppt,pop,레시피)"><nobr>· <a href="/kdabrd/main.php?board=jj013_2">(경북) 세계음식의 날 (다문화 이해의 날): 러시아 (p…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="[교육부] 2025 유아 급식 우수사례 공모전 자료집"><nobr>· <a href="/kdabrd/main.php?board=jj013_2">[교육부] 2025 유아 급식 우수사례 공모전 자료집</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td><!-- 수업/교육자료실 -->
+  <td align=left valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=9></td><td height=25 align=left title="(인천)12월 산업안전보건 소식 - 사업장건강진단, 산업재해 발생시 대응방안 등"><nobr>· <a href="/kdabrd/main.php?board=jj018">(인천)12월 산업안전보건 소식 - 사업장건강진단, 산…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="(경남) 물질안전보건자료(MSDS) 관리 요령 (물질안전보건자료(MSDS) 목록 (예시))"><nobr>· <a href="/kdabrd/main.php?board=jj018">(경남) 물질안전보건자료(MSDS) 관리 요령 (물질안전…</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=9></td><td height=25 align=left title="(인천) 실천하는 산업안전보건 소식 (12월호) - 사업장 건강진단 및 산업재해 발생 시 대응방안"><nobr>· <a href="/kdabrd/main.php?board=jj018">(인천) 실천하는 산업안전보건 소식 (12월호) - 사업…</a></nobr></td></tr><tr><td width=9></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td><!-- 산업안전보건 -->
+</tr>
+</table>
+</DIV>
+
+<div style="height:10px;"></div>
+
+<style type="text/css">
+	.castbox9_tab_white_old{text-align:center; width:33.3%; height:30px; font-size:7pt; padding:4 0 2 0; background-color:#ffffff; border:1px solid #DDDDDD; border-width:1 1 0 1; cursor:pointer;}
+	.castbox9_tab_gray_old{text-align:center; width:33.3%; height:30px; font-size:7pt; padding:4 0 2 0; background-color:#F1F1F1; border:1px solid #DDDDDD; border-width:1 1 1 1; cursor:pointer;}
+	.castbox9_tab_white{text-align:center; width:50%; height:30px; font-size:7pt; padding:4 0 2 0; background-color:#ffffff; border:1px solid #DDDDDD; border-width:1 1 0 1; cursor:pointer;}
+	.castbox9_tab_gray{text-align:center; width:50%; height:30px; font-size:7pt; padding:4 0 2 0; background-color:#F1F1F1; border:1px solid #DDDDDD; border-width:1 1 1 1; cursor:pointer;}
+	.castbox9_tab_blank{width:1%; border-bottom:1px solid #cccccc;}
+	.castbox9_tab_text{ font-size: 0.88rem; font-weight:bold; color:#5E78A7;}
+	.castbox9_list_td{border:1px solid #DDDDDD; border-width:0 1 1 1; text-align:center; padding-top:10px; padding-bottom:10px;}
+</style>
+<script type="text/javascript">
+	function castbox9_tab_change(num,uni){
+		var tab1=document.getElementById(uni+'_tab1');		var tab2=document.getElementById(uni+'_tab2');		var tab3=document.getElementById(uni+'_tab3');		var tab4=document.getElementById(uni+'_tab4');
+		var tr1=document.getElementById(uni+'_div1');		var tr2=document.getElementById(uni+'_div2');		var tr3=document.getElementById(uni+'_div3');		var tr4=document.getElementById(uni+'_div4');
+		for(i=1; i<3; ++i){
+			eval('tab'+i).className=(num==i) ? 'castbox9_tab_white' : 'castbox9_tab_gray' ;
+			eval('tr'+i).style.display=(num==i) ? 'block' : 'none' ;
+		}
+	}
+	function castbox9_tab_change_stop(){
+		clearTimeout(auto_move_tab_ob);
+	}
+	function castbox9_tab_change_auto(num){
+		num+=1;
+		if(num>2) num=1;
+		castbox9_tab_change(num,'IMCASTBOX9');
+		auto_move_tab_ob=setTimeout("castbox9_tab_change_auto("+num+",'IMCASTBOX9')",2000);
+	}
+</script>
+<table cellpadding=0 cellspacing=0 border=0 width=750>
+<tr align=center>
+	<td class=castbox9_tab_white id='IMCASTBOX9_tab1' onmouseover=castbox9_tab_change(1,'IMCASTBOX9')><span class=castbox9_tab_text>커뮤니티</span></td>
+	<td class=castbox9_tab_gray id='IMCASTBOX9_tab2' onmouseover=castbox9_tab_change(2,'IMCASTBOX9') style="border-left:0;"><span class=castbox9_tab_text>급식자료</span></td>
+</tr>
+<tr align=center>
+	<td colspan=2 class=castbox9_list_td valign=top height=200>
+<div id='IMCASTBOX9_div1' style='display:block;'><table border=0 width=100% cellpadding=2 cellspacing=0><tr><td><table border="0" cellspacing="0" cellpadding="1" width="100%"><tr><td width="50%">
+&#160;&#160;· <b><a href="/kdabrd/main.php?board=bb001"><font color="#777777">낙서게시판</font></b>:인생얘기,사는야그,하고픈이야기</a><br>&#160;&#160;· <b><a href="/jobs/jobcity.php"><font color="#777777">구인/구직</font></b>:일자리 자유롭게 올리고 공유하자!</a><br>&#160;&#160;· <b><a href="/kdabrd/main.php?board=gg004"><font color="#777777">취업정보나눔터</font></b>:취업관련 정보를 공유하자!</a><br>&#160;&#160;· <b><a href="javascrpt:void(0)" onclick="kda_fix_open('/work4u/klog/hanjool.php', 'teatime', 700, 700);"><font color="#777777">티타임</font></b>: 휴식,여유시간에 부담없는 잡담을..!</a>
+<br>&#160;&#160;· <b><a href="/kdabrd/main.php?board=bb008"><font color="#777777">아나바다장터</font></b>:영도회원들의 직거래중고장터</a><br>
+&#160;&#160;· <b><a href="/kdabrd/main.php?board=bb004"><font color="#777777">유머/동영상</font></b>:심심하다면! 신나게 웃어보자!</a><br>&#160;&#160;· <b><a href="/kdabrd/main.php?board=star"><font color="#777777">연예/이슈</font></b>:요즘 어떤이슈가..연예계소식은?</a><br>&#160;&#160;· <b><a href="/kdabrd/main.php?board=bb003"><font color="#777777">컴퓨터상식</font></b>: 디지털시대에 컴퓨터는 필수</a><br>&#160;&#160;· <b><a href="/kdabrd/main.php?board=bb007"><font color="#777777">시사토론방</font></b>:머리아픈일 이곳에서 토론하자!</a><br> 
+</td>
+<td width="50%">· <b><a href="/kdabrd/main.php?board=bb002"><font color="#777777">영양사이야기</font></b>:우리들의 이야기를 남겨 보세요!</a>
+<br>· <b><a href="/dicagal/index.php"><font color="#777777">급식포토방</font></b>:음식,식단,급식소 현장사진을..</a>
+<br>· <b><a href="/kdabrd/main.php?board=qna001"><font color="#777777">질문/답하기</font></b>:궁금한 것은 모두 질문하세요!</a>
+<br>· <b><a href="/kdabrd/main.php?board=clinic"><font color="#777777">임상게시판</font></b>: 식이나 임상관련 질문답하기</a>
+<br>· <b><a href="/kdabrd/main.php?board=NEIS"><font color="#777777">NEIS이야기</font></b>:초중등 학교나이스프로그램..</a>
+<br>· <b><a href="/kdabrd/main.php?board=ex"><font color="#777777">인사교류방</font></b>:관련공무원끼리 인사교류를..</a>
+<br>· <b><a href="/kdabrd/kdclubmoim.php"><font color="#777777">영양사모임방</font></b>:모여보자! 뭉쳐보자!</a>
+<br>· <b><a href="/kdabrd/main.php?board=FF002"><font color="#777777">오픈장터</font></b>:식품,위생,주방기구 등등.. 팔고사고!</a>
+<br>· <b><a href="/kdabrd/main.php?board=FF001"><font color="#777777">관련업체정보</font></b>:단체급식 관련업체를 소개해요</a>
+</td></tr></table></td></tr></table></div>
+<div id='IMCASTBOX9_div2' style='display:none;'><table border=0 width=100% cellpadding=2 cellspacing=0><tr><td><table cellpadding="1" cellspacing="0" border=0 width="100%">
+<tr><td valign="top">
+&#160;&#160;·&#160;<b><a href="/kdabrd/main.php?board=jj002">급식/운영</a></b><br>
+&#160;&#160;·&#160;<a href="/kdabrd/main.php?board=jj002_1">학교/실무</a><br>
+&#160;&#160;·&#160;<a href="/kdabrd/main.php?board=jj003">양식/일지</a><br>
+&#160;&#160;·&#160;<a href="/kdabrd/main.php?board=jj008">임상/식이</a><br>
+&#160;&#160;·&#160;<a href="/kdabrd/main.php?board=jj015">연구/논문</a><br>
+&#160;&#160;·&#160;<a href="/kdabrd/main.php?board=jj009">법규해석</a><br>
+&#160;&#160;·&#160;<a href="/kdabrd/main.php?board=jj019">검수자료</a><br>
+&#160;&#160;·&#160;<a href="/kdabrd/main.php?board=jj007">식품관련</a><br>
+&#160;&#160;·&#160;<a href="/kdabrd/main.php?board=jj017">관련법규</a>
+</td><td width="19%" valign="top">
+·&#160;<b><a href="/kdabrd/main.php?board=jj013">영양/교육</a></b><br>
+·&#160;<a href="/kdabrd/main.php?board=jj013_1">월별영양교육</a><br>
+·&#160;<a href="/kdabrd/main.php?board=jj013_2">수업자료실</a><br>
+·&#160;<a href="/kdabrd/main.php?board=data4">음식궁합</a><br>
+·&#160;<a href="/kdabrd/main.php?board=data6">영양상식</a><br>
+·&#160;<a href="/kdabrd/main.php?board=kda002&cate=[영양]">영양뉴스</a><br>
+·&#160;<a href="/kdabrd/main.php?board=data2">식품영양정보</a><br>
+·&#160;<a href="/pds/list.php?search=&how=15&cate=04">POP자료</a><br>
+·&#160;<b><a href="/kdabrd/main.php?board=bb010">정보나눔터</a></b>
+</td><td width="21%" valign="top">
+·&#160;<b><a href="/kdabrd/main.php?board=jj006">위생/HACCP</a><br></b>
+·&#160;<a href="/kdabrd/main.php?board=jj018">산업안전보건</a><br>
+·&#160;<a href="/kdabrd/main.php?board=jj006_1">월별위생교육</a><br>
+·&#160;<a href="/kdabrd/main.php?board=data5">HACCP사전</a><br>
+·&#160;<a href="/kdabrd/main.php?board=jj006_2">식중독/전염병</a><br>
+·&#160;<a href="http://www.mfds.go.kr/fm/index.do" target="_blank">식중독예방홍보</a><br>
+·&#160;<b><a href="/kdabrd/main.php?board=jj020">동영상자료실</a></b><br>
+·&#160;<a href="/pds/list.php?search=&how=35">이미지갤러리</a><br>
+·&#160;<a href="/kdabrd/main.php?board=jj011">이미지자료실</a>
+</td><td width="20%" valign="top">
+&#160;·&#160;<b><a href="/kdabrd/main.php?board=jj004">식단자료실</a></b> <br>
+&#160;·&#160;<a href="http://www.foodsafetykorea.go.kr/portal/sensuousmenu/schoolMeals.do" target="_blank">우리학교식단</a><br>
+&#160;·&#160;<a href="/kdabrd/main.php?board=data1">급식레시피</a><br>
+&#160;·&#160;<a href="/kdabrd/main.php?board=food">일반레시피</a><br>
+&#160;·&#160;<a href="/kdabrd/main.php?board=jj005">레시피모음</a><br>
+&#160;·&#160;<a href="/kdabrd/main.php?board=data3">요리/쿠킹팁</a><br>
+&#160;·&#160;<a href=/dicagal/index.php?cate=1>급식포토방</a><br>
+&#160;·&#160;<a href="http://cook.miznet.daum.net" target="_blank">다음미즈쿡</a><br>
+&#160;·&#160;<a href="/kdabrd/main.php?board=jj016">가격정보</a><br> 
+</td><td width="21%" valign="top">
+·&#160;<a href="/kdabrd/main.php?board=kda002"><b>뉴스와상식</b></a><br>
+·&#160;<a href="/food_menu/fs_base.php" target="_blank">영양소사전</a><br>
+·&#160;<a href="/food_menu/KDRIs2010_list.php" target="_blank">평균영양량</a><br>
+·&#160;<a href="/foodmenu/fds_edit.php" target="_blank">영양가산출(1)</a><br>
+·&#160;<a href="/kdabrd/main.php?board=jj001&tsc=7&cate=&cate2=&where=1&scan=레시피및식단&page=1">식단칼로리산출</a><br>
+·&#160;<a href="/food_menu/kcalreq.php">1인에너지계산</a><br>
+·&#160;<a href="/food_menu/obesity.php">비만도판정하기</a><br>
+·&#160;<a href="/iyagi/index2.html" target="_blank">1일영양권장량</a><br>
+&#160;·<b><a href="/kdabrd/main.php?board=jj014">시험/자격증</a></b>
+</td></tr></table></td></tr></table></div>
+<div id='IMCASTBOX9_div3' style='display:none;'><table border=0 width=100% cellpadding=2 cellspacing=0><tr><td><table cellpadding="1" cellspacing="0" width="553">
+<tr>
+<td width="5%" valign="top">
+<p>&#160;</p>
+</td>
+<td width="17%" valign="top">
+[필수유틸]<br>
+·<a href="http://www.altools.co.kr/Download/" target="_blank">압축유틸</a><br>
+·<a href="http://alyac.altools.co.kr" target="_blank">백신알약</a><br>
+·<a href="http://app.gomtv.com/gom/GOMPLAYERSETUP.EXE" target="_blank">동영상뷰어</a><br>
+·<a href="http://www.kippler.com/win/honeyview3/" target="_blank">사진뷰어</a><br>
+·<a href="http://gom.gomtv.com/release/down.html?intSeq=158" target="_blank">mp3유틸</a><br>
+·<a href="/kdabrd/read.php?board=jj012&xno=1270718653" target="_blank">파일감추미</a><br>
+·<a href="http://www.photoscape.co.kr/" target="_blank">포토스케프</a><br>
+</td>
+<td width="16%" valign="top"><br>
+·<a href="http://www.hancom.co.kr/downLoad.downPU.do?mcd=002" target="_blank">한글뷰어</a><br>
+·<a href="/kdabrd/read.php?board=jj012&xno=1269219146" target="_blank">엑셀호환팩</a><br>
+·<a href="/kdabrd/read.php?board=jj012&xno=1224439945" target="_blank">엑셀뷰어</a><br>
+·<a href="/kdabrd/read.php?board=jj012&xno=1224439945" target="_blank">워드뷰어</a><br>
+·<a href="/kdabrd/read.php?board=jj012&xno=1224439945" target="_blank">PPT뷰어</a>
+<br>
+·<a href="/kdabrd/evt_down.php?board=jj012&xno=1174835132&xid=1&filename=foxitreader_setup.exe" target="_blank">PDF뷰어</a>
+<br>
+·<a href="/kdabrd/read.php?board=jj012&xno=1197349224" target="_blank">훈민뷰어</a><br></td>
+
+<td width="15%" valign="top">
+            <p>[추천링크]<br>· <a href=http://www.kfda.go.kr target="_blank">식약청</a><br>
+· <a href=http://www.moe.go.kr target="_blank">교육부</a><br>
+· <a href=/kdabrd/read.php?board=kda001&xno=966493702&sno=0 target="_blank">교육청</a><br>
+· <a href=http://www.mw.go.kr>복지부</a><br>· <a href=http://www.moleg.go.kr target="_blank">법제처</a><br>
+· <a href=http://www.maf.go.kr target="_blank">농림부</a><br>
+</td>
+
+<td width="16%" valign="top"><br>
+            <p>· <a href=http://www.molab.go.kr target="_blank">노동부</a><br>· <a href=http://www.dietitian.or.kr target="_blank">협회</a><br>
+· <a href=http://www.kuksiwon.or.kr target="_blank">국시원</a><br>
+· <a href=http://www.me.go.kr target="_blank">환경부</a><br>
+· <a href=http://www.pps.go.kr target="_blank">조달청</a><br>· <a href=http://www.kormeat.com target="_blank">등급판정소</a><br>
+&#160;</td>
+
+<td width="16%" valign="top">
+<p><a href="http://www.affis.net/portal/ci/affis_sub_main/price_main.jsp" target="_blank">·가격유통</a><br>
+<a href="http://www.kprc.or.kr/priceSubsidiary.do?page=1&page_sz=10&board_id=cus02" target="_blank">·물가협회</a>
+<br><a href="http://www.kamis.co.kr/" target="_blank">·유통공사</a><br>
+<a href="http://www.garak.co.kr/" target="_blank">·가락시장</a><br>
+<a href="http://www.apgs.co.kr/gradeinfo/onair/" target="_blank">·축산경매</a><br>
+<a href=http://kostat.go.kr/board_notice/BoardAction.do?method=list&board_id=73&catgrp=nso2009&catid1=k04___0000&catid2=k04b__0000&catid3=k04be_0000 target="_blank">·물가지수</a><br><a href="http://www.fifis.kr/" target="_blank">·수산물</a><br>
+<a href="http://www.fishsale.co.kr/" target="_blank">·피쉬세일</a>&#160;</td>
+
+<td width="13%" valign="top">
+            <p><a href="/kdabrd/main.php?board=jj019">[검수]</a><br>
+<a href="http://www.naqs.go.kr/qualityInfo/qualityInfo_02.jsp" target="_blank">·농산물</a><br>
+<a href="http://www.apgs.co.kr/03_info/06.asp" target="_blank">·축산물</a><br>
+<a href="http://www.nfis.go.kr/dataroom/D_know_list_01.asp" target="_blank">·수산물</a></td>
+
+</tr>
+</table></td></tr></table></div>
+	</td>
+</tr>
+</table>
+</DIV>
+
+<table align=center width="740" border=0 height=15><tr><td></td></tr></table>
+
+</TD>
+
+<TD width=250 background="/imgng/RIGHT_bg9.gif" valign=top>
+	<!-- 영양사구인 -->
+		<table align=center width="220" border=0 cellpadding=1 cellspacing=0><tr><td height=13></td></tr></table>
+		<table align=center width="220" border=0 cellpadding=1 cellspacing=0>
+		<tr><td height=3></td></tr>
+		<tr><td align=left><a href="/jobs/jobcity.php"><img src="/imgng/light_main01_1.gif" border=0 alt="영양사관련구인" border=0></a></td></tr>
+		<tr><td align=center valign=top><table width=99% align=left border=0 cellpadding=0 cellspacing=0><tr><td width=7></td><td height=25 align=left>· <a href="/jobs/jobcity.php">[명지병원] 임상영양사 모…</a> <img src="/imgng/new.gif" border=0></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left>· <a href="/jobs/jobcity.php">태평요양병원</a> <img src="/imgng/new.gif" border=0></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left>· <a href="/jobs/jobcity.php">KNF새빛어린이집</a> <img src="/imgng/new.gif" border=0></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr></table>
+</td></tr>
+		</table>
+
+	<table width=100% border=0 cellpadding=0 cellspacing=0><tr><td style="background-image:url('/imgng/RIGHT_bar9.gif');" height=5>&nbsp;</td></tr></table>
+	<!-- 취업정보나눔터 -->
+		<table align=center width="220" border=0 cellpadding=1 cellspacing=0>
+		<tr><td height=3></td></tr>
+		<tr><td align=left><a href="/kdabrd/main.php?board=gg004"><img src="/imgng/light_main01_3.gif" border=0 alt="취업정보나눔터" border=0></a></td></tr>
+		<tr><td align=center valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=7></td><td height=25 align=left title="국군복지단 연봉 2712만원 이게 맞나요?"><nobr>· <a href="/kdabrd/main.php?board=gg004">국군복지단 연봉 2712만…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="아산에복지관 왜 1년만에 떠 올라온건가요??? [댓글:1]"><nobr>· <a href="/kdabrd/main.php?board=gg004">아산에복지관 왜 1년만…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="병원 후임 영양사 자기소개서에 자격증 [댓글:2]"><nobr>· <a href="/kdabrd/main.php?board=gg004">병원 후임 영양사 자기…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td></tr>
+		</table>
+
+	<table width=100% border=0 cellpadding=0 cellspacing=0><tr><td style="background-image:url('/imgng/RIGHT_bar9.gif');" height=5>&nbsp;</td></tr></table>
+	<!-- 조리직구인 -->
+		<table align=center width="220" border=0 cellpadding=1 cellspacing=0>
+		<tr><td height=3></td></tr>
+		<tr><td align=left><a href="/jobs/jobcity2.php"><img src="/imgng/light_main01_2.gif" border=0 alt="조리직관련구인" border=0></a></td></tr>
+		<tr><td align=center valign=top><table width=99% align=left border=0 cellpadding=0 cellspacing=0><tr><td width=7></td><td height=25 align=left>· <a href="/jobs/jobcity2.php">인식당 마도점</a> <img src="/imgng/new.gif" border=0></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left>· <a href="/jobs/jobcity2.php">[푸디스트] 판교 안랩점 …</a> <img src="/imgng/new.gif" border=0></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left>· <a href="/jobs/jobcity2.php">[브라운에프엔비] 나래에…</a> <img src="/imgng/new.gif" border=0></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr></table>
+</td></tr>
+		</table>
+
+	<table width=100% border=0 cellpadding=0 cellspacing=0><tr><td style="background:url('/imgng/RIGHT_bar9.gif');" height=15>&nbsp;</td></tr></table>
+	<!-- 아나바다장터 -->
+		<table align=center width="220" border=0 cellpadding=1 cellspacing=0><tr><td><a href="/kdabrd/main.php?board=bb008"><img src="/imgng/light_main04.gif" border=0 alt="아나바다장터"></a></td></tr>
+		<tr><td height=3></td></tr>
+		<tr><td align=left><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=7></td><td height=25 align=left title="크리스마스 커플 케이크토퍼"><nobr>· <a href="/kdabrd/main.php?board=bb008">크리스마스 커플 케이…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="원피스 팝니다! (가격인하)"><nobr>· <a href="/kdabrd/main.php?board=bb008">원피스 팝니다! (가격…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="서리태 kg에 11,000원입니다. [댓글:1]"><nobr>· <a href="/kdabrd/main.php?board=bb008">서리태 kg에 11,000원…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td></tr>
+		</table>
+
+<table width=100% border=0 cellpadding=0 cellspacing=0><tr><td style="background:url('/imgng/RIGHT_bar9.gif');" height=15>&nbsp;</td></tr></table>
+<!-- 학교급식식단 -->
+<table width="220" border=0  cellpadding=1 cellspacing=0 align=center><tr><td><a href="/food_menu/edu_meal.php"><img src="/imgng/school_menu2.gif" width=200 height=30 border=0 alt="전국학교급식식단"></a></td></tr></table>
+<!-- 학교급식식단 -->
+
+<!-- 관련업체정보 -->
+<style type="text/css">
+ .castbiz2_tab_white{width:99px; height:5px; font-size:3pt; padding:4 0 2 0; color:#555555; background-color:#EEEEEE; border:1px solid #FFFFFF; border-width:0 1 1 1; cursor:pointer;}
+ .castbiz2_tab_gray{width:99px; height:5px; font-size:3pt; padding:4 0 2 0; color:#474556; background-color:#ffffff; border:1px solid #FFFFFF; border-width:0 1 1 1; cursor:pointer;}
+ .castbiz2_tab_blank{width:10%; border-bottom:1px solid #cccccc;}
+ .castbiz2_tab_text{font-size:9pt; color:#474556;}
+ .castbiz2_list_td{border:1px solid #DDDDDD; border-width:1 1 0 1; text-align:center;}
+</style>
+<script type="text/javascript">
+ // 탭변경 action
+ function castbiz2_tab_change(num,uni){
+  var tab1=document.getElementById(uni+'_tab1');  var tab2=document.getElementById(uni+'_tab2');  var tab3=document.getElementById(uni+'_tab3');  var tab4=document.getElementById(uni+'_tab4');
+  var tr1=document.getElementById(uni+'_div1');  var tr2=document.getElementById(uni+'_div2');  var tr3=document.getElementById(uni+'_div3');  var tr4=document.getElementById(uni+'_div4');
+  for(i=1; i<3; ++i){ /*탭2개에서 3개로 변경 -> 2개로 변경*/
+   eval('tab'+i).className=(num==i) ? 'castbiz2_tab_gray' : 'castbiz2_tab_white';
+   /*탭 색상이 grey일경우 : eval('tab'+i).className=(num==i) ? 'castbiz2_tab_white' : 'castbiz2_tab_gray';*/
+   eval('tr'+i).style.display=(num==i) ? 'block' : 'none' ;
+  }
+ }
+</script>
+<table width=100% border=0 cellpadding=0 cellspacing=0><tr><td style="background:url('/imgng/RIGHT_bar9.gif');" height=15>&nbsp;</td></tr></table>
+	<div>
+		<table width="220" border=0 cellpadding=0 cellspacing=0 align=center><tr><td><a href=/kdabrd/main.php?board=FF001><img src="/imgng/left_main02.gif" border=0 alt="관련업체정보"></a></td></tr></table>
+		<table align=center border=0 width=218 cellpadding=0 cellspacing=0>
+		<tr><td align=center valign=top colspan=2><div id="IMCASTBIZ2_div1" style="display:block;"><table align=left width=190 border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=7></td><td height=24 align=left title="[기타업체] &lt;b&gt;서울사이버대학 - 신입, 편입생 모집(학사취득가능)&lt;/b&gt;" style="padding-top: 4px;"><nobr>· <a href="/kdabrd/read.php?board=FF001&xno=1764117343&sno=11"><b>서울사이버대학 - 신입, 편입생 …</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=24 align=left title="[식품회사] &lt;b&gt;(주)아이랑&lt;/b&gt; - 동지 팥와플, 찹쌀링떡 등 [댓글:123]" style="padding-top: 4px;"><nobr>· <a href="/kdabrd/read.php?board=FF001&xno=1704680721&sno=10"><b>(주)아이랑</b> - 동지 팥와플, …</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=24 align=left title="[주방,설비] &#128156;제로스톤&#128156; 업소용 음식물처리기 특별혜택 공개!&#128525;" style="padding-top: 4px;"><nobr>· <a href="/kdabrd/read.php?board=FF001&xno=1754620723&sno=9">&#128156;제로스톤&#128156; 업소용…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=24 align=left title="[유통회사] &lt;b&gt;(주)파르팜&lt;/b&gt;- 산타 벽돌케이크, 수능 보양식 등 [댓글:562]" style="padding-top: 4px;"><nobr>· <a href="/kdabrd/read.php?board=FF001&xno=1733203241&sno=8"><b>(주)파르팜</b>- 산타 벽돌케이…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=24 align=left title="[식품회사] &lt;b&gt;㈜면사랑&lt;/b&gt; 신제품 추천 식단 구성 [댓글:1373]" style="padding-top: 4px;"><nobr>· <a href="/kdabrd/read.php?board=FF001&xno=1667259047&sno=7"><b>㈜면사랑</b> 신제품 추천 식단 …</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=24 align=left title="[공산품납품] &lt;b&gt;하이포크(저탄소동물복지인증)&lt;/b&gt; - 11~12월 특식의 품격 [댓글:1]" style="padding-top: 4px;"><nobr>· <a href="/kdabrd/read.php?board=FF001&xno=1758585351&sno=6"><b>하이포크(저탄소동물복지인증)</…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr></table></div><div id="IMCASTBIZ2_div2" style="display:none;"><table align=left width=190 border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=7></td><td height=24 align=left title="[공산품납품] &lt;b&gt;㈜선진FS&lt;/b&gt;- 연말특식 추천제품 안내 [댓글:1217]" style="padding-top: 4px;"><nobr>· <a href="/kdabrd/read.php?board=FF001&xno=1478849336&sno=5"><b>㈜선진FS</b>- 연말특식 추천제…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=24 align=left title="[유통회사] &lt;b&gt;[㈜ SRC]&lt;/b&gt;12월 행복식단 성탄절케익4종, 동지떡, 특식 소개 [댓글:866]" style="padding-top: 4px;"><nobr>· <a href="/kdabrd/read.php?board=FF001&xno=1744017628&sno=4"><b>[㈜ SRC]</b>12월 행복식단 성탄…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=24 align=left title="[식품회사] &lt;b&gt;㈜오뚜기&lt;/b&gt;- 야심차게 소개하는 신제품 [댓글:2175]" style="padding-top: 4px;"><nobr>· <a href="/kdabrd/read.php?board=FF001&xno=1505952686&sno=3"><b>㈜오뚜기</b>- 야심차게 소개하…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=24 align=left title="[주방,설비] &lt;b&gt;(주)나만&lt;/b&gt; - 컨벡션오븐 5세대 [댓글:396]" style="padding-top: 4px;"><nobr>· <a href="/kdabrd/read.php?board=FF001&xno=1710744707&sno=2"><b>(주)나만</b> - 컨벡션오븐 5세…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=24 align=left title="[농산물납품] (주)하늘농가 - 12월 제철나물 안내 &#129505; [댓글:1096]" style="padding-top: 4px;"><nobr>· <a href="/kdabrd/read.php?board=FF001&xno=1128925474&sno=1">(주)하늘농가 - 12월 제철나물 안내…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left><nobr></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#FFFFFF></td></tr></table></div>
+</td></tr>
+		<tr align=center><!-- 하단에 탭 -->
+			<!-- 탭 색상이 white인 경우 : css의 castbiz2_tab_white와 grey의 색상설정이 바뀐듯.  -->
+			<td height=5 class=castbiz2_tab_white id='IMCASTBIZ2_tab1' onmouseover=castbiz2_tab_change(1,'IMCASTBIZ2')></td>
+			<td height=5 class=castbiz2_tab_gray id='IMCASTBIZ2_tab2' onmouseover=castbiz2_tab_change(2,'IMCASTBIZ2') style="border-left:0;"></td>
+			<!-- <td height=5 class=castbiz2_tab_white id='IMCASTBIZ2_tab3' onmouseover=castbiz2_tab_change(3,'IMCASTBIZ2') style="border-left:0;"></td> -->
+		</tr>
+		</table>
+	</div>
+
+<script type="text/javascript">
+castbiz2_tab_change(1,'IMCASTBIZ2');
+clearJSCookie('kdabn4');
+setJSCookie('kdabn4', '2');
+</script>
+<table width=100% border=0 cellpadding=0 cellspacing=0><tr><td style="background:url('/imgng/RIGHT_bar9.gif');" height=15>&nbsp;</td></tr></table>
+<table width=100% border=0 cellpadding=0 cellspacing=0><tr><td height=4></td></tr></table>
+<!-- 관련업체정보 -->
+<table width="220" border=0  cellpadding=1 cellspacing=0 align=center><tr><td width=5></td><td width=126><a href="/kdabrd/main.php?board=FF002"><img src="/imgng/light_main05.gif" border=0 alt="오픈마켓"></a></td></tr></table>
+<!-- 관련업체정보 -->
+<table width=100% border=0 cellpadding=0 cellspacing=0><tr><td style="background:url('/imgng/RIGHT_bar9.gif');" height=15>&nbsp;</td></tr></table>
+<!-- 공개자료실 -->
+	<table width="220" border=0 cellpadding=1 cellspacing=0 align=center>
+	<tr><td align=left><a href="/kdabrd/main.php?board=bb010"><img src="/imgng/light_main_bb010.gif" border=0 alt="공개자료실"></a></td></tr>
+	<tr><td align=center valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=7></td><td height=25 align=left title="'호국보훈의 달' 인사말/문구/글귀 [댓글:1]"><nobr>· <a href="/kdabrd/main.php?board=bb010">'호국보훈의 달' 인사말/문…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="식수인원이 많을때 팝콘 하는법"><nobr>· <a href="/kdabrd/main.php?board=bb010">식수인원이 많을때 팝콘 하…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="2025년 푸른 뱀띠의 해 공휴일 * 기념일 총정리"><nobr>· <a href="/kdabrd/main.php?board=bb010">2025년 푸른 뱀띠의 해 공…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td></tr>
+	</table>
+<table width=100% border=0 cellpadding=0 cellspacing=0><tr><td style="background:url('/imgng/RIGHT_bar9.gif');" height=15>&nbsp;</td></tr></table>
+<!-- 물가자료리스트 -->
+<table width="220" border=0 cellpadding=1 cellspacing=0 align=center>
+<tr><td align=left><a href="/kdabrd/main.php?board=jj016"><img src="/img/event/left_main002.gif" border=0 alt="물가자료리스트"></a></td></tr>
+<tr><td align=center valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=7></td><td height=25 align=left title="(경북) 2025년도 11월 시장조사 자료(12월~2월 적용)"><nobr>· <a href="/kdabrd/main.php?board=jj016">(경북) 2025년도 11월 …</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="(서울) 2025년도 11월 학교급식 식재료 물가동향"><nobr>· <a href="/kdabrd/main.php?board=jj016">(서울) 2025년도 11월 …</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td></tr>
+</table>
+<table width=100% border=0 cellpadding=0 cellspacing=0><tr><td style="background:url('/imgng/RIGHT_bar9.gif');" height=15>&nbsp;</td></tr></table>
+<!-- 입찰/납품업체 견적요청 -->
+<table width="220" border=0 cellpadding=1 cellspacing=0 align=center>
+  <tr><td align=left><a href="/kdabrd/main.php?board=FF003"><img src="/imgng/light_main03.gif" border=0 alt="업체를찾아요"></a></td></tr>
+  <tr><td align=center valign=top><table width="99%" align=left border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed; overflow:hidden;"><tr><td width=7></td><td height=25 align=left title="2026년도 상대원1동복지회관 경로식당 식자재 납품업체 입찰 공고"><nobr>· <a href="/kdabrd/main.php?board=FF003">2026년도 상대원1동복지회…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="식자재 납품 업체를 찾습니다 [댓글:1]"><nobr>· <a href="/kdabrd/main.php?board=FF003">식자재 납품 업체를 찾습니…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="축산물 납품 업체 찾고있습니다"><nobr>· <a href="/kdabrd/main.php?board=FF003">축산물 납품 업체 찾고있습…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td colspan=2 height=10></td></tr></table>
+</td></tr>
+</table>
+<!-- 입찰/납품업체 견적요청 -->
+
+<!-- 기타 여러가지모음 -->
+<table width=100% border=0 cellpadding=0 cellspacing=0><tr><td style="background:url('/imgng/RIGHT_bar9.gif');" height=15>&nbsp;</td></tr></table>
+<table width=100% border=0 cellpadding=0 cellspacing=0><tr><td height=7></td></tr></table>
+<div>
+	<table align=center width=200 border=0 cellpadding=0 cellspacing=0>
+	<tr>
+		<td height=29><a href=/food_menu/fs_base.php><img src="/imgng/sv001.gif" width=102 height=29 border=0 alt="칼로리사전"></a></td>
+		<td height=29><a href=/foodmenu/fds_edit.php><img src="/imgng/sv002.gif" width=102 height=29 border=0 alt="영양가산출"></a></td>
+	</tr>
+	<tr>
+		<td height=29><a href=/iyagi/index.html target=_blank><img src="/imgng/sv003.gif" width=102 height=29 border=0 alt="식사요법"></a></td>
+		<td height=29><a href=/menu/license.htm target=_blank><img src="/imgng/sv004.gif" width=102 height=29 border=0 alt="자격증정보"></a></td>
+	</tr>
+	<tr>
+		<td height=29><a href=/iyagi/index2.html target=_blank><img src="/imgng/sv005.gif" width=102 height=29 border=0 alt="영양섭취기준"></a></td>
+		<td height=29><a href=/food_menu/obesity.php><img src="/imgng/sv006.gif" width=102 height=29 border=0 alt="비만도판정"></a></td>
+	</tr>
+	<tr>
+		<td height=29><a href=/kdabrd/main.php?board=data4><img src="/imgng/sv007.gif" width=102 height=29 border=0 alt="음식궁합"></a></td>
+		<td height=29><a href=/kdabrd/main.php?board=jj009><img src="/imgng/sv008.gif" width=102 height=29 border=0 alt="법규해석"></a></td>
+	</tr>
+	<tr>
+		<td height=29><a href=/kdabrd/main.php?board=jj020><img src="/imgng/sv009.gif" width=102 height=29 border=0 alt="동영상교육"></a></td>
+		<td height=29><a href=/pds/list.php><img src="/imgng/sv010.gif" width=102 height=29 border=0 alt="이미지자료"></a></td>
+	</tr>
+	</table>
+</div>
+
+<table width=100% border=0 cellpadding=0 cellspacing=0><tr><td style="background:url('/imgng/RIGHT_bar9.gif');" height=17>&nbsp;</td></tr></table>
+<div><!-- 새등록자료 -->
+	<table width="220" border=0 cellpadding=1 cellspacing=0 align=center><tr><td><a href="/kdabrd/mainjj.php"><img src="/imgng/light_mainjj.gif" border=0 alt="자료리스트"></a></td></tr>
+	<tr><td height=3></td></tr>
+		<tr><td align=left><table align=left width="99%" border=0 cellpadding=0 cellspacing=0 style="table-layout:fixed;"><tr><td width=7></td><td height=25 align=left title="(광주) 2025년 학교급식 직무연수 - 글로벌DAY. 조리역량 강화 레시피" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">(광주) 2025년 학교급식 …</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="4대보험 가입대상 및 보험료(건강보험,국민연금,산재보험,고용보험" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">4대보험 가입대상 및 보…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="(부산) 2026학년도 공립 학교회계 예산편성 기본지침" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">(부산) 2026학년도 공립 …</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="[카드뉴스] 혈당 관리 식단_ 제철 재료 넣은 '통밀 오픈 샌드위치'" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">[카드뉴스] 혈당 관리 식…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="[질병관리청] 겨울철 노로바이러스 감염증 주의 당부" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">[질병관리청] 겨울철 노…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="(경북) 세계음식의 날 (다문화 이해의 날): 러시아 (ppt,pop,레시피)" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">(경북) 세계음식의 날 (…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="(인천)12월 산업안전보건 소식 - 사업장건강진단, 산업재해 발생시 대응방안 등" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">(인천)12월 산업안전보건…</a> <img src="/imgng/new.gif" border=0></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="[카드뉴스] 재미있는 김이야기 / 고추의모든것" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">[카드뉴스] 재미있는 김이…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="크리스마스 라벨" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">크리스마스 라벨</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="사구체신염식" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">사구체신염식</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="(경남) 물질안전보건자료(MSDS) 관리 요령 (물질안전보건자료(MSDS) 목록 (예시))" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">(경남) 물질안전보건자료(MSDS) …</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="[산업안전보건자료] 물질안전보건자료(MSDS) 목록/  안전보건 교육 일지" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">[산업안전보건자료] 물질안전보건자…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="우리가 쓰는 양념 알고 사용하기(소금/ 간장/ 된장)" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">우리가 쓰는 양념 알고 사용하기(소금…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="[교육부] 영양 UP! 위생 UP! 겨울철 건강을 지키는 식습관" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">[교육부] 영양 UP! 위생 UP! 겨울철 건…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="(인천) 실천하는 산업안전보건 소식 (12월호) - 사업장 건강진단 및 산업재해 발생 시 대응방안" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">(인천) 실천하는 산업안전보건 소식 (12월…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="[안전보건공단] 학교 급식종사자 안전보건교육 교안" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">[안전보건공단] 학교 급식종사자 안전보건교…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr><tr><td width=7></td><td height=25 align=left title="[노동부] 「고용보험법」 및 「고용산재보험료징수법」 개정(적용,징수,급여기준 변경)" style="text-overflow:ellipsis; overflow:hidden"><nobr>· <a href="/kdabrd/mainjj.php">[노동부] 「고용보험법」 및 「고용산재보험료…</a></nobr></td></tr><tr><td width=7></td><td height=1 bgcolor=#AAAAAA background="/imgng/graypoint.gif"></td></tr></table>
+</td></tr>
+	</table>
+</div>
+
+
+<!-- 기타 여러가지모음 -->
+
+<!-- 티타임 잠깐 숨김 / 보이게-->
+<!-- <table width=100% border=0 cellpadding=0 cellspacing=0><tr><td style="background:url('/imgng/RIGHT_bar9.gif');" height=17>&nbsp;</td></tr></table>
+	<div>
+		<table align=center width=100% border=0 cellpadding=2 cellspacing=0><td align=left><a href=/work4u/klog/hanjool.php target="_blank"><img src="/imgng/light_main06.gif" border=0 alt="티타임"></a></td></tr></table>
+		<table align=center width=200 border=0 cellpadding=0 cellspacing=0>
+		<tr><td><IFRAME height=60 src="/work4u/klog/hanjool_mini.php" frameBorder=0 width=200 scrolling=no topmargin="0" leftmargin="0"></IFRAME></td></tr>
+		</table>
+	</div> -->
+<!-- 티타임 잠깐 숨김 / 보이게-->
+</TD>
+</TR>
+<TR><TD colspan=3 height=20 bgcolor=#FFFFFF>
+<div style="border-top: 1px solid #EEEEEE;">
+<script Language="javascrpt">
+var favoriteurl="http://www.kdclub.com/"
+var favoritetitle="영양사도우미"
+function addfavorites() {
+	if(document.all) window.external.AddFavorite(favoriteurl,favoritetitle);
+}
+//support/remote.html원격
+</script>
+
+<table id='addr_tbl'><tr><td><CENTER>
+<a href="/kdabrd/read.php?board=kda001&xno=966919569" target=_blank>KDA소개</a> ㅣ
+<A href="/nomail.htm" target=_blank>이메일 무단수집 거부</a> ㅣ
+<A href="/docc01.htm" target=_blank>개인정보취급방침</a> |
+<A href="/kdamember/kdajoin.php" target=_blank>이용약관보기</a> ㅣ
+<A href="javascrpt:void(0)" ofx='this.blur()' onclick="kda_webmaster()">고객센터</a> ㅣ
+<A href="/support/remote_xp.html" target="_blank">원격서비스</a> ㅣ
+<A href="javascrpt:window.external.AddFavorite('http://www.kdclub.com/','영양사도우미')" ofx='this.blur()' onclick="addfavorites()" title="영양사도우미 홈페이지를 즐겨찾기에 추가합니다">즐겨찾기추가</a> ㅣ
+<A href="javascrpt:void(0)" ofx='this.blur()' onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.kdclub.com/');" title="영양사도우미 홈페이지를 시작페이지로 등록합니다">시작페이지등록</a> ㅣ
+<A href="./Desktop_icon.php" ofx='this.blur()' title="바탕화면 바로가기파일을 다운받습니다">바로가기다운</a>
+<HR id="addr_hr">
+<FONT color='#888888'>대전광역시 서구 문정로 77 2층 249호(탄방동 746번지) / 광고문의(010-3009-3535) 고객센터 042-483-2025
+<BR>문의 :<a id="addr_link_str" href="javascrpt:void(0)" ofx='this.blur()' onclick="kda_webmaster()"><IMG id="img"border=0 src="/imgng/icon010.gif">운영자에게 글쓰기</a> / 전화문의 : 오전 9시 ~ 오후 6시 (점심,토요일,공휴일은 휴무)
+<BR>Copyright ⓒ 영양사도우미(Korean Dietitian Assistant) inc</FONT></CENTER>
+</TD></TR></TBODY></TABLE></TD></TR></div>
+
+</TABLE>
+</DIV>
+</center>
+<script type="text/javascript">
+//var tmp;
+	tmp = document.referrer.indexOf("pann.nate.com"); if(tmp > 0){ location.replace('http://www.kdclub.co.kr/'); }
+	tmp = document.referrer.indexOf("womad.life"); if(tmp > 0){ location.replace('http://www.kdclub.co.kr/'); }
+	tmp = document.referrer.indexOf("megalian.com"); if(tmp > 0){ location.replace('http://www.kdclub.co.kr/'); }
+	tmp = document.referrer.indexOf("subdued20club"); if(tmp > 0){ location.replace('http://www.kdclub.co.kr/'); }
+	tmp = document.referrer.indexOf("ok1221"); if(tmp > 0){ location.replace('http://www.kdclub.co.kr/'); }
+	//tmp = document.referrer.indexOf("4t.com"); if(tmp > 0){ location.href='http://www.kdclub.co.kr/'; }
+</script>
+
+</BODY>
+</HTML>

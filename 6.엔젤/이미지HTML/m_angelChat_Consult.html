@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 상담이력 및 예약</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+            background: #fdfdfd;
+            color: #333;
+        }
+
+        .app {
+            max-width: 430px;
+            margin: auto;
+            min-height: 100vh;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* 상단 헤더 */
+        .header {
+            background: linear-gradient(135deg, #3a6b2f, #5a8f3c); 
+            color: white;
+            padding: 20px 15px;
+            text-align: center;
+            position: relative;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .header h1 { margin: 0; font-size: 18px; font-weight: 600; }
+
+        .back {
+            position: absolute; left: 15px; top: 15px;
+            background: rgba(255,255,255,0.2); border: none;
+            border-radius: 50%; width: 36px; height: 36px;
+            color: white; cursor: pointer; font-size: 18px;
+        }
+
+        /* 탭 메뉴 */
+        .tabs {
+            display: flex;
+            background: #f2f7ea;
+            margin: 15px;
+            border-radius: 12px;
+            padding: 4px;
+        }
+
+        .tab-item {
+            flex: 1; padding: 12px 0; text-align: center;
+            font-size: 14px; font-weight: bold; color: #666;
+            cursor: pointer; border-radius: 8px;
+        }
+
+        .tab-item.active { background: #3a6b2f; color: #fff; }
+
+        .tab-content { display: none; padding: 0 20px 20px 20px; flex: 1; }
+        .tab-content.active { display: block; animation: fadeIn 0.3s ease-out; }
+
+        /* 전화상담 스타일 */
+        .call-card {
+            background: #f9fbf7; border: 1px solid #e2ebd5;
+            padding: 40px 20px; border-radius: 20px;
+            text-align: center; margin-top: 20px;
+        }
+        .phone-number { font-size: 26px; font-weight: 800; color: #3a6b2f; margin: 15px 0 25px 0; display: block; }
+
+        /* --- 달력 높이 축소 핵심 수정 부분 --- */
+        .calendar-nav {
+            display: flex; justify-content: space-between; align-items: center;
+            margin: 10px 0; /* 여백 축소 */
+        }
+        .calendar-nav h3 { margin: 0; font-size: 16px; color: #333; }
+        .calendar-nav button { background: none; border: none; cursor: pointer; color: #3a6b2f; font-size: 18px; }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 2px; /* 간격 대폭 축소 */
+            text-align: center;
+        }
+
+        .calendar-day {
+            padding: 5px 0; /* 패딩을 기존의 절반 이하로 축소 */
+            font-size: 13px;
+            cursor: pointer;
+            border-radius: 6px;
+            min-height: 30px; /* 높이 고정으로 압축 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* ---------------------------------- */
+
+        .calendar-day:hover { background: #f0f0f0; }
+        .calendar-day.selected { background: #3a6b2f !important; color: white !important; font-weight: bold; }
+
+        /* 시간 선택 스타일 */
+        .time-container { margin-top: 15px; border-top: 1px dashed #ddd; padding-top: 15px; }
+        .time-title { font-size: 14px; font-weight: bold; margin-bottom: 10px; display: block; }
+        .time-slots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+        .time-item {
+            border: 1px solid #eee; background: #fff; padding: 8px;
+            text-align: center; border-radius: 8px; cursor: pointer; font-size: 13px;
+        }
+        .time-item.selected { border-color: #3a6b2f; background: #f2f7ea; color: #3a6b2f; font-weight: bold; }
+
+        .btn-action {
+            background: #3a6b2f; color: white; border: none; padding: 14px;
+            border-radius: 12px; font-size: 15px; font-weight: bold;
+            cursor: pointer; width: 100%; margin-top: 10px;
+        }
+
+        .confirm-box {
+            margin-top: 20px; padding: 15px; background: #fcfcfc;
+            border: 1px solid #eee; border-radius: 15px; text-align: center; display: none;
+        }
+        .confirm-msg { margin-bottom: 10px; font-size: 13px; }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body>
+    
+    <div class="app">
+        <div class="header">
+            <button class="back" type="button" onclick="history.back()">←</button>
+            <h1>나의 상담이력 및 예약</h1>
+        </div>
+
+        <div class="tabs">
+            <div class="tab-item active" onclick="openTab(event, 'call')">전화상담</div>
+            <div class="tab-item" onclick="openTab(event, 'reserve')">상담예약</div>
+            <div class="tab-item" onclick="openTab(event, 'history')">상담이력</div>
+        </div>
+
+        <div id="call" class="tab-content active">
+            <div class="call-card">
+                <p style="margin:0; color:#666; font-size:14px;">전문 영양사와 바로 상담하세요</p>
+                <span class="phone-number">010-8965-2162</span>
+                <button class="btn-action" onclick="location.href='tel:01089652162'">지금 전화하기</button>
+            </div>
+        </div>
+
+        <div id="reserve" class="tab-content">
+            <div class="calendar-nav">
+                <button onclick="changeMonth(-1)">◀</button>
+                <h3 id="currentMonthDisplay">2026년 01월</h3>
+                <button onclick="changeMonth(1)">▶</button>
+            </div>
+            
+            <div class="calendar-grid" id="calendarGrid"></div>
+
+            <div class="time-container" id="timeSection" style="display:none;">
+                <span class="time-title">희망 시간 선택</span>
+                <div class="time-slots">
+                    <div class="time-item" onclick="selectTime(this, '09:00')">09:00</div>
+                    <div class="time-item" onclick="selectTime(this, '11:00')">11:00</div>
+                    <div class="time-item" onclick="selectTime(this, '14:00')">14:00</div>
+                </div>
+            </div>
+
+            <div id="confirmBox" class="confirm-box">
+                <div class="confirm-msg">
+                    <span id="selectedFullDate"></span><br><b>를 선택하셨습니다.</b>
+                </div>
+                <button class="btn-action" onclick="alert('예약 접수완료!')">예약 확인</button>
+            </div>
+        </div>
+
+        <div id="history" class="tab-content">
+            <div style="text-align:center; padding: 40px 0; color:#bbb; font-size:14px;">
+                <p>진행된 상담 내역이 없습니다.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let viewDate = new Date();
+        let selectedDateStr = "";
+
+        function openTab(evt, tabName) {
+            $('.tab-content').removeClass('active');
+            $('.tab-item').removeClass('active');
+            $('#' + tabName).addClass('active');
+            $(evt.currentTarget).addClass('active');
+        }
+
+        function renderCalendar() {
+            const year = viewDate.getFullYear();
+            const month = viewDate.getMonth() + 1;
+            const mm = month < 10 ? '0' + month : month;
+            $('#currentMonthDisplay').text(`${year}년 ${mm}월`);
+            
+            let html = '';
+            for(let i=1; i<=30; i++) {
+                html += `<div class="calendar-day" onclick="selectDate(this, ${i})">${i}</div>`;
+            }
+            $('#calendarGrid').html(html);
+        }
+
+        function changeMonth(diff) {
+            viewDate.setMonth(viewDate.getMonth() + diff);
+            $('#timeSection, #confirmBox').hide();
+            renderCalendar();
+        }
+
+        function selectDate(el, day) {
+            $('.calendar-day').removeClass('selected');
+            $(el).addClass('selected');
+            const mm = (viewDate.getMonth() + 1) < 10 ? '0' + (viewDate.getMonth() + 1) : (viewDate.getMonth() + 1);
+            const dd = day < 10 ? '0' + day : day;
+            selectedDateStr = `${viewDate.getFullYear()}-${mm}-${dd}`;
+            $('#timeSection').show();
+            $('#confirmBox').hide();
+        }
+
+        function selectTime(el, time) {
+            $('.time-item').removeClass('selected');
+            $(el).addClass('selected');
+            $('#selectedFullDate').text(selectedDateStr + " " + time);
+            $('#confirmBox').fadeIn();
+        }
+
+        $(document).ready(function() { renderCalendar(); });
+    </script>
+</body>
+</html>

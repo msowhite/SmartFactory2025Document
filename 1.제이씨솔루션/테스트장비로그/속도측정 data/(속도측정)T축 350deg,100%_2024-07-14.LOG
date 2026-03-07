@@ -1,0 +1,51 @@
+07-14 17:49:48(596) [- LOCAL -] [HOST] 2024-07-14 : Start Auto run Test!! 10Step
+07-14 17:49:48(603) [- LOCAL -] [HOST] : 1 Step **************
+07-14 17:49:48(610) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,350,100
+07-14 17:49:49(814) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,350,100 is completed!!
+07-14 17:49:49(821) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,0,100
+07-14 17:49:51(040) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,0,100 is completed!!
+07-14 17:49:51(049) [- LOCAL -] [HOST] : 2 Step **************
+07-14 17:49:51(057) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,350,100
+07-14 17:49:52(271) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,350,100 is completed!!
+07-14 17:49:52(281) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,0,100
+07-14 17:49:53(471) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,0,100 is completed!!
+07-14 17:49:53(479) [- LOCAL -] [HOST] : 3 Step **************
+07-14 17:49:53(486) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,350,100
+07-14 17:49:54(675) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,350,100 is completed!!
+07-14 17:49:54(681) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,0,100
+07-14 17:49:55(868) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,0,100 is completed!!
+07-14 17:49:55(879) [- LOCAL -] [HOST] : 4 Step **************
+07-14 17:49:55(886) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,350,100
+07-14 17:49:57(099) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,350,100 is completed!!
+07-14 17:49:57(108) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,0,100
+07-14 17:49:58(330) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,0,100 is completed!!
+07-14 17:49:58(341) [- LOCAL -] [HOST] : 5 Step **************
+07-14 17:49:58(349) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,350,100
+07-14 17:49:59(557) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,350,100 is completed!!
+07-14 17:49:59(565) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,0,100
+07-14 17:50:00(792) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,0,100 is completed!!
+07-14 17:50:00(807) [- LOCAL -] [HOST] : 6 Step **************
+07-14 17:50:00(821) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,350,100
+07-14 17:50:02(034) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,350,100 is completed!!
+07-14 17:50:02(046) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,0,100
+07-14 17:50:03(245) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,0,100 is completed!!
+07-14 17:50:03(252) [- LOCAL -] [HOST] : 7 Step **************
+07-14 17:50:03(259) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,350,100
+07-14 17:50:04(479) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,350,100 is completed!!
+07-14 17:50:04(486) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,0,100
+07-14 17:50:05(693) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,0,100 is completed!!
+07-14 17:50:05(708) [- LOCAL -] [HOST] : 8 Step **************
+07-14 17:50:05(716) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,350,100
+07-14 17:50:06(913) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,350,100 is completed!!
+07-14 17:50:06(924) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,0,100
+07-14 17:50:08(113) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,0,100 is completed!!
+07-14 17:50:08(122) [- LOCAL -] [HOST] : 9 Step **************
+07-14 17:50:08(129) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,350,100
+07-14 17:50:09(327) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,350,100 is completed!!
+07-14 17:50:09(341) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,0,100
+07-14 17:50:10(521) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,0,100 is completed!!
+07-14 17:50:10(527) [- LOCAL -] [HOST] : 10 Step **************
+07-14 17:50:10(535) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,350,100
+07-14 17:50:11(745) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,350,100 is completed!!
+07-14 17:50:11(755) [- LOCAL -] [HOST] --> [RBT] : MOVEABS 2,0,100
+07-14 17:50:12(974) [- LOCAL -] [HOST] <-- [RBT] : MOVEABS 2,0,100 is completed!!

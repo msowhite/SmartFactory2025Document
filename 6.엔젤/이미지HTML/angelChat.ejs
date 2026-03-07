@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App UI Preview</title>
+    <style>
+        /* 기본 스타일 초기화 */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            background-color: #f0f0f0; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            font-family: sans-serif;
+        }
+
+        /* 스마트폰 형태의 컨테이너 */
+        .phone {
+            width: 360px;
+            height: 640px;
+            background: white;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* 상단 텍스트 */
+        .header { padding: 20px; font-size: 16px; font-weight: bold; color: #333; }
+
+        /* 메인 배너 (사과와 배추가 있던 자리) */
+        .banner {
+            width: 100%;
+            height: 250px;
+            background-color: #e8f5e9; /* 연한 초록 배경 */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 20px;
+            background-image: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+        }
+        .banner-text { color: white; font-size: 20px; font-weight: bold; line-height: 1.3; }
+
+        /* 추천 상품 섹션 */
+        .content {
+            padding: 20px;
+            background-color: #fafafa;
+            flex: 1;
+        }
+        .section-label { font-size: 12px; color: #888; margin-bottom: 10px; }
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #eee;
+        }
+        .product-img { width: 80px; height: 80px; background: #eee; margin: 0 auto 10px; border-radius: 10px; }
+
+        /* 하단 내비게이션 */
+        .nav {
+            height: 60px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-top: 1px solid #eee;
+            font-size: 20px;
+        }
+
+        /* 우측 하단 플로팅 버튼 */
+        .fab {
+            position: absolute;
+            right: 20px;
+            bottom: 80px;
+            width: 55px;
+            height: 55px;
+            background: #4CAF50;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="phone">
+        <div class="header">Hello, [User Name]님</div>
+        
+        <div class="banner">
+            <div class="banner-text">Today's Health Tip:<br>Unlock the Power of Green!</div>
+        </div>
+
+        <div class="content">
+            <div class="section-label">This Month's Featured Model</div>
+            <div class="card">
+                <div class="product-img"></div>
+                <div style="font-size: 14px; font-weight: bold;">Angelia Pro Juicer</div>
+            </div>
+        </div>
+
+        <div class="fab">💬</div>
+
+        <div class="nav">
+            <span>🏠</span>
+            <span>👤</span>
+            <span>⚙️</span>
+        </div>
+    </div>
+
+</body>
+</html>
