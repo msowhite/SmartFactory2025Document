@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상담 이력 확인</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --main-green: #2D5A27;
+            --light-green: #4CAF50;
+            --bg-green: #F1F8E9;
+            --white: #ffffff;
+            --text-gray: #777;
+        }
+
+        body {
+            font-family: 'Pretendard', sans-serif;
+            background-color: var(--bg-green);
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .history-container {
+            width: 100%;
+            max-width: 450px;
+        }
+
+        .header {
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .header h2 { color: var(--main-green); font-size: 22px; }
+
+        /* 🗓️ 상담 이력 목록 (최신순) */
+        .history-list { display: flex; flex-direction: column; gap: 12px; }
+
+        .history-card {
+            background: var(--white);
+            padding: 18px;
+            border-radius: 16px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+            cursor: pointer;
+            transition: transform 0.2s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid transparent;
+        }
+
+        .history-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--light-green);
+        }
+
+        .history-info .type {
+            font-size: 12px;
+            color: var(--light-green);
+            font-weight: 700;
+            margin-bottom: 4px;
+            display: block;
+        }
+
+        .history-info .title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .history-meta { text-align: right; }
+        .history-meta .date { font-size: 12px; color: #bbb; display: block; }
+        .history-meta .status { 
+            font-size: 11px; 
+            margin-top: 5px; 
+            padding: 2px 6px; 
+            background: #f0f0f0; 
+            border-radius: 4px; 
+            color: #888;
+        }
+        .status.completed { background: #e8f5e9; color: var(--light-green); }
+
+        /* ----------------------------------------------
+           ✨ 상담 상세 레이어 (모달)
+        ---------------------------------------------- */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.6);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            backdrop-filter: blur(3px);
+        }
+
+        .modal-content {
+            background: white;
+            width: 85%;
+            max-width: 360px;
+            border-radius: 20px;
+            padding: 25px;
+            animation: slideUp 0.3s ease-out;
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .modal-header {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+
+        .modal-header h3 { font-size: 18px; color: var(--main-green); }
+        .modal-header .date-time { font-size: 13px; color: #999; margin-top: 4px; }
+
+        .detail-row { margin-bottom: 15px; }
+        .detail-label { font-size: 12px; color: #aaa; margin-bottom: 3px; }
+        .detail-value { font-size: 14px; color: #333; line-height: 1.5; }
+
+        .close-btn {
+            width: 100%;
+            padding: 14px;
+            background: var(--main-green);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="history-container">
+    <div class="header">
+        <h2>나의 상담 이력</h2>
+    </div>
+
+    <div class="history-list" id="historyList">
+        </div>
+</div>
+
+<div class="modal-overlay" id="detailModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 id="m-title">상담 상세 내용</h3>
+            <div class="date-time" id="m-date">2023.12.19 14:30</div>
+        </div>
+        
+        <div class="detail-row">
+            <div class="detail-label">상담 유형</div>
+            <div class="detail-value" id="m-type">전화 상담</div>
+        </div>
+
+        <div class="detail-row">
+            <div class="detail-label">상담 내용 요약</div>
+            <div class="detail-value" id="m-content">엔젤 녹즙기 8500 모델의 세척 방법과 소모품 교체 주기에 대해 문의하셨습니다.</div>
+        </div>
+
+        <div class="detail-row">
+            <div class="detail-label">처리 결과</div>
+            <div class="detail-value" id="m-result" style="color: var(--light-green); font-weight: 600;">답변 완료</div>
+        </div>
+
+        <button class="close-btn" onclick="closeModal()">닫기</button>
+    </div>
+</div>
+
+<script>
+    // 상담 이력 데이터 (일시 역순 정렬)
+    const historyData = [
+        {
+            id: 1,
+            type: "제품 문의",
+            title: "엔젤 녹즙기 8500 세척 관련",
+            date: "2023.12.19 14:30",
+            status: "완료",
+            content: "기어 분리 방법과 스테인리스 세척제 사용 가능 여부에 대해 상세히 안내드렸습니다.",
+            result: "해결 완료"
+        },
+        {
+            id: 2,
+            type: "레시피 상담",
+            title: "디톡스 주스 재료 배합 문의",
+            date: "2023.12.15 10:15",
+            status: "완료",
+            content: "비트와 사과의 최적 착즙 비율을 안내드리고, 공복 섭취 시 주의사항을 설명드렸습니다.",
+            result: "해결 완료"
+        },
+        {
+            id: 3,
+            type: "배송 문의",
+            title: "소모품(실리콘 링) 배송 지연",
+            date: "2023.12.10 16:45",
+            status: "대기",
+            content: "택배사 물량 증가로 인한 배송 지연 건으로, 현재 위치 확인 후 안내 문자 발송 예정입니다.",
+            result: "처리 중"
+        }
+    ];
+
+    // 목록 렌더링
+    const listContainer = document.getElementById('historyList');
+    historyData.forEach((item, index) => {
+        const card = document.createElement('div');
+        card.className = 'history-card';
+        card.onclick = () => showDetail(index);
+        
+        const statusClass = item.status === '완료' ? 'status completed' : 'status';
+
+        card.innerHTML = `
+            <div class="history-info">
+                <span class="type">${item.type}</span>
+                <div class="title">${item.title}</div>
+            </div>
+            <div class="history-meta">
+                <span class="date">${item.date.split(' ')[0]}</span>
+                <span class="${statusClass}">${item.status}</span>
+            </div>
+        `;
+        listContainer.appendChild(card);
+    });
+
+    function showDetail(index) {
+        const data = historyData[index];
+        document.getElementById('m-title').innerText = data.title;
+        document.getElementById('m-date').innerText = data.date;
+        document.getElementById('m-type').innerText = data.type;
+        document.getElementById('m-content').innerText = data.content;
+        document.getElementById('m-result').innerText = data.result;
+
+        document.getElementById('detailModal').style.display = 'flex';
+    }
+
+    function closeModal() {
+        document.getElementById('detailModal').style.display = 'none';
+    }
+
+    // 배경 클릭 시 닫기
+    window.onclick = function(event) {
+        if (event.target == document.getElementById('detailModal')) {
+            closeModal();
+        }
+    }
+</script>
+
+</body>
+</html>
